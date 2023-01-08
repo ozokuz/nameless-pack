@@ -1,0 +1,13 @@
+name = "Repurposed Structures - Etched Compat Datapack"
+filename = "Repurposed_Structures-Etched_v2.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "833946ad23745465a7823f99fdadb2e18f8419c3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3908608
+project-id = 554485

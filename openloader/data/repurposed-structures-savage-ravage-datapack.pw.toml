@@ -1,0 +1,13 @@
+name = "Repurposed Structures - Savage & Ravage Compat Datapack"
+filename = "Repurposed_Structures-Savage_And_Ravage_v3.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "85ee5daf6c9489cbb4416b804f4e96c0dafae5f7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3906869
+project-id = 554354

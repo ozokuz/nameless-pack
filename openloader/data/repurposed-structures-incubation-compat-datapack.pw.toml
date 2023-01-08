@@ -1,0 +1,13 @@
+name = "Repurposed Structures - Incubation Compat Datapack"
+filename = "Repurposed_Structures-Incubation_v1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f405ad95db640149d647027a3070e812e7143754"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3898147
+project-id = 649817

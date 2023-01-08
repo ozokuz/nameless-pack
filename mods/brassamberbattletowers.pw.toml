@@ -1,0 +1,13 @@
+name = "BrassAmber BattleTowers"
+filename = "BrassAmberBattleTowers-1.18.2-2.3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "496fea6cefd6516d4e1961cecf178bd1197933e3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4099893
+project-id = 542294

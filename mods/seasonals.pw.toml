@@ -1,0 +1,13 @@
+name = "Seasonals"
+filename = "seasonals-1.18.2-3.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "263f742f6ef27fb2a40bae991f5f8761a45ea899"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4022089
+project-id = 416471

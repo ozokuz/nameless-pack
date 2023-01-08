@@ -1,0 +1,13 @@
+name = "Nimble (Forge)"
+filename = "Nimble-1.18-forge-2.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9af7b5a5cc21bc6cdfe516f9cfabac7ec5162c97"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3725237
+project-id = 311927

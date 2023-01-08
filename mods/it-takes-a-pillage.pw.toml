@@ -1,0 +1,13 @@
+name = "It Takes a Pillage"
+filename = "takesapillage-1.0.2-1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "be5a70c05ab9ed88f7ae7b0522bedbc3b4af5ffc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4034763
+project-id = 635843

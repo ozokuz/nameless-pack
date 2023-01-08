@@ -1,0 +1,13 @@
+name = "Differentiate"
+filename = "differentiate-1.18.2-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "54f031e1b6472e64ba6e5b50de04e19f6ff831b7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3684274
+project-id = 450748

@@ -1,0 +1,13 @@
+name = "Raided"
+filename = "Raided-1.18.2-0.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "872adaabb0636ac83e1e2a81bf731267f849486a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4005502
+project-id = 580942

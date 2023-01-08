@@ -1,0 +1,13 @@
+name = "Unlit Campfire"
+filename = "unlitcampfire-forge-1.18.2-1.7.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "91601d08f7d41a016f5f7b3cfa89fb2c04a25618"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4035678
+project-id = 417553

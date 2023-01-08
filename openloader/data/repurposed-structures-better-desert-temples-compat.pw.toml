@@ -1,0 +1,13 @@
+name = "Repurposed Structures - Better Desert Temples Compat Datapack"
+filename = "Repurposed_Structures-Better_Desert_Temples.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "26b415cd7a4b66fbd707fa48f1e7ce8f04e07c30"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3860916
+project-id = 640296

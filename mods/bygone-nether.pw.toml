@@ -1,0 +1,13 @@
+name = "Bygone Nether"
+filename = "bygonenether-1.2.1-1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "032e5579e556414c3b1c56cc25e52c0b26636cc0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3922513
+project-id = 576124

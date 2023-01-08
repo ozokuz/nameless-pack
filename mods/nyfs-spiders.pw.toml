@@ -1,0 +1,13 @@
+name = "Nyf's Spiders"
+filename = "spiderstpo-1.18.2-2.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5d7cff0c279d63912f1fbaf88b9f0a005d52f2f0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4139305
+project-id = 686058

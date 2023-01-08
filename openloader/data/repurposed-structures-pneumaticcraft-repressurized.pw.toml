@@ -1,0 +1,13 @@
+name = "Repurposed Structures - PneumaticCraft: Repressurized Compat Datapack"
+filename = "Repurposed_Structures-PneumaticCraft_Repressurized_v1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1bc22c6727df10c5d22aeda2c368304fa4a4f9ed"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3683332
+project-id = 591507

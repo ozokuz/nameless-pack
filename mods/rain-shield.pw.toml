@@ -1,0 +1,13 @@
+name = "Rain Shield"
+filename = "RainShield-1.18.2-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "69f9f0e4a6c9413046a730f2881a69ad0f1a9a9f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3819975
+project-id = 573156

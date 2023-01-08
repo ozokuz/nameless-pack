@@ -1,0 +1,13 @@
+name = "Nourished Nether"
+filename = "nourished-nether-1.18.2-v17.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4527f6054ff505bd270feaba2aa984598f783c82"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4085734
+project-id = 479296

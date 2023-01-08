@@ -1,0 +1,13 @@
+name = "Nyf's Quivers"
+filename = "nyfsquiver-1.18.2-0.7.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e78983450362803421e2b69d5b2788b32da4e279"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4020792
+project-id = 482731

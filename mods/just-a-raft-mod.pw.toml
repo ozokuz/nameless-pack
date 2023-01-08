@@ -1,0 +1,13 @@
+name = "Just A Raft Mod"
+filename = "JustARaftMod-1.18.2-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "48e1ea39769aeb0fb1059ee152d15f8718ac491e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3765601
+project-id = 274350

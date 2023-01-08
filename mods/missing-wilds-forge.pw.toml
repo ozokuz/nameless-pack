@@ -1,0 +1,13 @@
+name = "Missing Wilds (Forge)"
+filename = "Missing-Wilds-forge-1.18.2-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ba272660409de6b5f2b8a62b961a299167506704"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3835403
+project-id = 634277

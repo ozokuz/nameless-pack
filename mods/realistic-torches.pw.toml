@@ -1,0 +1,13 @@
+name = "Realistic Torches"
+filename = "RealisticTorches-1.18.2-3.1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "60f13776bd5ef3f687eae4d4082a237663ad533c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4101941
+project-id = 235729

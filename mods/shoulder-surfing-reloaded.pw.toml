@@ -1,0 +1,13 @@
+name = "Shoulder Surfing Reloaded"
+filename = "ShoulderSurfing-Forge-1.18.2-2.2.18.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ea502e40ae298256c0a90fd842d514d9899e690c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4259389
+project-id = 243190

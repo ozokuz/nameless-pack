@@ -1,0 +1,13 @@
+name = "Nameless"
+author = "Ozoku"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "7e5762847bf099e90def271441c8accfc83256eb618cf6ba1373b3b19b321fb9"
+
+[versions]
+forge = "40.1.93"
+minecraft = "1.18.2"

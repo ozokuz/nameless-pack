@@ -1,0 +1,13 @@
+name = "Leave My Bars Alone"
+filename = "ImprovedMountHUD-v3.1.0-1.18.2-Forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cef34bb32ea6e8a35027643936fe91c237084cbb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3671258
+project-id = 281715
