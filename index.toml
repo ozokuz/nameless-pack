@@ -263,11 +263,6 @@ hash = "7241f3d873b2856258856d9c0601aa5438428d95317227d726bc4c451c51a7fa"
 metafile = true
 
 [[files]]
-file = "mods/brassamberbattletowers.pw.toml"
-hash = "3ec8bcd1372bb8f3c4f8665cdf9cf83c3c8e3ece3dccaa3de92db1fe3f31a245"
-metafile = true
-
-[[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "8aa8cf66f38711e70abb448f0b467095cef3be6608b4305c8c0971eee86f394f"
 metafile = true
@@ -335,6 +330,11 @@ metafile = true
 [[files]]
 file = "mods/chipped.pw.toml"
 hash = "3882c802ffa760a9c7581bb04bde212173edb903d54a931c5cbdf83eff6053b9"
+metafile = true
+
+[[files]]
+file = "mods/chunk-loaders.pw.toml"
+hash = "5e4e94fdf50f2c4422eed1b35390d535d99439fe9a78dd3e49dd142fcdbc85d8"
 metafile = true
 
 [[files]]
@@ -753,21 +753,6 @@ hash = "e1c6d935fffb5bc0abd41b18118755ac4eab986f68f0a20c87690d9327ba8b44"
 metafile = true
 
 [[files]]
-file = "mods/ftb-chunks-forge.pw.toml"
-hash = "37cadf5e99b548c91089584eb7d082b24c7eccd1fb1995c45c412bde78896ec9"
-metafile = true
-
-[[files]]
-file = "mods/ftb-library-forge.pw.toml"
-hash = "b45b90f17061479eada24940b77fcd163d7ceff586f72663c62d9946b4dcbe67"
-metafile = true
-
-[[files]]
-file = "mods/ftb-teams-forge.pw.toml"
-hash = "2c94b40522003b71e684257c47cb8a3e6958b735ddc2fdadfa8134f0f4469662"
-metafile = true
-
-[[files]]
 file = "mods/fuelgoeshere.pw.toml"
 hash = "6d0ccfcf6603b90c0a0189f4a4c5b0094f6e4828e218a89d22fba4201d728704"
 metafile = true
@@ -825,6 +810,11 @@ metafile = true
 [[files]]
 file = "mods/hunterillager.pw.toml"
 hash = "885e4cbff6fde1d6f55efae95bad60c4d01a250d7b6af79edb6d03fcf5a5c209"
+metafile = true
+
+[[files]]
+file = "mods/hyle.pw.toml"
+hash = "83b9d0b703284f0383df813f0809097d78e2710d1044a1a35ae0cc7c98192d67"
 metafile = true
 
 [[files]]
@@ -1283,11 +1273,6 @@ hash = "9663ff908447fa48faf04e3c3cb3225c7ab1ef824ebdfde79ab9fe24df86b383"
 metafile = true
 
 [[files]]
-file = "mods/project-rankine.pw.toml"
-hash = "b3f0128bca6cf5207396d90c7a383ee1d2eb11ea7444e7ae63996ac661b2ab95"
-metafile = true
-
-[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "538110c41fa71c27058a38b1660a02eff1521ca8011aa4e08ae722fdcb64d35b"
 metafile = true
@@ -1660,6 +1645,11 @@ metafile = true
 [[files]]
 file = "mods/ultimate-car-mod.pw.toml"
 hash = "7dc3ff71f2a16e625b4b9687ed3de22e3d47f53bee3c2cf510ffd6e011d2a292"
+metafile = true
+
+[[files]]
+file = "mods/unearthed.pw.toml"
+hash = "ea2c803e0d95079e96f28f8a57a2d7d08569d39c20e4131aede47e38bf1e36e8"
 metafile = true
 
 [[files]]
