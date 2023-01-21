@@ -233,7 +233,7 @@
 [management]
 	"Quick Armor Swapping" = true
 	"Item Sharing" = true
-	"Inventory Sorting" = true
+	"Inventory Sorting" = false
 	"Hotbar Changer" = true
 	"Expanded Item Interactions" = true
 	"Easy Transfering" = true
@@ -394,7 +394,7 @@
 	"Note Block Mob Sounds" = true
 	"More Banner Layers" = true
 	"Lock Rotation" = true
-	"Hoe Harvesting" = true
+	"Hoe Harvesting" = false
 	"Grab Chickens" = true
 	"Glass Shard" = true
 	"Enhanced Ladders" = true
