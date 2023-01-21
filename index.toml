@@ -538,11 +538,6 @@ hash = "e743f907c457235252256eccc227acc2ade1b9975bc025c1dffb4a5cb7c052f8"
 metafile = true
 
 [[files]]
-file = "mods/droplight.pw.toml"
-hash = "3fc583afbe9917048c12e6fa1f421f082d647dd931da5a8ca6e96beafdbeb96c"
-metafile = true
-
-[[files]]
 file = "mods/dungeons-plus.pw.toml"
 hash = "e91f24feb27f7798cb11fe5a065c2f4a7421bb62210e6b70c8f42f34d4ea632f"
 metafile = true
@@ -898,6 +893,11 @@ hash = "82a360796ef24097ef41542c30330d8435d63ca012127c2ba9849e1592ccd376"
 metafile = true
 
 [[files]]
+file = "mods/jei.pw.toml"
+hash = "0d8dcd89b6ecd7d9418e22c87e3724e77f13ba1b25d300c84cd55e4166b8a985"
+metafile = true
+
+[[files]]
 file = "mods/joy-of-painting.pw.toml"
 hash = "d4e947e90ca448abe24dc8676557db401aef779e4123ab8273159f38f00baa7c"
 metafile = true
@@ -1035,11 +1035,6 @@ metafile = true
 [[files]]
 file = "mods/merchant-markers.pw.toml"
 hash = "e930f45f06ec9d0c928ff22bbf3ba29fcad200bbeaa7c9412da04bb394e25a78"
-metafile = true
-
-[[files]]
-file = "mods/minecraft-comes-alive-reborn.pw.toml"
-hash = "c51279d7ceeb2370b7ca92f5dc50741cbebc7d9c58ae3ea9119fae795c95ba48"
 metafile = true
 
 [[files]]
@@ -1340,16 +1335,6 @@ metafile = true
 [[files]]
 file = "mods/roots-classic.pw.toml"
 hash = "d7ad84c264d303be3c02b04d8418668c584b72c265c2b890c118c15c140f2bce"
-metafile = true
-
-[[files]]
-file = "mods/roughly-enough-items-hacks.pw.toml"
-hash = "ad91d701ddee7707ceaa878433eaa36d3a0d3652eaf4b5ad0b9ac4ece397bfa8"
-metafile = true
-
-[[files]]
-file = "mods/roughly-enough-items.pw.toml"
-hash = "2838a2626625d1740d7424e5e8a74ce41c99d991b93d3146a5f826a343604be4"
 metafile = true
 
 [[files]]
@@ -1798,9 +1783,224 @@ hash = "e871dc249aaf9c087a3c911964a34a0dac133d96c1d1795f9dbf881953643440"
 metafile = true
 
 [[files]]
-file = "openloader/data/towers-of-the-wild-reworked-datapack.pw.toml"
-hash = "921eca940e9aaa5b35e2b8d84efe68deaf502e834b7bf2a637645666d35934b7"
-metafile = true
+file = "openloader/data/towers-of-the-wild/LICENSE"
+hash = "dff3959d2716acc8ba2ddc8edcd7ed5246f1283b285c42f128e5fadfad498bc4"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/advancements/derelict_grass_tower.json"
+hash = "cd116691927a1630913e9027dc8e3daf31c0cc3cc6605e8f7e003e67aeb08fad"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/advancements/derelict_tower.json"
+hash = "0e1c345c03fa44ba296eb1d8b1a940d13ad1f1dac6778a3a64eac5716e220964"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/advancements/ice_tower.json"
+hash = "1ae063d3acc03816b6e9961291e991bc03adbb0ab1cdde6bdf50141203961e8e"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/advancements/jungle_tower.json"
+hash = "27c1f205183de80a90b3eb0b4c70c46e46500b049bd2c6ee0ce536f1fd20f333"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/advancements/regular_tower.json"
+hash = "7e45353e08fdb90e26ef3339fb9e7dd01be077bd26a204e7423da2ec88e6afba"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/advancements/root.json"
+hash = "5e1f6a3323a5b1d2dbb3f0d10cd63a657f3f27b7820ca691048c6083ea128184"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/loot_tables/tower_chest.json"
+hash = "677a03bcff294a3786819cf521c0191d5fda68de17eaae5faf25877c7a580683"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/derelict/derelict_tower_bottom.nbt"
+hash = "0145f87d215c0c89539a15c3bcdcec954c07488daed1a3014922b27ab0e78e97"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/derelict/derelict_tower_top.nbt"
+hash = "068a69ceb487ed9a072fc33710a1b95eefdc1f998e67f3aca72fe572f206aadc"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/derelict/fabric_waystone_derelict_tower_top.nbt"
+hash = "99ecb8306f6c52fff4910b741f90dc30676f1b2dafce35f57270e63f9fda43e3"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/derelict/waystone_derelict_tower_top.nbt"
+hash = "187f20bb630de9f94e1e4054ddb330a7155a08c8984821e42fdc04f67e93da65"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/derelict_grass/derelict_grass_tower_bottom.nbt"
+hash = "21c999e5f22701530aa3fb0c0e2b2417a59ac96ee113deca3254924ab8dd2c51"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/derelict_grass/derelict_grass_tower_top.nbt"
+hash = "a971954e7227b52b210cbf6dde91abaf5d5527f5b699bc1d63f5e71ed669ddef"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/derelict_grass/fabric_waystone_derelict_grass_tower_top.nbt"
+hash = "40133a0d68cada0d7cf567a2e2ff4eefcc06ace3e9e535876f082f890f4cc0ae"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/derelict_grass/waystone_derelict_grass_tower_top.nbt"
+hash = "341a5b46948ea7e64e68287d7ab8ef25d03247228c477f94fe5511a7523886bb"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/ice/fabric_waystone_ice_tower_top.nbt"
+hash = "deca84e5bd9fcf5499e4ef815abd65c07d389a92769f1ccdad0ba4c566628668"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/ice/ice_tower_bottom.nbt"
+hash = "a7269753a031c40b08c5e860d59efff04b67cc7b4b06d825e3c4ec10dfa1a63f"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/ice/ice_tower_top.nbt"
+hash = "b41ff1eb3175a64a981285e94556ca36716fc81301af21b75ae7fd5b9e7fe0b9"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/ice/waystone_ice_tower_top.nbt"
+hash = "d6d6fa37d0adf4519784fe54ff87b8b17173ffb07b2431887d8745aa7209a38d"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/jungle/fabric_waystone_jungle_tower_top.nbt"
+hash = "d679cc0da3b51afac482a51b17a828b69afe7a5a03b5bbaa401a8db1be593cbd"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/jungle/jungle_tower_bottom.nbt"
+hash = "351dae872bc0888424bcebfc74061a9cb2a8a3566a09f09f5119df9dda6cb8a4"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/jungle/jungle_tower_top.nbt"
+hash = "d4a9083f78d7fec6d36bf74c8e5c491fee36b15177bc56f2aa6d813aa1e195bf"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/jungle/waystone_jungle_tower_top.nbt"
+hash = "fd57590cf7d6e7a94745b91458fc5127b76e6e9edc39df58dcbb82ca39888547"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/regular/fabric_waystone_tower_top.nbt"
+hash = "8b23b2cefbfacba457cfc0bea58106ea85958add95cbe359744cb2b99fda94b1"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/regular/tower_bottom.nbt"
+hash = "4e2ea559a50a68a51c0ae997f7a9ad7164fa97b33dbcb17f803fa20179e82a11"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/regular/tower_top.nbt"
+hash = "c362e381e9824bcf54aaf451688fcce2189148d1c441823d86214f1a6170c59a"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/structures/regular/waystone_tower_top.nbt"
+hash = "da85d9260c57d962eec740fbaf415d4f96d646e9684403a23be4714167a5cec4"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/tags/worldgen/biome/has_structure/derelict_grass_tower.json"
+hash = "e0db1d5ad610d7e420f71092654a6a665e51f0161b508ac5d3072b5649e25b7e"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/tags/worldgen/biome/has_structure/derelict_tower.json"
+hash = "aa7b47a50b46aa463b8d6344f18d99656cd09068a779a5f34825bc680082a66b"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/tags/worldgen/biome/has_structure/ice_tower.json"
+hash = "642ed03965cdc3df3a397dee82df3da346bcc6e8b12e9b2b7265d4ca05ba49fa"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/tags/worldgen/biome/has_structure/jungle_tower.json"
+hash = "9ae515de2e3ed2cd6c308ce57551050b7f444d080269054cd515f42eea223d88"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/tags/worldgen/biome/has_structure/regular_tower.json"
+hash = "0e10388aacd2deccfe03c7a0cf93505974df599fc50ce5ebd51bf18468c9b004"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/configured_structure_feature/derelict.json"
+hash = "358d3b41140dcef61fc954898ebd491a90e6e59dc5e488237e36d2bd92d6e0d2"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/configured_structure_feature/derelict_grass.json"
+hash = "eae378574135d6a38ca3526dc79af5a83c710d0691be6058b1f9d0458fe2bafe"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/configured_structure_feature/ice.json"
+hash = "db7e902dde93bdb2209773a4753e9f62fceafaa2ae4d4c437bc60a06787d91af"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/configured_structure_feature/jungle.json"
+hash = "eec54258c32cd411e21907a86c679df0568f97d1c895d3982ce643f39c6767b6"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/configured_structure_feature/regular.json"
+hash = "5008af8cc3779246648767bb24f4a9ed19decbfa09fbdbb0f3e23da2bbcbca87"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/structure_set/derelict.json"
+hash = "5672f15700feb380d08daa5aac947480caf71306c285ba522c76c32803c654ff"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/structure_set/derelict_grass.json"
+hash = "14a5e5dd668f0369a24f67189d5efcecf5bd04793cd960e4c7c9dec32036244c"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/structure_set/ice.json"
+hash = "8db81691c342e4f4967c53f9981931c63b6e21c354939a688eb1c7a3b2d6fd9d"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/structure_set/jungle.json"
+hash = "4a611d982fe817f121e5a17377aef187264cd6dc6396d6869f4005af525cf19c"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/structure_set/regular.json"
+hash = "c382b3a265d24a79938e84a5c230b408ec513c8843cc17a7117b49ed9fd02ade"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/template_pool/derelict/bottom.json"
+hash = "321fe008423131686a4f659c0d37f0c19cc7f2dbc3833bc618fde980b489169a"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/template_pool/derelict/top.json"
+hash = "811544531e2df62d03cc81851fb8e8332198b6b799d3172c3e7f2837d12ff4e1"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/template_pool/derelict_grass/bottom.json"
+hash = "1b58f7a19ec532a3f9b819b57dbf9d1a487e166739380601664ada8064406b87"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/template_pool/derelict_grass/top.json"
+hash = "dce1aa4d79c703564a5bb9138b39c30d6df4a61eaf3c6a1f30203b88747c1a82"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/template_pool/ice/bottom.json"
+hash = "40837e209549b7617669a52f5b4534924a74d304095041efc56a6a137388dd9c"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/template_pool/ice/top.json"
+hash = "3d66e96ee0ab1e4079b3cf75846aadec0e440f8519dd1c4263639b2fb9e86f1e"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/template_pool/jungle/bottom.json"
+hash = "963751c9f4bd82d83daee758dfb021f762e63a2fdb053a524ad9836ee7017575"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/template_pool/jungle/top.json"
+hash = "a8bfe40b41dc96eaf5ba9ec162e9f7b37db9c0489aa8262b11d12b5d4b6a6cf2"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/template_pool/regular/bottom.json"
+hash = "b047d1e3eb060fe04ac93cd9015741df43faedc455c4169274670bb130d3bc14"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/data/towers_of_the_wild_reworked/worldgen/template_pool/regular/top.json"
+hash = "2675e57415ea79347bfe71c280d48e2a9da5604fe64790153ae836113bf94f86"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/pack.mcmeta"
+hash = "0bd0f8e44c1307ffed2029417c9dbf456555a1b39bcc464ddb76a2898cbc952f"
+
+[[files]]
+file = "openloader/data/towers-of-the-wild/pack.png"
+hash = "1b876da1bb567d6855a2fc522fbed04eb2c5999034bf835778044410e2a28cae"
 
 [[files]]
 file = "openloader/resources/create-style-modded-compats.pw.toml"
@@ -1810,9 +2010,4 @@ metafile = true
 [[files]]
 file = "openloader/resources/tool-belt-retextured.pw.toml"
 hash = "25a7332ccd294854b2f6ac229e389b09f118f78cfd400e83070f383c9452a77a"
-metafile = true
-
-[[files]]
-file = "openloader/resources/tuttas-mca-texture.pw.toml"
-hash = "1cd6d219cac9a525dfc6f3ca1b0bcb9364432821686820cb3410138d45a66b7b"
 metafile = true
