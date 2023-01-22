@@ -33,6 +33,10 @@ file = "config/inventoryprofilesnext/inventoryprofiles.json"
 hash = "3a4f0dedef67e4d82e3b5c7477215643935854a696cd148568b692ce18c2c8ac"
 
 [[files]]
+file = "config/logbegone.toml"
+hash = "61f35eeca3a0632b6ef0322234658e7f57421cd5bd1cf9460a63d9869d9d92a5"
+
+[[files]]
 file = "config/neat-client.toml"
 hash = "091da889d5eb5a5f6c899125682f8099140a91abd0dacb95a175200eb998d3ec"
 
