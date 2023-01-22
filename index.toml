@@ -1,12 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/antiqueatlas.json5"
-hash = "4b1e2f8ddf55091c8064085d47a663cf4c31f002fcf7fb9cce3857f671a51ec9"
-
-[[files]]
 file = "config/bcc-common.toml"
 hash = "00502d63263166460d2f21c6197490c5670fabe3a0058780dbcfec9bc99b7d5c"
+
+[[files]]
+file = "config/byg/biomepedia.json5"
+hash = "d9b7c4d1b5445c9b34618918f94f190e2f9dd5312ae1e241e11ac796edf7e31c"
 
 [[files]]
 file = "config/fml.toml"
@@ -17,12 +17,24 @@ file = "config/forge-common.toml"
 hash = "c6cac6aaa8b888011390dac620ccda38f2cf0c568fef388bd142de63b3bea8c2"
 
 [[files]]
+file = "config/inventoryprofilesnext/integrationHints/player-defined.json"
+hash = "8d695fdf353b05221134ec001bb3a9e8abaad5896d56f9a75129f6523b37ffad"
+
+[[files]]
+file = "config/inventoryprofilesnext/inventoryprofiles.json"
+hash = "3a4f0dedef67e4d82e3b5c7477215643935854a696cd148568b692ce18c2c8ac"
+
+[[files]]
 file = "config/neat-client.toml"
 hash = "091da889d5eb5a5f6c899125682f8099140a91abd0dacb95a175200eb998d3ec"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "713381652d77977d1585a68d21b2c8a8978b70392c44d85032bd1aa6d70bc66c"
+hash = "a99599e5f3a0bfb39cace7d96fccba723b027aaae871f209f4f9a713e68d62d7"
+
+[[files]]
+file = "config/quickstack-client.toml"
+hash = "f8f71521076ee8e82f3c7259e04acc84925f0f0166d9948b7251bca5f688ff11"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1345,11 +1357,6 @@ metafile = true
 [[files]]
 file = "mods/seasonals.pw.toml"
 hash = "3a17bb85d0348a98ca1bc34ba3e40452c6c4c9a6ab62c597cb2acc2187a20c4f"
-metafile = true
-
-[[files]]
-file = "mods/seasonhud.pw.toml"
-hash = "98b217d40b8abfe8c9c0c4746689e4722200f0e6ebed75eb4bab008b8ccdc124"
 metafile = true
 
 [[files]]
