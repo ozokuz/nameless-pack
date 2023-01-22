@@ -21,6 +21,14 @@ file = "config/inventoryprofilesnext/integrationHints/player-defined.json"
 hash = "8d695fdf353b05221134ec001bb3a9e8abaad5896d56f9a75129f6523b37ffad"
 
 [[files]]
+file = "config/inventoryprofilesnext/integrationHints/sophisticatedbackpacks.json"
+hash = "f58157683710521eef705bf95aae58f23f1784b875293cae319ccd27b65b32f6"
+
+[[files]]
+file = "config/inventoryprofilesnext/integrationHints/sophisticatedstorage.json"
+hash = "8c8f14b864f5729cf351535b5d9a8adf232f22621f5d37c04eabf538fad5cfec"
+
+[[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
 hash = "3a4f0dedef67e4d82e3b5c7477215643935854a696cd148568b692ce18c2c8ac"
 
@@ -30,7 +38,7 @@ hash = "091da889d5eb5a5f6c899125682f8099140a91abd0dacb95a175200eb998d3ec"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "a99599e5f3a0bfb39cace7d96fccba723b027aaae871f209f4f9a713e68d62d7"
+hash = "06afd5cea9421f021f38ea232d61e5f95d6a4b248cb2ad1c9c82ecdc5fb44bc4"
 
 [[files]]
 file = "config/quickstack-client.toml"
@@ -47,6 +55,10 @@ hash = "4fe5c2073c3a7a58c6388467b853347a09dffb9d67c2bd86bf57c9dcb3970bf2"
 [[files]]
 file = "config/sophisticatedbackpacks-common.toml"
 hash = "43876f4e1180369ebd220b6ac1494b430dde1c89734445476693b7d375dc7ace"
+
+[[files]]
+file = "config/sophisticatedcore-client.toml"
+hash = "428158f95418910517097b04953569bf55451b71e28f2a0446baf0b902438baa"
 
 [[files]]
 file = "config/theoneprobe-client.toml"
@@ -1563,6 +1575,11 @@ metafile = true
 [[files]]
 file = "mods/tinkers-construct.pw.toml"
 hash = "4aeb9670f24f4416273ccdbad1aa2cdae96630f5eedea8f8c0b32623d1f4a028"
+metafile = true
+
+[[files]]
+file = "mods/tinkers-planner.pw.toml"
+hash = "d72b0d78d94e26b01372449c84692bd450a5b470ab8e0858280d4110fb920af7"
 metafile = true
 
 [[files]]
