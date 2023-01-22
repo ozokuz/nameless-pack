@@ -81,10 +81,6 @@ file = "defaultconfigs/sereneseasons-server.toml"
 hash = "9dd7696044adc25ef8e8ef391efd0d0c3f645c86464e3b7ae84e7415773a7927"
 
 [[files]]
-file = "defaultconfigs/unlitcampfire-server.toml"
-hash = "340a446284965d208e21fc59650be4d5e4893202119530857aee640dcb2e31d8"
-
-[[files]]
 file = "mods/abnormals-delight.pw.toml"
 hash = "0cfa8e8164d519f22db4acbb3cfcbc39ad05051760985e08558a89dbbceff914"
 metafile = true
@@ -1627,11 +1623,6 @@ metafile = true
 [[files]]
 file = "mods/unearthed.pw.toml"
 hash = "ea2c803e0d95079e96f28f8a57a2d7d08569d39c20e4131aede47e38bf1e36e8"
-metafile = true
-
-[[files]]
-file = "mods/unlit-campfire.pw.toml"
-hash = "2030c456c58ac316e5d2e586f80e3dad4cc409c02d9c429a58b29cc1fa14dad4"
 metafile = true
 
 [[files]]
