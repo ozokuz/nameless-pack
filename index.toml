@@ -101,18 +101,6 @@ file = "defaultconfigs/sereneseasons-server.toml"
 hash = "9dd7696044adc25ef8e8ef391efd0d0c3f645c86464e3b7ae84e7415773a7927"
 
 [[files]]
-file = "dist/client.global.js"
-hash = "5a556c23532567ec3e6f8e50f94814bcb609505de586759a5ce08b14964c557d"
-
-[[files]]
-file = "dist/server.global.js"
-hash = "c0c62a069fddccf9f1a47ec9b61804f34d485011430c89b4e4a85b3533d5b03d"
-
-[[files]]
-file = "dist/startup.global.js"
-hash = "5a556c23532567ec3e6f8e50f94814bcb609505de586759a5ce08b14964c557d"
-
-[[files]]
 file = "kubejs/client_scripts/script.js"
 hash = "5a556c23532567ec3e6f8e50f94814bcb609505de586759a5ce08b14964c557d"
 
