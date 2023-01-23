@@ -1,0 +1,18 @@
+{
+  "name": "nameless-pack",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "build": "pnpm transpile && tsx scripts/move.ts",
+    "transpile": "tsup --entry src/server.ts --entry src/startup.ts --entry src/client.ts --format iife --target es5 --minify",
+    "lint": "tsc"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.0",
+    "@swc/core": "^1.3.27",
+    "@types/node": "^18.11.18",
+    "tsup": "^6.5.0",
+    "tsx": "^3.12.2",
+    "typescript": "^4.9.4"
+  }
+}

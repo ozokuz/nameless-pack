@@ -41,6 +41,10 @@ file = "config/neat-client.toml"
 hash = "091da889d5eb5a5f6c899125682f8099140a91abd0dacb95a175200eb998d3ec"
 
 [[files]]
+file = "config/patchouli-client.toml"
+hash = "2ee63685ae5f10d1f7576946012166805bdbe340445acef61dd32ae67043325b"
+
+[[files]]
 file = "config/quark-common.toml"
 hash = "06afd5cea9421f021f38ea232d61e5f95d6a4b248cb2ad1c9c82ecdc5fb44bc4"
 
@@ -95,6 +99,30 @@ hash = "bfd192b2370a88e92db9b3c2351c37822b5aeabcdd0230a623599b7987c86c48"
 [[files]]
 file = "defaultconfigs/sereneseasons-server.toml"
 hash = "9dd7696044adc25ef8e8ef391efd0d0c3f645c86464e3b7ae84e7415773a7927"
+
+[[files]]
+file = "dist/client.global.js"
+hash = "5a556c23532567ec3e6f8e50f94814bcb609505de586759a5ce08b14964c557d"
+
+[[files]]
+file = "dist/server.global.js"
+hash = "c0c62a069fddccf9f1a47ec9b61804f34d485011430c89b4e4a85b3533d5b03d"
+
+[[files]]
+file = "dist/startup.global.js"
+hash = "5a556c23532567ec3e6f8e50f94814bcb609505de586759a5ce08b14964c557d"
+
+[[files]]
+file = "kubejs/client_scripts/script.js"
+hash = "5a556c23532567ec3e6f8e50f94814bcb609505de586759a5ce08b14964c557d"
+
+[[files]]
+file = "kubejs/server_scripts/script.js"
+hash = "c0c62a069fddccf9f1a47ec9b61804f34d485011430c89b4e4a85b3533d5b03d"
+
+[[files]]
+file = "kubejs/startup_scripts/script.js"
+hash = "5a556c23532567ec3e6f8e50f94814bcb609505de586759a5ce08b14964c557d"
 
 [[files]]
 file = "mods/abnormals-delight.pw.toml"
@@ -1272,6 +1300,11 @@ hash = "5ee8f362f34bfa3a763b934a8d5e1b0cbf44aeb5fa4b9c3bfd87a1667fcae533"
 metafile = true
 
 [[files]]
+file = "mods/probejs.pw.toml"
+hash = "b4303a7073aca8e605a17a2af02fd1b95d61b653d9a66cf06f6bc7bae092880e"
+metafile = true
+
+[[files]]
 file = "mods/productivebees.pw.toml"
 hash = "9663ff908447fa48faf04e3c3cb3225c7ab1ef824ebdfde79ab9fe24df86b383"
 metafile = true
@@ -2020,3 +2053,15 @@ metafile = true
 file = "openloader/resources/tool-belt-retextured.pw.toml"
 hash = "25a7332ccd294854b2f6ac229e389b09f118f78cfd400e83070f383c9452a77a"
 metafile = true
+
+[[files]]
+file = "patchouli_books/nameless_guide/book.json"
+hash = "6c414f401d92d750d16c76cad13a93ff9637e7b5e6db0a4f5f376948d3b91659"
+
+[[files]]
+file = "patchouli_books/nameless_guide/en_us/categories/test_category.json"
+hash = "d5cf6a2f26f2631b5e68c5649b751e5a7329d42aa9a62798fa89cd720316130d"
+
+[[files]]
+file = "patchouli_books/nameless_guide/en_us/entries/test/test_entry.json"
+hash = "dab7cc314fb26c1b519a2450546423c429bf845a4bf2faf343090a96f1d6770b"

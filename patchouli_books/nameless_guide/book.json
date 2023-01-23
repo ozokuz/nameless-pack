@@ -1,0 +1,7 @@
+{
+  "name": "Nameless Guide",
+  "landing_text": "This book will guide you through Nameless",
+  "subtitle": "Player Edition",
+  "model": "patchouli:book_purple",
+  "book_texture": "patchouli:textures/gui/book_purple.png"
+}
