@@ -34,7 +34,7 @@ hash = "3a4f0dedef67e4d82e3b5c7477215643935854a696cd148568b692ce18c2c8ac"
 
 [[files]]
 file = "config/logbegone.toml"
-hash = "61f35eeca3a0632b6ef0322234658e7f57421cd5bd1cf9460a63d9869d9d92a5"
+hash = "51197028cf323d325dc3ca2fc56c1f8ea45c5d27600bf42ca817693dbf43cf0e"
 
 [[files]]
 file = "config/neat-client.toml"

@@ -1,5 +1,5 @@
 
 [logbegone]
-	phrases = ["Couldn't parse loot table", "Underground biomes aren't supported", "TextureSet configurations", "register particle providers"]
+	phrases = ["Couldn't parse loot table", "Underground biomes aren't supported", "TextureSet configurations", "register particle providers", "Failed to render chunk"]
 	regex = [""]
 
