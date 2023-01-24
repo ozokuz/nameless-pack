@@ -18,6 +18,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "importsNotUsedAsValues": "error",
-    "checkJs": true
+    "checkJs": true,
+    "typeRoots": ["./src/probe/generated", "./src/probe/user"]
   }
 }
