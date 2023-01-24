@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "build": "pnpm transpile && tsx scripts/move.ts",
+    "build": "pnpm transpile && tsx scripts/move.ts && packwiz refresh",
     "transpile": "tsup --entry src/server.ts --entry src/startup.ts --entry src/client.ts --format iife --target es5 --minify",
     "lint": "tsc"
   },
