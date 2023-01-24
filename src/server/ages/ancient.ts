@@ -15,6 +15,14 @@ onEvent("recipes", (event) => {
     }
   );
 
+  // Harder Barrel
+  event.remove({ output: "minecraft:barrel" });
+  event.shaped("minecraft:barrel", ["PSP", "PIP", "PSP"], {
+    P: "#minecraft:planks",
+    S: "#minecraft:wooden_slabs",
+    I: "minecraft:iron_nugget",
+  });
+
   // Easier Sack
   // @ts-expect-error
   event.remove({ output: "#supplementaries:sack" });
