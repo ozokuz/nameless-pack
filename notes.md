@@ -34,7 +34,9 @@
 
 # Other Stuff
 
-- Make Bad Omen require burning banner
-- TreeChop Tinkers Support (Hand Axe Chops, Lumber Axe Default)
 - Disable PneumaticCraft Crude Oil
-- Disable Opening Chunk Loading Map Without Clicking Chunk Loader
+- Remove Biome Makeover and Friends & Foes as they don't seem to fully register their stuff
+
+# Mods
+
+Custom version of The One Probe with Curio support so that we can require the item to view block information
