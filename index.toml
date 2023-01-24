@@ -37,6 +37,10 @@ file = "config/inventoryprofilesnext/inventoryprofiles.json"
 hash = "3a4f0dedef67e4d82e3b5c7477215643935854a696cd148568b692ce18c2c8ac"
 
 [[files]]
+file = "config/jei-client.toml"
+hash = "4dd45d4da087ad54b40b6f6c81ee64f893d61840c5c0d72924a55276e13639d9"
+
+[[files]]
 file = "config/logbegone.toml"
 hash = "3298dfe3bf6b0f8a1540aea11339194f9cf322b59ecbbf5dfe04fde3fa19612e"
 
