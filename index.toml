@@ -275,11 +275,6 @@ hash = "1729eb8d6495e55f715817c1bc619a1f2c2d3c718699ab5b92e76606471eebcd"
 metafile = true
 
 [[files]]
-file = "mods/biome-particle-weather.pw.toml"
-hash = "85841394f665a46c9199df305733dfdfd5a8fb5e17578308f1c0eaca7a4162c4"
-metafile = true
-
-[[files]]
 file = "mods/blood-magic.pw.toml"
 hash = "fd84f4d2e26dfaf74ba56e710d8aad6715033c2ceddaec1efaa8fef047fec805"
 metafile = true
@@ -780,6 +775,16 @@ hash = "e1c6d935fffb5bc0abd41b18118755ac4eab986f68f0a20c87690d9327ba8b44"
 metafile = true
 
 [[files]]
+file = "mods/ftb-essentials-forge.pw.toml"
+hash = "3546d7047d24d2358cfaf52b0d02008076cd22e4467d1f8faab96cde72492c58"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "b45b90f17061479eada24940b77fcd163d7ceff586f72663c62d9946b4dcbe67"
+metafile = true
+
+[[files]]
 file = "mods/fuelgoeshere.pw.toml"
 hash = "6d0ccfcf6603b90c0a0189f4a4c5b0094f6e4828e218a89d22fba4201d728704"
 metafile = true
@@ -1027,6 +1032,11 @@ metafile = true
 [[files]]
 file = "mods/log-begone.pw.toml"
 hash = "97009dc2d61177ab12f320824a34a1343295653ad75f37250f1eaa4a349476be"
+metafile = true
+
+[[files]]
+file = "mods/login-protection.pw.toml"
+hash = "7a27909655cd8ac42af80b47f95c6dfb05f102072b340198063ec8134cd7f778"
 metafile = true
 
 [[files]]
