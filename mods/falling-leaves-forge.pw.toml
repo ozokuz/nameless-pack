@@ -1,6 +1,6 @@
 name = "Falling Leaves (Forge)"
 filename = "Fallingleaves-1.18.2-1.3.2.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
@@ -11,3 +11,8 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 3705945
 project-id = 463155
+
+[option]
+optional = true
+default = false
+description = "Makes trees have falling leaves"
