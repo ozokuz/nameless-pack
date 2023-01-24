@@ -9,6 +9,10 @@ file = "config/byg/biomepedia.json5"
 hash = "d9b7c4d1b5445c9b34618918f94f190e2f9dd5312ae1e241e11ac796edf7e31c"
 
 [[files]]
+file = "config/chunkloaders-common.toml"
+hash = "ffab1272b67bbf4f71486f5c6c2061273ff463aac6a35e09b82900f7a710999b"
+
+[[files]]
 file = "config/fml.toml"
 hash = "8af1a845056b3cd4d3b2deb9a820d8a097295f3698f52d8ed27204a6e4c13db6"
 
@@ -53,6 +57,10 @@ file = "config/quickstack-client.toml"
 hash = "f8f71521076ee8e82f3c7259e04acc84925f0f0166d9948b7251bca5f688ff11"
 
 [[files]]
+file = "config/savage_and_ravage-common.toml"
+hash = "cc25474ca91182e43405c3f4ca6fd3789ebb1369de487578b0b542f1f9e252e6"
+
+[[files]]
 file = "config/sereneseasons/fertility.toml"
 hash = "1bda6ed5d932fc98d815bae977e4c5ce5c52a5dc4a6fe7c2a9beb7bb8d8a9fb4"
 
@@ -75,6 +83,10 @@ hash = "f97557dc91d604f87b38980920c8c1c4a88481588799e44d97094e059d6e6b00"
 [[files]]
 file = "config/theoneprobe-common.toml"
 hash = "771f4843b3cecbcb80bad5b5f7f2101a0e5e1ad79adc3ec08b0dfb3c87f23089"
+
+[[files]]
+file = "config/treechop-common.toml"
+hash = "949b60aace98628fd4c6efcec0e59e7fdb8f80274ec84fc8521a85162ea9dedf"
 
 [[files]]
 file = "config/walljump-common.toml"
@@ -106,7 +118,7 @@ hash = "5a556c23532567ec3e6f8e50f94814bcb609505de586759a5ce08b14964c557d"
 
 [[files]]
 file = "kubejs/server_scripts/script.js"
-hash = "c0c62a069fddccf9f1a47ec9b61804f34d485011430c89b4e4a85b3533d5b03d"
+hash = "3a1a95c94096a31a7f4d70cefd2180c4204d6896cb1afe750fbb7cd47238542b"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"
