@@ -34,7 +34,7 @@ hash = "3a4f0dedef67e4d82e3b5c7477215643935854a696cd148568b692ce18c2c8ac"
 
 [[files]]
 file = "config/logbegone.toml"
-hash = "51197028cf323d325dc3ca2fc56c1f8ea45c5d27600bf42ca817693dbf43cf0e"
+hash = "3298dfe3bf6b0f8a1540aea11339194f9cf322b59ecbbf5dfe04fde3fa19612e"
 
 [[files]]
 file = "config/neat-client.toml"
@@ -630,11 +630,6 @@ metafile = true
 [[files]]
 file = "mods/enhanced-celestials.pw.toml"
 hash = "6e4a34c104bf7f0754535a7738369b5da8ec28afa98fd7cfff583185da0a66ec"
-metafile = true
-
-[[files]]
-file = "mods/enlightened-end.pw.toml"
-hash = "f9be2c7e90c0e8d96ed326435a27807c4408d6f2f6a55e72ee04590bc4f4a4e4"
 metafile = true
 
 [[files]]
