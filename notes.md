@@ -2,6 +2,8 @@
 
 ## Remove
 
+- Engineers Hammer + Raw Ore -> Dust
+
 ## Replace
 
 - Boat
@@ -19,6 +21,10 @@
 
 - Disable PneumaticCraft Crude Oil
 - Remove Biome Makeover and Friends & Foes as they don't seem to fully register their stuff
+- List modifiers with kubejs
+- JEI config
+- Make Falling Leaves Optional
+- Neft "Waystone Orb"
 
 ## Rename
 
