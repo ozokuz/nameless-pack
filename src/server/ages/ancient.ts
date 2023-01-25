@@ -8,11 +8,11 @@ onEvent("recipes", (event) => {
 
       event.remove({ output: chest });
       event.recipes.minecraft.crafting_shaped(chest, ["PPP", "PIP", "PPP"], {
-        // @ts-expect-error
+        // @ts-expect-error dynamic
         P: plank,
         I: "minecraft:iron_nugget",
       });
-    }
+    },
   );
 
   // Harder Barrel
@@ -24,7 +24,7 @@ onEvent("recipes", (event) => {
       P: "#minecraft:planks",
       S: "#minecraft:wooden_slabs",
       I: "minecraft:iron_nugget",
-    }
+    },
   );
 
   // Easier Sack
@@ -35,7 +35,7 @@ onEvent("recipes", (event) => {
     {
       S: "farmersdelight:straw",
       P: "#forge:string",
-    }
+    },
   );
 
   // Easier Compass
@@ -46,7 +46,7 @@ onEvent("recipes", (event) => {
     {
       I: "#forge:ingots/iron",
       R: "#forge:dyes/red",
-    }
+    },
   );
 });
 

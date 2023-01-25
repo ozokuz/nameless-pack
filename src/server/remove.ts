@@ -18,7 +18,7 @@ onEvent("recipes", (event) => {
 
   toolType.forEach((tool) => {
     material.forEach((material) => {
-      // @ts-expect-error
+      // @ts-expect-error dynamic
       event.remove({ output: `minecraft:${material}_${tool}` });
     });
   });
