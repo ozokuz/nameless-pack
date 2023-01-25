@@ -6,25 +6,29 @@ onEvent("recipes", (event) => {
   event.remove({ output: "create:dough" });
   event.remove({ output: "minecraft:bread", input: "create:dough" });
   event.remove({ output: "farmersdelight:wheat_dough" });
-  event
+  event.recipes.minecraft
     // @ts-expect-error
-    .shapeless("3x farmersdelight:wheat_dough", [
-      // @ts-expect-error
+    .crafting_shapeless("3x farmersdelight:wheat_dough", [
       Item.of("ceramics:fluid_clay_bucket", '{fluid:"minecraft:water"}'),
       "create:wheat_flour",
       "create:wheat_flour",
       "create:wheat_flour",
     ])
+    .replaceIngredient(
+      Item.of("ceramics:fluid_clay_bucket", '{fluid:"minecraft:water"}'),
+      "ceramics:empty_clay_bucket"
+    );
+  event.recipes.minecraft
     // @ts-expect-error
-    .replaceIngredient(1, "ceramics:empty_clay_bucket");
-  event
-    // @ts-expect-error
-    .shapeless("3x farmersdelight:wheat_dough", [
+    .crafting_shapeless("3x farmersdelight:wheat_dough", [
       "minecraft:water_bucket",
       "create:wheat_flour",
       "create:wheat_flour",
       "create:wheat_flour",
     ])
-    .replaceIngredient(1, "minecraft:bucket");
-  event.campfireCooking("minecraft:bread", "farmersdelight:wheat_dough");
+    .replaceIngredient("minecraft:water_bucket", "minecraft:bucket");
+  event.recipes.minecraft.campfire_cooking(
+    "minecraft:bread",
+    "farmersdelight:wheat_dough"
+  );
 });

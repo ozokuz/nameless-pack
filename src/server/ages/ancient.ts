@@ -7,7 +7,7 @@ onEvent("recipes", (event) => {
       const chest = recipe.originalRecipeResult;
 
       event.remove({ output: chest });
-      event.shaped(chest, ["PPP", "PIP", "PPP"], {
+      event.recipes.minecraft.crafting_shaped(chest, ["PPP", "PIP", "PPP"], {
         // @ts-expect-error
         P: plank,
         I: "minecraft:iron_nugget",
@@ -17,24 +17,35 @@ onEvent("recipes", (event) => {
 
   // Harder Barrel
   event.remove({ output: "minecraft:barrel" });
-  event.shaped("minecraft:barrel", ["PSP", "PIP", "PSP"], {
-    P: "#minecraft:planks",
-    S: "#minecraft:wooden_slabs",
-    I: "minecraft:iron_nugget",
-  });
+  event.recipes.minecraft.crafting_shaped(
+    "minecraft:barrel",
+    ["PSP", "PIP", "PSP"],
+    {
+      P: "#minecraft:planks",
+      S: "#minecraft:wooden_slabs",
+      I: "minecraft:iron_nugget",
+    }
+  );
 
   // Easier Sack
-  // @ts-expect-error
-  event.remove({ output: "#supplementaries:sack" });
-  event.shaped("supplementaries:sack", ["SPS", "S S", "SSS"], {
-    S: "farmersdelight:straw",
-    P: "#forge:string",
-  });
+  event.remove({ output: "supplementaries:sack" });
+  event.recipes.minecraft.crafting_shaped(
+    "supplementaries:sack",
+    ["SPS", "S S", "SSS"],
+    {
+      S: "farmersdelight:straw",
+      P: "#forge:string",
+    }
+  );
 
   // Easier Compass
   event.remove({ output: "minecraft:compass" });
-  event.shaped("minecraft:compass", [" I ", "IRI", " I "], {
-    I: "#forge:ingots/iron",
-    R: "#forge:dyes/red",
-  });
+  event.recipes.minecraft.crafting_shaped(
+    "minecraft:compass",
+    [" I ", "IRI", " I "],
+    {
+      I: "#forge:ingots/iron",
+      R: "#forge:dyes/red",
+    }
+  );
 });

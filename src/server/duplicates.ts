@@ -4,7 +4,7 @@ onEvent("recipes", (event) => {
     output: "minecraft:flint",
     type: "minecraft:crafting_shapeless",
   });
-  event.shapeless("minecraft:flint", [
+  event.recipes.minecraft.crafting_shapeless("minecraft:flint", [
     "minecraft:gravel",
     "minecraft:gravel",
     "minecraft:gravel",

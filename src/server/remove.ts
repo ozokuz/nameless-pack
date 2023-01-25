@@ -1,7 +1,6 @@
 onEvent("recipes", (event) => {
   // Remove easier atlas recipe
   event.remove({
-    // @ts-expect-error
     output: "antiqueatlas:empty_antique_atlas",
     input: "minecraft:book",
   });
@@ -13,7 +12,7 @@ onEvent("recipes", (event) => {
   });
 
   // Remove Vanilla Metal Tools
-  const material = ["iron", "gold"];
+  const material = ["iron", "gold", "diamond"];
   const toolType = ["sword", "pickaxe", "shovel", "axe", "hoe"];
   event.remove({ output: "minecraft:shears" });
 
