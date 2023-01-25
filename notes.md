@@ -34,6 +34,7 @@
 ## Rename
 
 - Emergency Paddles -> Paddles
+- Flint Tools -> Crude Tools
 
 # Mods
 
