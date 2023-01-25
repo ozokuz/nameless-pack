@@ -24,11 +24,11 @@ onEvent("recipes", (event) => {
   });
   event.recipes.minecraft.campfire_cooking(
     "ceramics:empty_clay_bucket",
-    "notreepunching:clay_bucket"
+    "notreepunching:clay_bucket",
   );
   recipes.ceramics.kiln(
     "ceramics:empty_clay_bucket",
     "notreepunching:clay_bucket",
-    event
+    event,
   );
 });

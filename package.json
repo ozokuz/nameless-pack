@@ -4,12 +4,12 @@
   "version": "0.0.1",
   "scripts": {
     "check": "pnpm lint && pnpm typecheck && pnpm format:check",
-    "build": "pnpm transpile && tsx scripts/move.ts && packwiz refresh",
+    "build": "pnpm check && pnpm transpile && tsx scripts/move.ts && packwiz refresh",
     "transpile": "tsup --entry src/server.ts --entry src/startup.ts --entry src/client.ts --format iife --target es5 --minify",
     "lint": "eslint src --report-unused-disable-directives",
     "typecheck": "tsc",
-    "format": "prettier --write",
-    "format:check": "prettier --check"
+    "format": "prettier --write src",
+    "format:check": "prettier --check src"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",

@@ -19,6 +19,12 @@
     "noUnusedParameters": true,
     "importsNotUsedAsValues": "error",
     "checkJs": true,
-    "typeRoots": ["./src/probe/generated", "./src/probe/user"]
-  }
+    "typeRoots": [
+      "./src/probe/generated",
+      "./src/probe/user",
+      "./node_modules/@types"
+    ]
+  },
+  "exclude": ["node_modules"],
+  "include": ["src", "scripts"]
 }
