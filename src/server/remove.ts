@@ -11,6 +11,12 @@ onEvent("recipes", (event) => {
     input: "#forge:raw_materials",
   });
 
+  // Remove Engineers Hammer + Ore -> Dust recipe
+  event.remove({
+    input: "immersiveengineering:hammer",
+    output: "#forge:dusts",
+  });
+
   // Remove Vanilla Metal Tools
   const material = ["iron", "gold", "diamond"];
   const toolType = ["sword", "pickaxe", "shovel", "axe", "hoe"];
