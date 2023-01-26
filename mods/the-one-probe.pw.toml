@@ -3,11 +3,6 @@ filename = "theoneprobe-1.18-5.1.2.jar"
 side = "both"
 
 [download]
+url = "https://files.nrth.xyz/games/minecraft/theoneprobe-1.18-5.1.2.jar"
 hash-format = "sha1"
-hash = "7589df5448679b4c55d89d2ea397759725d98e90"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 3965688
-project-id = 245211
+hash = "27f75b649374077fdc95be22c9e2df583e2ed255"
