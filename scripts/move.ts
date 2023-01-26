@@ -10,11 +10,16 @@ const client = join(kube, "client_scripts");
 const dist = join(cwd(), "dist");
 
 const main = async () => {
-  if (existsSync(kube)) {
+  if (existsSync(server)) {
+    await rm(kube, { recursive: true });
+  }
+  if (existsSync(startup)) {
+    await rm(kube, { recursive: true });
+  }
+  if (existsSync(client)) {
     await rm(kube, { recursive: true });
   }
 
-  await mkdir(kube);
   await mkdir(server);
   await mkdir(startup);
   await mkdir(client);
