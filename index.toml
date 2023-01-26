@@ -53,6 +53,10 @@ file = "config/patchouli-client.toml"
 hash = "2ee63685ae5f10d1f7576946012166805bdbe340445acef61dd32ae67043325b"
 
 [[files]]
+file = "config/pneumaticcraft-common.toml"
+hash = "de77f4553c29a825b5fac07dd01bbe113f38b1875ca265842b79abad06be9b5d"
+
+[[files]]
 file = "config/quark-common.toml"
 hash = "06afd5cea9421f021f38ea232d61e5f95d6a4b248cb2ad1c9c82ecdc5fb44bc4"
 
@@ -86,11 +90,19 @@ hash = "f97557dc91d604f87b38980920c8c1c4a88481588799e44d97094e059d6e6b00"
 
 [[files]]
 file = "config/theoneprobe-common.toml"
-hash = "771f4843b3cecbcb80bad5b5f7f2101a0e5e1ad79adc3ec08b0dfb3c87f23089"
+hash = "68ea15b33cf88521215ee157bd00cfc07e8760310014c4be31d88ba530cca2ce"
+
+[[files]]
+file = "config/tinkersurvival-client.toml"
+hash = "30f5d62ccb0fc67431e3e6bc5d85d820f18dd9834d5367917826dc5c3956a7a9"
 
 [[files]]
 file = "config/treechop-common.toml"
 hash = "949b60aace98628fd4c6efcec0e59e7fdb8f80274ec84fc8521a85162ea9dedf"
+
+[[files]]
+file = "config/twilightforest-common.toml"
+hash = "1b2e4000e719ddbbb478aace3127a60529bd22e691c404b9072e386ec50476bc"
 
 [[files]]
 file = "config/walljump-common.toml"
@@ -117,12 +129,16 @@ file = "defaultconfigs/sereneseasons-server.toml"
 hash = "9dd7696044adc25ef8e8ef391efd0d0c3f645c86464e3b7ae84e7415773a7927"
 
 [[files]]
+file = "defaultconfigs/tinkersurvival-server.toml"
+hash = "566c7d46de704d18ff294b25a1f50a8e4f7d153c6bc9ee88daf276905bc0939a"
+
+[[files]]
 file = "kubejs/client_scripts/script.js"
-hash = "5a556c23532567ec3e6f8e50f94814bcb609505de586759a5ce08b14964c557d"
+hash = "78a544fc51c7f25f7033bc233ecff1f4c91f9e57c5eb1edd6205a5fcbefbde45"
 
 [[files]]
 file = "kubejs/server_scripts/script.js"
-hash = "3b1da6c96ace72ed6d6406af458a14160b3ac71dbe8a9616a32276d02e2db36c"
+hash = "e9b3c525da6c93c04fdf945e4b380ea51032a31dee3fed26a1efc7a602e48cb4"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"
@@ -271,11 +287,6 @@ metafile = true
 [[files]]
 file = "mods/bf-end-cities.pw.toml"
 hash = "40dd3f88c46415461888aeb9ffab5671aecbe39f291ad1e8f3b2db6d1bcd0163"
-metafile = true
-
-[[files]]
-file = "mods/biome-makeover-forge.pw.toml"
-hash = "1729eb8d6495e55f715817c1bc619a1f2c2d3c718699ab5b92e76606471eebcd"
 metafile = true
 
 [[files]]
@@ -769,11 +780,6 @@ hash = "4de19ac45c40c1b0b869a1a35f22aecaffd60a542689f39ed7ee07027346e3f0"
 metafile = true
 
 [[files]]
-file = "mods/friends-and-foes-forge.pw.toml"
-hash = "934acf1ba336b837bb9de60a92dd8dc5e5a13d5f054c6c1c49798a7ccbba62ac"
-metafile = true
-
-[[files]]
 file = "mods/ftb-backups-2.pw.toml"
 hash = "e1c6d935fffb5bc0abd41b18118755ac4eab986f68f0a20c87690d9327ba8b44"
 metafile = true
@@ -1171,11 +1177,6 @@ metafile = true
 [[files]]
 file = "mods/no-nv-flash.pw.toml"
 hash = "59eccd6f725647a558f16951a8adfaffae8e765ad8ef3c69df43ba451afb0baa"
-metafile = true
-
-[[files]]
-file = "mods/no-tree-punching.pw.toml"
-hash = "8684c6607fdd42dbc28a7cc13e7604d834372d4b022a1460de1d395091bf2f8c"
 metafile = true
 
 [[files]]
@@ -1605,7 +1606,7 @@ metafile = true
 
 [[files]]
 file = "mods/the-one-probe.pw.toml"
-hash = "84683e077e40da506524d05702eeca7c56bffb6c4bdefe0eb2575c79da79e531"
+hash = "14da8cae10b58dde5eadeb55a5e814080ceacaef0ff5297e4b23d41709cd46a6"
 metafile = true
 
 [[files]]
@@ -1626,6 +1627,11 @@ metafile = true
 [[files]]
 file = "mods/tinkers-planner.pw.toml"
 hash = "d72b0d78d94e26b01372449c84692bd450a5b470ab8e0858280d4110fb920af7"
+metafile = true
+
+[[files]]
+file = "mods/tinkersurvival.pw.toml"
+hash = "27db69661d2a1216560e67efda8b78cd3255ef742ec64a6ea524f3d95e1f1a9f"
 metafile = true
 
 [[files]]

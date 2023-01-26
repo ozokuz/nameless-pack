@@ -3,7 +3,10 @@ dist
 scripts
 src
 node_modules
+.prettierrc
+.prettierignore
 .eslintrc.js
+.eslintignore
 .gitattributes
 .gitignore
 CHANGELOG.md

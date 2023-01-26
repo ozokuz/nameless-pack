@@ -1,1 +1,1 @@
-"use strict";(function(){})();
+"use strict";(function(){onEvent("jei.hide.items",function(n){["wooden","stone","iron","gold","diamond"].forEach(function(o){["sword","pickaxe","shovel","axe","hoe"].forEach(function(e){n.hide("minecraft:".concat(o,"_").concat(e))})}),n.hide("minecraft:shears")})})();
