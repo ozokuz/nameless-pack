@@ -1,8 +1,6 @@
 onEvent("recipes", (event) => {
-  // Remove Easy Bread
-  event.remove({ output: "minecraft:bread", input: "minecraft:wheat" });
-
   // Make Bread Recipe Harder
+  event.remove({ output: "minecraft:bread", input: "minecraft:wheat" });
   event.remove({ output: "create:dough" });
   event.remove({ output: "minecraft:bread", input: "create:dough" });
   event.remove({ output: "farmersdelight:wheat_dough" });
@@ -31,4 +29,18 @@ onEvent("recipes", (event) => {
     "minecraft:bread",
     "farmersdelight:wheat_dough",
   );
+  event.custom({
+    type: "create:splashing",
+    // @ts-expect-error custom
+    ingredients: [
+      {
+        tag: "forge:flour/wheat",
+      },
+    ],
+    results: [
+      {
+        item: "farmersdelight:wheat_dough",
+      },
+    ],
+  });
 });
