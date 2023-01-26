@@ -15,8 +15,6 @@
 
 ## Add
 
-- Logs That Burn -> Charcoal - Campfire
-
 # Other Stuff
 
 ## Short Term
@@ -24,6 +22,18 @@
 - Neft "Waystone Orb"
 
 ## Long Term
+
+## Patchouli Guide & JEI Info
+
+- Add info about the early game
+  - Tools
+  - Grass Cutting
+  - Flint Stone Knapping
+  - Campfire
+  - Storage Options
+    - Large Vessel
+    - Small Vessel
+    - Sack
 
 ### Worldgen Related
 
@@ -35,7 +45,3 @@
 
 - Emergency Paddles -> Paddles
 - Flint Tools -> Crude Tools
-
-# Mods
-
-Custom version of The One Probe with Curio support so that we can require the item to view block information
