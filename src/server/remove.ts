@@ -18,7 +18,14 @@ onEvent("recipes", (event) => {
   });
 
   // Remove Vanilla Metal Tools
-  const material = ["iron", "gold", "diamond"];
+  const material = [
+    "wooden",
+    "stone",
+    "iron",
+    "golden",
+    "diamond",
+    "netherite",
+  ];
   const toolType = ["sword", "pickaxe", "shovel", "axe", "hoe"];
   event.remove({ output: "minecraft:shears" });
 
