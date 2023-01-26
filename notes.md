@@ -2,8 +2,6 @@
 
 ## Remove
 
-- Engineers Hammer + Raw Ore -> Dust
-
 ## Replace
 
 - Boat
@@ -23,6 +21,8 @@
 
 ## Long Term
 
+- List modifiers with kubejs
+
 ## Patchouli Guide & JEI Info
 
 - Add info about the early game
@@ -35,13 +35,6 @@
     - Small Vessel
     - Sack
 
-### Worldgen Related
-
-- Disable PneumaticCraft Crude Oil
-- Remove Biome Makeover and Friends & Foes as they don't seem to fully register their stuff
-- List modifiers with kubejs
-
 ## Rename
 
 - Emergency Paddles -> Paddles
-- Flint Tools -> Crude Tools
