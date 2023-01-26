@@ -35,4 +35,7 @@ onEvent("recipes", (event) => {
       event.remove({ output: `minecraft:${material}_${tool}` });
     });
   });
+
+  // Remove Boats for now
+  event.remove({ output: "#minecraft:boats" });
 });
