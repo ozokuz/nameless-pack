@@ -17,15 +17,6 @@ onEvent("recipes", (event) => {
     output: "#forge:dusts",
   });
 
-  // Remove No Tree Punching Tools
-  event.remove({ output: "notreepunching:flint_knife" });
-  ["iron", "gold", "diamond", "netherite"].forEach((material) => {
-    ["knife", "mattock"].forEach((tool) => {
-      // @ts-expect-error dynamic
-      event.remove({ output: `notreepunching:${material}_${tool}` });
-    });
-  });
-
   // Remove Vanilla Metal Tools
   const material = ["iron", "gold", "diamond"];
   const toolType = ["sword", "pickaxe", "shovel", "axe", "hoe"];

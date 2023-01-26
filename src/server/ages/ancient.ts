@@ -49,14 +49,3 @@ onEvent("recipes", (event) => {
     },
   );
 });
-
-// Prevent players from breaking choppables without an axe
-onEvent("block.break", (event) => {
-  if (!event.player) return;
-  if (event.player.isFake()) return;
-  if (!event.block.hasTag("treechop:choppables")) return;
-  if (!event.player.mainHandItem) return;
-  if (event.player.mainHandItem.hasTag("nameless:axe")) return;
-
-  event.cancel();
-});
