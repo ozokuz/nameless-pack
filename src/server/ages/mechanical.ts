@@ -1,60 +1,29 @@
 onEvent("recipes", (event) => {
   // Harder Andesite Alloy
   event.remove({ output: "create:andesite_alloy" });
-  event.custom({
-    type: "tconstruct:casting_basin",
-    // @ts-expect-error custom
-    cast: {
-      item: "minecraft:andesite",
-    },
-    cast_consumed: true,
-    fluid: {
-      tag: "forge:molten_iron",
-      amount: 30,
-    },
-    result: "create:andesite_alloy",
-    cooling_time: 40,
-  });
-  event.custom({
-    type: "tconstruct:casting_basin",
-    // @ts-expect-error custom
-    cast: {
-      item: "minecraft:andesite",
-    },
-    cast_consumed: true,
-    fluid: {
-      tag: "forge:molten_zinc",
-      amount: 10,
-    },
-    result: "create:andesite_alloy",
-    cooling_time: 40,
-  });
-  event.custom({
-    type: "tconstruct:casting_basin",
-    // @ts-expect-error custom
-    cast: {
-      item: "tconstruct:seared_stone",
-    },
-    cast_consumed: true,
-    fluid: {
-      tag: "forge:molten_iron",
-      amount: 30,
-    },
-    result: "create:andesite_alloy",
-    cooling_time: 40,
-  });
-  event.custom({
-    type: "tconstruct:casting_basin",
-    // @ts-expect-error custom
-    cast: {
-      item: "tconstruct:seared_stone",
-    },
-    cast_consumed: true,
-    fluid: {
-      tag: "forge:molten_zinc",
-      amount: 10,
-    },
-    result: "create:andesite_alloy",
-    cooling_time: 40,
-  });
+
+  // @ts-expect-error docs
+  event.recipes.tconstruct
+    .casting_basin("create:andesite_alloy", "#forge:molten_iron", 30)
+    .cast("minecraft:andesite")
+    .consumeCast()
+    .coolingTime(40);
+  // @ts-expect-error docs
+  event.recipes.tconstruct
+    .casting_basin("create:andesite_alloy", "#forge:molten_zinc", 10)
+    .cast("minecraft:andesite")
+    .consumeCast()
+    .coolingTime(40);
+  // @ts-expect-error docs
+  event.recipes.tconstruct
+    .casting_basin("create:andesite_alloy", "#forge:molten_iron", 30)
+    .cast("tconstruct:seared_stone")
+    .consumeCast()
+    .coolingTime(40);
+  // @ts-expect-error docs
+  event.recipes.tconstruct
+    .casting_basin("create:andesite_alloy", "#forge:molten_zinc", 10)
+    .cast("tconstruct:seared_stone")
+    .consumeCast()
+    .coolingTime(40);
 });
