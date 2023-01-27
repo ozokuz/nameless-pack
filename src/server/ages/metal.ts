@@ -23,11 +23,13 @@ onEvent("recipes", (event) => {
         type: "minecraft:crafting_shapeless",
       });
 
-      event.recipes.minecraft.crafting_shapeless(plate, [
-        Item.of("immersiveengineering:hammer").ignoreNBT(),
-        ingot,
-        ingot,
-      ]);
+      event.recipes.minecraft
+        .crafting_shapeless(plate, [
+          Item.of("immersiveengineering:hammer").ignoreNBT(),
+          ingot,
+          ingot,
+        ])
+        .damageIngredient("immersiveengineering:hammer");
     },
   );
 
