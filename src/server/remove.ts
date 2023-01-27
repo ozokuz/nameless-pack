@@ -50,13 +50,4 @@ onEvent("recipes", (event) => {
       type: "minecraft:crafting_shapeless",
     });
   });
-
-  // Remove Boats for now
-  event.remove({ output: "#minecraft:boats" });
-
-  // Remove Higher tier Backpacks for now
-  ["iron", "gold", "diamond", "netherite"].forEach((material) => {
-    // @ts-expect-error dynamic
-    event.remove({ output: `sophisticatedbackpacks:${material}_backpack` });
-  });
 });
