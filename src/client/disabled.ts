@@ -1,6 +1,11 @@
 onEvent("jei.hide.items", (event) => {
-  // Disable Probe for now
+  // Disable some mods temporarily
   event.hide("@theoneprobe");
+  event.hide("@sophisticatedstorage");
+  event.hide("@functionalstorage");
+  event.hide("@prettypipes");
+  event.hide("@torchmaster");
+  event.hide("@chunkloaders");
 
   // Disable Boats for now
   event.hide("#minecraft:boats");
