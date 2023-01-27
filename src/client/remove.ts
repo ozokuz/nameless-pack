@@ -27,4 +27,9 @@ onEvent("jei.hide.items", (event) => {
 
   // Remove Boats for now
   event.hide("#minecraft:boats");
+
+  // Remove Higher tier Backpacks for now
+  ["iron", "gold", "diamond", "netherite"].forEach((material) => {
+    event.hide(`sophisticatedbackpacks:${material}_backpack`);
+  });
 });
