@@ -24,4 +24,9 @@ onEvent("jei.hide.items", (event) => {
   ["wood", "stone", "bone", "gold"].forEach((material) => {
     event.hide(`sewingkit:${material}_sewing_needle`);
   });
+
+  // Remove Immersive Engineering Crates
+  event.hide("engineersdecor:labeled_crate");
+  event.hide("immersiveengineering:crate");
+  event.hide("immersiveengineering:reinforced_crate");
 });

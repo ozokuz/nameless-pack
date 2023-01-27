@@ -50,4 +50,9 @@ onEvent("recipes", (event) => {
       type: "minecraft:crafting_shapeless",
     });
   });
+
+  // Remove Immersive Engineering Crates
+  event.remove({ output: "engineersdecor:labeled_crate" });
+  event.remove({ output: "immersiveengineering:crate" });
+  event.remove({ output: "immersiveengineering:reinforced_crate" });
 });
