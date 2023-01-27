@@ -11,13 +11,13 @@ const dist = join(cwd(), "dist");
 
 const main = async () => {
   if (existsSync(server)) {
-    await rm(kube, { recursive: true });
+    await rm(server, { recursive: true });
   }
   if (existsSync(startup)) {
-    await rm(kube, { recursive: true });
+    await rm(startup, { recursive: true });
   }
   if (existsSync(client)) {
-    await rm(kube, { recursive: true });
+    await rm(client, { recursive: true });
   }
 
   await mkdir(server);
