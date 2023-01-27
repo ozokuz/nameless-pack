@@ -17,22 +17,37 @@ onEvent("recipes", (event) => {
     output: "#forge:dusts",
   });
 
-  // Remove Vanilla Metal Tools
-  const material = [
-    "wooden",
-    "stone",
-    "iron",
-    "golden",
-    "diamond",
-    "netherite",
-  ];
-  const toolType = ["sword", "pickaxe", "shovel", "axe", "hoe"];
-  event.remove({ output: "minecraft:shears" });
+  event.remove({
+    output: "tconstruct:seared_heater",
+  });
 
-  toolType.forEach((tool) => {
-    material.forEach((material) => {
+  // Remove Vanilla Tools
+  event.remove({ output: "minecraft:shears" });
+  ["sword", "pickaxe", "shovel", "axe", "hoe"].forEach((tool) => {
+    ["wooden", "stone", "iron", "golden", "diamond", "netherite"].forEach(
+      (material) => {
+        // @ts-expect-error dynamic
+        event.remove({ output: `minecraft:${material}_${tool}` });
+      },
+    );
+  });
+
+  // Remove Vanilla Armors
+  ["helmet", "chestplate", "leggings", "boots"].forEach((armor) => {
+    ["leather", "iron", "chainmail", "golden", "diamond", "netherite"].forEach(
+      (material) => {
+        // @ts-expect-error dynamic
+        event.remove({ output: `minecraft:${material}_${armor}` });
+      },
+    );
+  });
+
+  // Remove Sewing Kit Easy Needles
+  ["wood", "stone", "bone", "gold"].forEach((material) => {
+    event.remove({
       // @ts-expect-error dynamic
-      event.remove({ output: `minecraft:${material}_${tool}` });
+      output: `sewingkit:${material}_sewing_needle`,
+      type: "minecraft:crafting_shapeless",
     });
   });
 
