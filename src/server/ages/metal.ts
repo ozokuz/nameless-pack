@@ -33,6 +33,38 @@ onEvent("recipes", (event) => {
     },
   );
 
+  // Bucket
+  event.remove({
+    output: "minecraft:bucket",
+    type: "minecraft:crafting_shaped",
+  });
+  // TODO: Replace this with custom bucket cast
+  event.recipes.minecraft
+    .crafting_shaped("minecraft:bucket", ["PHP", " P "], {
+      P: "#forge:plates/iron",
+      H: Item.of("immersiveengineering:hammer").ignoreNBT(),
+    })
+    .damageIngredient("immersiveengineering:hammer");
+
+  // Hopper
+  event.remove({ output: "minecraft:hopper" });
+  event.recipes.minecraft
+    .crafting_shaped("minecraft:hopper", ["P P", "PHP", " P "], {
+      P: "#forge:plates/iron",
+      H: Item.of("immersiveengineering:hammer").ignoreNBT(),
+    })
+    .damageIngredient("immersiveengineering:hammer");
+
+  // Stonecutter
+  event.remove({ output: "minecraft:stonecutter" });
+  event.recipes.minecraft
+    .crafting_shaped("minecraft:stonecutter", [" H ", " P ", "SSS"], {
+      P: "#forge:plates/iron",
+      H: Item.of("immersiveengineering:hammer").ignoreNBT(),
+      S: "minecraft:smooth_stone",
+    })
+    .damageIngredient("immersiveengineering:hammer");
+
   // Easier Compass
   event.remove({ output: "minecraft:compass" });
   event.recipes.minecraft.crafting_shaped(
