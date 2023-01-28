@@ -29,9 +29,15 @@
 
 ## Add
 
+- Paper Automation w/ cellulose
+- Logic Workbench
+- Engineer's Toolbox
+
 # Other Stuff
 
 ## Short Term
+
+- Hide IE Crate Minecarts
 
 ## Long Term
 
