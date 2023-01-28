@@ -57,4 +57,14 @@ onEvent("recipes", (event) => {
     output: "minecraft:book",
     type: "minecraft:crafting_shapeless",
   });
+  event.recipes.minecraft.crafting_shaped("minecraft:book", ["SCP", "CPP"], {
+    P: "minecraft:paper",
+    S: "#forge:string",
+    C: "minecraft:leather",
+  });
+  event.recipes.minecraft.crafting_shaped("minecraft:book", ["SCP", "CPP"], {
+    P: "minecraft:paper",
+    S: "#forge:string",
+    C: "tconstruct:pattern",
+  });
 });
