@@ -29,7 +29,7 @@ onEvent("recipes", (event) => {
 
   // Sawdust
   event.recipes.minecraft
-    .crafting_shapeless("immersiveengineering:sawdust", [
+    .crafting_shapeless("immersiveengineering:dust_wood", [
       "minecraft:stick",
       "tinkersurvival:mortar_and_pestle",
     ])
