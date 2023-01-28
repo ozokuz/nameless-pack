@@ -11,13 +11,27 @@
   - 2 Paddles
   - 4 Planks
 
+# Temporarily Disabled
+
+- Probe
+- Sophisticated Storage
+  - Plates
+  - Chest
+- Functional Storage
+- Pretty Pipes
+- Mega Torch
+- Chunk Loader
+- Warp Stone
+
+# Other
+
+- Bucket - Usable, but will be replaced at some point
+
 ## Add
 
 # Other Stuff
 
 ## Short Term
-
-- Neft "Waystone Orb"
 
 ## Long Term
 
@@ -30,10 +44,29 @@
   - Grass Cutting
   - Flint Stone Knapping
   - Campfire
-  - Storage Options
-    - Large Vessel
-    - Small Vessel
+  - Stone Age Storage
     - Sack
+    - Eccentric Tome
+    - Lunchbag
+    - Bundle
+  - Metal Age Storage
+    - Chest
+    - Barrel
+    - Tool Belt
+    - Quark Backpack
+    - Leather Backpack
+  - Mechanical Age Storage
+    - Quark Crate
+    - Sophisticated Backpacks
+    - Sophisticated Storage
+    - Functional Storage Wood Drawers
+    - Create Toolbox
+  - Industrial Age Storage
+    - Immersive Engineering Toolbox
+    - Functional Storage Everything
+    - Pretty Pipes
+
+
 
 ## Rename
 
