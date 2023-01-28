@@ -7,10 +7,10 @@ onEvent("jei.hide.items", (event) => {
   event.hide("@torchmaster");
   event.hide("@chunkloaders");
 
-  // Disable Boats for now
+  // Temporarily disable Boats
   event.hide("#minecraft:boats");
 
-  // Disable Higher tier Backpacks for now
+  // Temporarily disable Higher tier Backpacks
   ["iron", "gold", "diamond", "netherite"].forEach((material) => {
     event.hide(`sophisticatedbackpacks:${material}_backpack`);
   });

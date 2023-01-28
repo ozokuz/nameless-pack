@@ -1,4 +1,5 @@
 onEvent("jei.hide.items", (event) => {
+  // Remove Seared Heater
   event.hide("tconstruct:seared_heater");
 
   // Remove Vanilla Tools

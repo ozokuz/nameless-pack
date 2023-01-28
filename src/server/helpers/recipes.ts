@@ -1,4 +1,4 @@
-function kiln(
+/* function kiln(
   output: Internal.ItemStackJS_,
   input: Internal.IngredientJS_,
   event: Internal.RecipeEventJS,
@@ -13,7 +13,7 @@ function kiln(
     experience: 0.3,
     cookingtime: 100,
   });
-}
+} */
 
 type SewingInput = { count: number } & (
   | { item: Internal.IngredientJS_ }
@@ -52,6 +52,6 @@ function sewing(
 }
 
 export default {
-  ceramics: { kiln },
+  // ceramics: { kiln },
   sewingkit: { sewing },
 } as const;

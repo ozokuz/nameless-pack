@@ -31,10 +31,8 @@ onEvent("recipes", (event) => {
   event.recipes.minecraft
     .crafting_shapeless("immersiveengineering:sawdust", [
       "minecraft:stick",
-      // @ts-expect-error until type regeneration
       "tinkersurvival:mortar_and_pestle",
     ])
-    // @ts-expect-error until type regeneration
     .keepIngredient("tinkersurvival:mortar_and_pestle");
 
   // Paper

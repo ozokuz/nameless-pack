@@ -17,6 +17,7 @@ onEvent("recipes", (event) => {
     output: "#forge:dusts",
   });
 
+  // Remove Seared Heater
   event.remove({
     output: "tconstruct:seared_heater",
   });
