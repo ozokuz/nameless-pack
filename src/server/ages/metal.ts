@@ -104,6 +104,15 @@ onEvent("recipes", (event) => {
     },
   );
 
+  // Remove normal Lantern recipe
+  event.remove({
+    output: "minecraft:lantern",
+    type: "minecraft:crafting_shaped",
+  });
+
+  // Roasting Stics to Torches :D
+  event.recipes.minecraft.smoking("minecraft:torch", "minecraft:stick");
+
   // Quark Backpack
   event.remove({ output: "quark:backpack" });
   recipes.sewingkit.sewing(
