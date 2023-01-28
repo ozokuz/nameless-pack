@@ -42,15 +42,17 @@ onEvent("recipes", (event) => {
   event.recipes.minecraft.crafting_shaped("minecraft:paper", ["SSS"], {
     S: "minecraft:sugar_cane",
   });
-  event.recipes.minecraft.crafting_shaped(
-    // @ts-expect-error multiple
-    "3x minecraft:paper",
-    [" H ", "SSS", "SSS"],
-    {
-      H: Item.of("immersiveengineering:hammer").ignoreNBT(),
-      S: "#forge:dusts/wood",
-    },
-  );
+  event.recipes.minecraft
+    .crafting_shaped(
+      // @ts-expect-error multiple
+      "3x minecraft:paper",
+      [" W ", "SSS", "SSS"],
+      {
+        W: "minecraft:water_bucket",
+        S: "#forge:dusts/wood",
+      },
+    )
+    .replaceIngredient("minecraft:water_bucket", "minecraft:bucket");
 
   // Book
   event.remove({
