@@ -53,6 +53,20 @@ onEvent("recipes", (event) => {
       },
     )
     .replaceIngredient("minecraft:water_bucket", "minecraft:bucket");
+  event.recipes.minecraft
+    .crafting_shaped(
+      // @ts-expect-error multiple
+      "3x minecraft:paper",
+      [" W ", "SSS", "SSS"],
+      {
+        W: Item.of("ceramics:fluid_clay_bucket", '{fluid:"minecraft:water"}'),
+        S: "#forge:dusts/wood",
+      },
+    )
+    .replaceIngredient(
+      Item.of("ceramics:fluid_clay_bucket", '{fluid:"minecraft:water"}'),
+      "ceramics:empty_clay_bucket",
+    );
 
   // Book
   event.remove({
