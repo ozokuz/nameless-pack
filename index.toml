@@ -134,7 +134,7 @@ hash = "566c7d46de704d18ff294b25a1f50a8e4f7d153c6bc9ee88daf276905bc0939a"
 
 [[files]]
 file = "kubejs/client_scripts/script.js"
-hash = "78a544fc51c7f25f7033bc233ecff1f4c91f9e57c5eb1edd6205a5fcbefbde45"
+hash = "54e20511f0f0b37817a2a01a05dad00a8644deb855fa7ffb0660fb3a8686f047"
 
 [[files]]
 file = "kubejs/data/towers_of_the_wild_reworked/advancements/derelict_grass_tower.json"
@@ -346,11 +346,11 @@ hash = "2675e57415ea79347bfe71c280d48e2a9da5604fe64790153ae836113bf94f86"
 
 [[files]]
 file = "kubejs/server_scripts/script.js"
-hash = "e9b3c525da6c93c04fdf945e4b380ea51032a31dee3fed26a1efc7a602e48cb4"
+hash = "ee9d77176a9acf68ed414cfe11ea1feb2362f92192cfec0e94d72d6a28bdd7f2"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"
-hash = "5a556c23532567ec3e6f8e50f94814bcb609505de586759a5ce08b14964c557d"
+hash = "4a53f5d5fd896bd2869929eb8b38ad604b09d3424cb5fa05f97636c9a22e36ae"
 
 [[files]]
 file = "mods/abnormals-delight.pw.toml"
@@ -1185,6 +1185,21 @@ metafile = true
 [[files]]
 file = "mods/krypton-reforged.pw.toml"
 hash = "3a8f223c33599ab510da8671b8402239eef9024fb1a148ab3bc422f05e4951c7"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "2100e99d7d9dae43f992b3c62ce88374414309b39f0526254ed826f686d3a1bb"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-immersive-engineering.pw.toml"
+hash = "ec0ff13c5582c8e209b41f7573fafa41f31f6df074dbbaf859f5011bff9e2cd4"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-tinkers-construct.pw.toml"
+hash = "4a5be73ac2c77b6dda180af6a69a67de8895cf233f84f6c9423fbff683cd44f4"
 metafile = true
 
 [[files]]

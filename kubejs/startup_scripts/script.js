@@ -1,1 +1,1 @@
-"use strict";(function(){})();
+"use strict";(function(){onEvent("item.modification",function(t){t.modify("tinkersurvival:mortar_and_pestle",function(t){t.setMaxStackSize(1)})});onEvent("item.tags",function(t){t.add("nameless:stupid_wood_tag","minecraft:logs_that_burn")})})();
