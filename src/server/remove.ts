@@ -55,4 +55,11 @@ onEvent("recipes", (event) => {
   event.remove({ output: "engineersdecor:labeled_crate" });
   event.remove({ output: "immersiveengineering:crate" });
   event.remove({ output: "immersiveengineering:reinforced_crate" });
+
+  // Remove stupid iron stick recipes
+  event.remove({ output: "car:iron_stick" });
+  event.remove({
+    output: "#forge:rods/all_metal",
+    type: "minecraft:crafting_shaped",
+  });
 });
