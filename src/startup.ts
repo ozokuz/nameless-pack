@@ -4,3 +4,7 @@ onEvent("item.modification", (event) => {
     item.setMaxStackSize(1);
   });
 });
+
+onEvent("item.tags", (event) => {
+  event.add("nameless:stupid_wood_tag", "minecraft:logs_that_burn");
+});

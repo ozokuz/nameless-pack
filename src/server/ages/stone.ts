@@ -13,7 +13,8 @@ onEvent("recipes", (event) => {
   // Logs to charcoal
   event.recipes.minecraft.smoking(
     "minecraft:charcoal",
-    "#minecraft:logs_that_burn",
+    // @ts-expect-error just added
+    "#nameless:stupid_wood_tag",
   );
 
   // Easier Bundle
