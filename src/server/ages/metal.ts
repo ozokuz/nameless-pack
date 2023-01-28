@@ -2,36 +2,15 @@ import recipes from "../helpers/recipes";
 
 onEvent("recipes", (event) => {
   // Plates Need 2 Ingots
-  event.forEachRecipe(
-    {
-      output: "#forge:plates",
-      type: "minecraft:crafting_shapeless",
-      input: "immersiveengineering:hammer",
-    },
-    (recipe) => {
-      const ingot = recipe.originalRecipeIngredients
-        .toArray()
-        .find(
-          (item: Internal.IngredientJS) =>
-            item.getFirst().getId() !== "immersiveengineering:hammer",
-        )![0]! as Internal.IngredientJS;
-      const plate = recipe.originalRecipeResult;
-
-      event.remove({
-        output: "#forge:plates",
-        input: ingot,
-        type: "minecraft:crafting_shapeless",
-      });
-
-      event.recipes.minecraft
-        .crafting_shapeless(plate, [
-          Item.of("immersiveengineering:hammer").ignoreNBT(),
-          ingot,
-          ingot,
-        ])
-        .damageIngredient("immersiveengineering:hammer");
-    },
-  );
+  // TODO: Make this work for all metals
+  event.remove({ output: "immersiveengineering:plate_iron" });
+  event.recipes.minecraft
+    .crafting_shapeless("immersiveengineering:plate_iron", [
+      Item.of("immersiveengineering:hammer").ignoreNBT(),
+      "minecraft:iron_ingot",
+      "minecraft:iron_ingot",
+    ])
+    .damageIngredient("immersiveengineering:hammer");
 
   // Bucket
   event.remove({
