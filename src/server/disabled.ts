@@ -10,9 +10,6 @@ onEvent("recipes", (event) => {
   // Temporarily disable Warp Stone
   event.remove({ output: "waystones:warp_stone" });
 
-  // Temporarily disable Boats
-  event.remove({ output: "#minecraft:boats" });
-
   // Temporarily disable Higher tier Backpacks
   ["iron", "gold", "diamond", "netherite"].forEach((material) => {
     // @ts-expect-error dynamic
