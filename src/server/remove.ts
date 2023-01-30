@@ -63,4 +63,25 @@ onEvent("recipes", (event) => {
     output: "#forge:rods/all_metal",
     type: "minecraft:crafting_shaped",
   });
+
+  // Remove Functional Storage's Wood Drawers
+  [
+    "oak",
+    "birch",
+    "spruce",
+    "junge",
+    "dark_oak",
+    "acacia",
+    "crimson",
+    "warped",
+  ].forEach((material) => {
+    [1, 2, 4].forEach((size) => {
+      // @ts-expect-error dynamic
+      event.remove({ output: `functionalstorage:${material}_${size}` });
+    });
+  });
+
+  // Remove Functional Storage's Compacting Drawers
+  event.remove({ output: "functionalstorage:compacting_drawer" });
+  event.remove({ output: "functionalstorage:simple_compacting_drawer" });
 });
