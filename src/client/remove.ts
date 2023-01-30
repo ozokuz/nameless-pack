@@ -31,7 +31,7 @@ onEvent("jei.hide.items", (event) => {
   event.hide("immersiveengineering:crate");
   event.hide("immersiveengineering:reinforced_crate");
 
-  // Remove excess The One probe items
+  // Remove excess The One Probe items
   event.hide("theoneprobe:creativeprobe");
   event.hide("theoneprobe:probenote");
   event.hide("theoneprobe:diamond_helmet_probe");

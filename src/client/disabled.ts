@@ -1,6 +1,5 @@
 onEvent("jei.hide.items", (event) => {
   // Disable some mods temporarily
-
   event.hide("@sophisticatedstorage");
   event.hide("@functionalstorage");
   event.hide("@prettypipes");
