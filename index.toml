@@ -130,11 +130,11 @@ hash = "9dd7696044adc25ef8e8ef391efd0d0c3f645c86464e3b7ae84e7415773a7927"
 
 [[files]]
 file = "defaultconfigs/tinkersurvival-server.toml"
-hash = "566c7d46de704d18ff294b25a1f50a8e4f7d153c6bc9ee88daf276905bc0939a"
+hash = "e703fb12187562ba93a948516ee80cea9c681592c8caf7f684ccd8317f84fb39"
 
 [[files]]
 file = "kubejs/client_scripts/script.js"
-hash = "54e20511f0f0b37817a2a01a05dad00a8644deb855fa7ffb0660fb3a8686f047"
+hash = "5560a3ea6cd52bf33934e50545aaa5fb5b180073109f8cb73fe69326bad84106"
 
 [[files]]
 file = "kubejs/data/towers_of_the_wild_reworked/advancements/derelict_grass_tower.json"
@@ -346,11 +346,11 @@ hash = "2675e57415ea79347bfe71c280d48e2a9da5604fe64790153ae836113bf94f86"
 
 [[files]]
 file = "kubejs/server_scripts/script.js"
-hash = "ee9d77176a9acf68ed414cfe11ea1feb2362f92192cfec0e94d72d6a28bdd7f2"
+hash = "eac9c46e1b54d563b33115702a12664bbb9a708b429e3c974e93c0cdbb188d35"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"
-hash = "4a53f5d5fd896bd2869929eb8b38ad604b09d3424cb5fa05f97636c9a22e36ae"
+hash = "85c4a13cfdc2fa9cdadfe2dcac144e06c83692f6722c6d1337d31cfead3d5f21"
 
 [[files]]
 file = "mods/abnormals-delight.pw.toml"
@@ -719,7 +719,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "c1ab5c64ac36cdc7b2ccea6f017580ef7a2bae38093a713f9c66ffd3820a1d74"
+hash = "3d22456ed14c5f4abaf5a1b3dfcfaff3626f595f353176eec276f70dffdef6fd"
 metafile = true
 
 [[files]]

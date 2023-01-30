@@ -8,7 +8,7 @@ HEAL_RATE = 0.14
 #Range: 1.0 ~ 5.0
 SLOW_DOWN_MULTIPLIER = 1.0
 #List of mods that tools will always work for. All other mod tools will become wet noodles. Default: ["tconstruct", "tinkersurvival"]
-mods = ["tconstruct", "tinkersurvival", "minecraft", "aquaculture", "bloodmagic", "blue_skies", "botania", "forbidden_arcanus", "miningmaster", "alloyed", "phantasm", "immersiveengineering", "malum", "byg", "rootsclassic", "twilightforest", "create"]
+mods = ["tconstruct", "tinkersurvival", "minecraft", "aquaculture", "bloodmagic", "blue_skies", "botania", "forbidden_arcanus", "miningmaster", "alloyed", "phantasm", "immersiveengineering", "malum", "byg", "rootsclassic", "twilightforest", "create", "hexcasting", "ars_nouveau"]
 #List of individual tools that will always work. Format tooltype-modid:item Default: ["hammer-immersiveengineering:hammer", "wirecutter-immersiveengineering:wirecutter"]
 items = []
 #Used to dump log info for Tinkers's Survival Modpack. Ignore.

@@ -10,13 +10,6 @@ onEvent("recipes", (event) => {
     },
   );
 
-  // Logs to charcoal
-  event.recipes.minecraft.smoking(
-    "minecraft:charcoal",
-    // @ts-expect-error just added
-    "#nameless:stupid_wood_tag",
-  );
-
   // Easier Bundle
   event.remove({ output: "minecraft:bundle" });
   event.recipes.minecraft.crafting_shaped(

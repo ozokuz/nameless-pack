@@ -77,4 +77,28 @@ onEvent("recipes", (event) => {
     "create:andesite_casing",
     "immersiveengineering:sawblade",
   ]);
+
+  // Better steam engine
+  event.remove({ output: "create:steam_engine" });
+  event.recipes.create.mechanical_crafting(
+    "create:steam_engine",
+    [" S ", "CAC", "CBC"],
+    {
+      S: "#forge:plates/brass",
+      C: "#forge:plates/copper",
+      B: "#forge:storage_blocks/copper",
+      A: "create:andesite_alloy",
+    },
+  );
+
+  // Better fluid tank
+  event.remove({ output: "create:fluid_tank" });
+  event.recipes.minecraft.crafting_shaped(
+    "create:fluid_tank",
+    ["C", "G", "C"],
+    {
+      C: "#forge:plates/copper",
+      G: "tconstruct:clear_glass",
+    },
+  );
 });
