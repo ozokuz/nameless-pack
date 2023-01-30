@@ -346,11 +346,11 @@ hash = "2675e57415ea79347bfe71c280d48e2a9da5604fe64790153ae836113bf94f86"
 
 [[files]]
 file = "kubejs/server_scripts/script.js"
-hash = "5a9527f76a4402ef7d2a743b08755efb1f4a964781bf3ce2c6a0e46af7279218"
+hash = "879e71084248128dfc110308f7f59f12be8d057a88bc1b08062599dae68c6b7b"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"
-hash = "4a53f5d5fd896bd2869929eb8b38ad604b09d3424cb5fa05f97636c9a22e36ae"
+hash = "85c4a13cfdc2fa9cdadfe2dcac144e06c83692f6722c6d1337d31cfead3d5f21"
 
 [[files]]
 file = "mods/abnormals-delight.pw.toml"
