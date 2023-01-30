@@ -134,7 +134,7 @@ hash = "e703fb12187562ba93a948516ee80cea9c681592c8caf7f684ccd8317f84fb39"
 
 [[files]]
 file = "kubejs/client_scripts/script.js"
-hash = "03c30408d276574c1707bfaae9bf5774058e1d399b98544475853d672936e233"
+hash = "5560a3ea6cd52bf33934e50545aaa5fb5b180073109f8cb73fe69326bad84106"
 
 [[files]]
 file = "kubejs/data/towers_of_the_wild_reworked/advancements/derelict_grass_tower.json"
@@ -346,11 +346,11 @@ hash = "2675e57415ea79347bfe71c280d48e2a9da5604fe64790153ae836113bf94f86"
 
 [[files]]
 file = "kubejs/server_scripts/script.js"
-hash = "241791c679b85fd5686d425c30986faabf70b04014c222fdb5ded9390495c184"
+hash = "eac9c46e1b54d563b33115702a12664bbb9a708b429e3c974e93c0cdbb188d35"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"
-hash = "4a53f5d5fd896bd2869929eb8b38ad604b09d3424cb5fa05f97636c9a22e36ae"
+hash = "85c4a13cfdc2fa9cdadfe2dcac144e06c83692f6722c6d1337d31cfead3d5f21"
 
 [[files]]
 file = "mods/abnormals-delight.pw.toml"
