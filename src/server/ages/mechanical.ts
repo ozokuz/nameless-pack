@@ -55,7 +55,6 @@ onEvent("recipes", (event) => {
   );
 
   // Spellbook With Tinker's Tools
-
   event.remove({ output: "ars_nouveau:novice_spell_book" });
   event.recipes.minecraft.crafting_shaped(
     "ars_nouveau:novice_spell_book",

@@ -78,7 +78,7 @@ onEvent("recipes", (event) => {
     "immersiveengineering:sawblade",
   ]);
 
-  //Better steam engine
+  // Better steam engine
   event.remove({ output: "create:steam_engine" });
   event.recipes.create.mechanical_crafting(
     "create:steam_engine",
@@ -91,7 +91,7 @@ onEvent("recipes", (event) => {
     },
   );
 
-  //Better fluid tank
+  // Better fluid tank
   event.remove({ output: "create:fluid_tank" });
   event.recipes.minecraft.crafting_shaped(
     "create:fluid_tank",
