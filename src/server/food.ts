@@ -25,22 +25,12 @@ onEvent("recipes", (event) => {
       "create:wheat_flour",
     ])
     .replaceIngredient("minecraft:water_bucket", "minecraft:bucket");
+  event.recipes.create.splashing(
+    "farmersdelight:wheat_dough",
+    "#forge:flour/wheat",
+  );
   event.recipes.minecraft.campfire_cooking(
     "minecraft:bread",
     "farmersdelight:wheat_dough",
   );
-  event.custom({
-    type: "create:splashing",
-    // @ts-expect-error custom
-    ingredients: [
-      {
-        tag: "forge:flour/wheat",
-      },
-    ],
-    results: [
-      {
-        item: "farmersdelight:wheat_dough",
-      },
-    ],
-  });
 });
