@@ -37,4 +37,14 @@ onEvent("jei.hide.items", (event) => {
   event.hide("theoneprobe:diamond_helmet_probe");
   event.hide("theoneprobe:gold_helmet_probe");
   event.hide("theoneprobe:iron_helmet_probe");
+
+  // Remove Sophisticated Storage Unused Recipes
+  event.hide("@sophisticatedstorage");
+});
+
+onEvent("jei.add.items", (event) => {
+  // Adding Sophisticated Storage Items
+  event.add("sophisticatedstorage:upgrade_base");
+  event.add("sophisticatedstorage:basic_to_iron_tier_upgrade");
+  event.add("sophisticatedstorage:iron_to_gold_tier_upgrade");
 });
