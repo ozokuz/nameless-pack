@@ -226,4 +226,19 @@ onEvent("recipes", (event) => {
       );
     },
   );
+
+  // Recipe for Upgrade base
+  event.recipes.minecraft
+    .crafting_shaped(
+      "sophisticatedstorage:upgrade_base",
+      ["PPP", "PCP", "PPP"],
+      {
+        P: "tconstruct:pattern",
+        C: "immersiveengineering:creosote_bucket",
+      },
+    )
+    .replaceIngredient(
+      "immersiveengineering:creosote_bucket",
+      "minecraft:bucket",
+    );
 });

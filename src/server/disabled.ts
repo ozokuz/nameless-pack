@@ -1,5 +1,4 @@
 onEvent("recipes", (event) => {
-  event.remove({ mod: "sophisticatedstorage" });
   event.remove({ mod: "functionalstorage" });
   event.remove({ mod: "prettypipes" });
 

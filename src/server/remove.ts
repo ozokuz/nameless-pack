@@ -84,4 +84,7 @@ onEvent("recipes", (event) => {
   // Remove Functional Storage's Compacting Drawers
   event.remove({ output: "functionalstorage:compacting_drawer" });
   event.remove({ output: "functionalstorage:simple_compacting_drawer" });
+
+  // Remove Sophisticated Storage unused recipes
+  event.remove({ mod: "sophisticatedstorage" });
 });
