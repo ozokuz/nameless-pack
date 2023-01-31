@@ -210,7 +210,7 @@ onEvent("recipes", (event) => {
         ["MPM", "TTT"],
         {
           M: `minecraft:${material}_planks`,
-          P: "immersiveengineering:emergency_paddles",
+          P: "immersiveengineering:upgrade_paddles",
           T: "#forge:treated_wood",
         },
       );
@@ -226,4 +226,19 @@ onEvent("recipes", (event) => {
       );
     },
   );
+
+  // Recipe for Upgrade base
+  event.recipes.minecraft
+    .crafting_shaped(
+      "sophisticatedstorage:upgrade_base",
+      ["PPP", "PCP", "PPP"],
+      {
+        P: "tconstruct:pattern",
+        C: "immersiveengineering:creosote_bucket",
+      },
+    )
+    .replaceIngredient(
+      "immersiveengineering:creosote_bucket",
+      "minecraft:bucket",
+    );
 });

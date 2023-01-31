@@ -18,7 +18,7 @@ onEvent("recipes", (event) => {
   ]);
 
   // Cogs
-  event.remove({ output: "create:cogwheel" });
+  event.remove({ output: "create:cogwheel", input: "create:shaft" });
   event.remove({ output: "create:large_cogwheel" });
 
   event.recipes.minecraft.crafting_shapeless("create:cogwheel", [

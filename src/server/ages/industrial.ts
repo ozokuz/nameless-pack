@@ -7,7 +7,7 @@ onEvent("recipes", (event) => {
     {
       C: "createaddition:capacitor",
       S: "immersiveengineering:component_steel",
-      M: "botania:manasteel_ingot",
+      M: "botania:mana_pearl",
       E: "create:electron_tube",
     },
   );

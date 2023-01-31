@@ -43,6 +43,13 @@ onEvent("recipes", (event) => {
     );
   });
 
+  // Remove Vanilla recipe for Painting
+  event.remove({
+    output: "minecraft:painting",
+    type: "minecraft:crafting_shaped",
+    input: "#minecraft:wool",
+  });
+
   // Remove Sewing Kit Easy Needles
   ["wood", "stone", "bone", "gold"].forEach((material) => {
     event.remove({
@@ -84,4 +91,7 @@ onEvent("recipes", (event) => {
   // Remove Functional Storage's Compacting Drawers
   event.remove({ output: "functionalstorage:compacting_drawer" });
   event.remove({ output: "functionalstorage:simple_compacting_drawer" });
+
+  // Remove Sophisticated Storage unused recipes
+  event.remove({ mod: "sophisticatedstorage" });
 });
