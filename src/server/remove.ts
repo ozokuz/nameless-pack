@@ -43,6 +43,13 @@ onEvent("recipes", (event) => {
     );
   });
 
+  // Remove Vanilla recipe for Painting
+  event.remove({
+    output: "minecraft:painting",
+    type: "minecraft:crafting_shaped",
+    input: "#minecraft:wool",
+  });
+
   // Remove Sewing Kit Easy Needles
   ["wood", "stone", "bone", "gold"].forEach((material) => {
     event.remove({
