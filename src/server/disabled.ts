@@ -1,5 +1,5 @@
 onEvent("recipes", (event) => {
-  event.remove({ mod: "functionalstorage" });
+  event.remove({ mod: "sophisticatedstorage" });
   event.remove({ mod: "prettypipes" });
 
   // Temporarily disable Higher tier Backpacks
