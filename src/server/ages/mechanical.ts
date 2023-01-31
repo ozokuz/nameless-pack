@@ -141,8 +141,11 @@ onEvent("recipes", (event) => {
   // Recipe for Upgrade base with spout
   event.recipes.create.filling("sophisticatedstorage:upgrade_base", [
     "tconstruct:pattern",
-    // @ts-expect-error fluid
-    "#forge:creosote",
+    {
+      fluid: "immersiveengineering:creosote",
+      nbt: {},
+      amount: 125,
+    },
   ]);
 
   // Recipe for iron chest upgrade
