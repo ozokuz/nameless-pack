@@ -210,7 +210,7 @@ onEvent("recipes", (event) => {
         ["MPM", "TTT"],
         {
           M: `minecraft:${material}_planks`,
-          P: "immersiveengineering:emergency_paddles",
+          P: "immersiveengineering:upgrade_paddles",
           T: "#forge:treated_wood",
         },
       );
