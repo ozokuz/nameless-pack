@@ -151,9 +151,9 @@ onEvent("recipes", (event) => {
   // Recipe for iron chest upgrade
   event.recipes.minecraft.crafting_shaped(
     "sophisticatedstorage:basic_to_iron_tier_upgrade",
-    ["IPI", "PTP", "IPI"],
+    ["IBI", "BTB", "IBI"],
     {
-      P: "tconstruct:pattern",
+      B: "sophisticatedstorage:upgrade_base",
       T: "create:electron_tube",
       I: "#forge:plates/iron",
     },
@@ -164,8 +164,7 @@ onEvent("recipes", (event) => {
     "sophisticatedstorage:iron_to_gold_tier_upgrade",
     ["GBG", "B B", "GBG"],
     {
-      B: "sophisticatedstorage:basic_to_iron_tier_upgrade",
-      T: "create:electron_tube",
+      B: "sophisticatedstorage:upgrade_base",
       G: "#forge:plates/gold",
     },
   );
