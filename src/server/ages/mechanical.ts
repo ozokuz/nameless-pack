@@ -1,6 +1,9 @@
 onEvent("recipes", (event) => {
   // Harder Andesite Alloy
-  event.remove({ output: "create:andesite_alloy" });
+  event.remove({
+    output: "create:andesite_alloy",
+    type: "minecraft:crafting_shaped",
+  });
   // @ts-expect-error docs
   event.recipes.tconstruct
     .casting_basin("create:andesite_alloy", "#forge:molten_iron", 30)
