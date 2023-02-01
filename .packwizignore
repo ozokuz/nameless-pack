@@ -1,5 +1,6 @@
 .changeset
 dist
+instance
 scripts
 src
 node_modules
