@@ -7,12 +7,13 @@ onEvent("recipes", (event) => {
     },
     (recipe) => {
       const plank = recipe.originalRecipeIngredients[0]!;
-      const slab = recipe.originalRecipeResult;
+      const slab = recipe.originalRecipeResult.withCount(2);
 
       event.recipes.create.cutting(slab, plank);
     },
   );
 
   // Making sticks from slabs in create's mechanical saw
-  event.recipes.create.cutting("minecraft:stick", "#minecraft:wooden_slabs");
+  // @ts-expect-error multiple
+  event.recipes.create.cutting("6x minecraft:stick", "#minecraft:wooden_slabs");
 });

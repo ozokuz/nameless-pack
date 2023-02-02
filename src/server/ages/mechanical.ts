@@ -1,6 +1,9 @@
 onEvent("recipes", (event) => {
   // Harder Andesite Alloy
-  event.remove({ output: "create:andesite_alloy" });
+  event.remove({
+    output: "create:andesite_alloy",
+    type: "minecraft:crafting_shaped",
+  });
   // @ts-expect-error docs
   event.recipes.tconstruct
     .casting_basin("create:andesite_alloy", "#forge:molten_iron", 30)
@@ -138,16 +141,19 @@ onEvent("recipes", (event) => {
   // Recipe for Upgrade base with spout
   event.recipes.create.filling("sophisticatedstorage:upgrade_base", [
     "tconstruct:pattern",
-    // @ts-expect-error fluid
-    "#forge:creosote",
+    {
+      fluid: "immersiveengineering:creosote",
+      nbt: {},
+      amount: 125,
+    },
   ]);
 
   // Recipe for iron chest upgrade
   event.recipes.minecraft.crafting_shaped(
     "sophisticatedstorage:basic_to_iron_tier_upgrade",
-    ["IPI", "PTP", "IPI"],
+    ["IBI", "BTB", "IBI"],
     {
-      P: "tconstruct:pattern",
+      B: "sophisticatedstorage:upgrade_base",
       T: "create:electron_tube",
       I: "#forge:plates/iron",
     },
@@ -158,8 +164,7 @@ onEvent("recipes", (event) => {
     "sophisticatedstorage:iron_to_gold_tier_upgrade",
     ["GBG", "B B", "GBG"],
     {
-      B: "sophisticatedstorage:basic_to_iron_tier_upgrade",
-      T: "create:electron_tube",
+      B: "sophisticatedstorage:upgrade_base",
       G: "#forge:plates/gold",
     },
   );

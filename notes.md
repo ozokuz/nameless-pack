@@ -1,49 +1,48 @@
-# Recipes
+# Nameless Pack - Notes
 
-## Remove
+## Recipes
 
-## Replace
+### Remove
 
-- Boat
-  - Paddles
-  - 3 Planks
-- Large Boat
-  - 2 Paddles
-  - 4 Planks
+### Replace
 
-# Temporarily Disabled
-
-- Probe
-- Sophisticated Storage
-  - Plates
-  - Chest
-- Functional Storage
-- Pretty Pipes
-- Mega Torch
-- Chunk Loader
-- Warp Stone
-
-# Other
-
-- Bucket - Usable, but will be replaced at some point
-
-## Add
-
-- Paper Automation w/ cellulose
 - Logic Workbench
 - Engineer's Toolbox
 
-# Other Stuff
+### Add
 
-## Short Term
+- Paper Automation w/ cellulose
+
+### Other
+
+- Bucket - Usable, but will be replaced at some point
+  - Bucket Casts (Sand & Gold)
+
+## Mods
+
+### Temporarily Disabled
+
+- Pretty Pipes
+  - Re-Texture
+  - Recipes
+  - Addon
+    - Pretty Pipes: Remote
+
+## Other Stuff
+
+### Rename
+
+- Emergency Paddles -> Paddles
+
+### Short Term
 
 - Hide IE Crate Minecarts
 
-## Long Term
+### Long Term
 
 - List modifiers with kubejs
 
-## Patchouli Guide & JEI Info
+### Patchouli Guide & JEI Info
 
 - Add info about the early game
   - Tools
@@ -71,9 +70,3 @@
     - Immersive Engineering Toolbox
     - Functional Storage Everything
     - Pretty Pipes
-
-
-
-## Rename
-
-- Emergency Paddles -> Paddles

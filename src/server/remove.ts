@@ -76,7 +76,7 @@ onEvent("recipes", (event) => {
     "oak",
     "birch",
     "spruce",
-    "junge",
+    "jungle",
     "dark_oak",
     "acacia",
     "crimson",
