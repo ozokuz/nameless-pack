@@ -1,4 +1,4 @@
-onEvent("recipes", (event) => {
+export default (event: Internal.RecipeEventJS) => {
   // Disable Metal Conversions Without Melting
   event.remove({
     type: "minecraft:crafting_shapeless",
@@ -20,4 +20,4 @@ onEvent("recipes", (event) => {
     input: "#forge:nuggets",
     output: "#forge:ingots",
   });
-});
+};

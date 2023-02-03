@@ -1,13 +1,13 @@
 name = "End's Phantasm"
-filename = "End's Phantasm - v1.2.6.3a - 1.18.2.jar"
+filename = "End's Phantasm - BETAv1.2.9.2 - 1.18.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "36bc011efb5ead2271507f1215fdf2ae2737da2f"
+hash = "59fc7668a6f9ade07eeb2e3283b439bdf6f0ef2c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4119226
+file-id = 4364575
 project-id = 565254

@@ -1,26 +1,4 @@
-onEvent("recipes", (event) => {
-  // Easier Sack
-  event.remove({ output: "supplementaries:sack" });
-  event.recipes.minecraft.crafting_shaped(
-    "supplementaries:sack",
-    ["SPS", "S S", "SSS"],
-    {
-      S: "farmersdelight:straw",
-      P: "#forge:string",
-    },
-  );
-
-  // Easier Bundle
-  event.remove({ output: "minecraft:bundle" });
-  event.recipes.minecraft.crafting_shaped(
-    "minecraft:bundle",
-    [" S ", "L L", " L "],
-    {
-      L: "minecraft:leather",
-      S: "#forge:string",
-    },
-  );
-
+export default (event: Internal.RecipeEventJS) => {
   // Sawdust
   event.recipes.minecraft
     .crafting_shapeless("immersiveengineering:dust_wood", [
@@ -77,4 +55,4 @@ onEvent("recipes", (event) => {
     S: "#forge:string",
     C: "tconstruct:pattern",
   });
-});
+};

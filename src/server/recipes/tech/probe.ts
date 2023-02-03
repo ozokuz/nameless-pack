@@ -1,4 +1,4 @@
-onEvent("recipes", (event) => {
+export default (event: Internal.RecipeEventJS) => {
   // Harder Probe
   event.remove({ output: "theoneprobe:probe" });
   event.recipes.minecraft.crafting_shaped(
@@ -12,4 +12,4 @@ onEvent("recipes", (event) => {
       S: "immersiveengineering:component_steel",
     },
   );
-});
+};
