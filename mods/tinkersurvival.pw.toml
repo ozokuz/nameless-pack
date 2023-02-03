@@ -3,11 +3,6 @@ filename = "TinkerSurvival-1.18.2-2.3.10.2.jar"
 side = "both"
 
 [download]
+url = "https://files.nrth.xyz/games/minecraft/TinkerSurvival-1.18.2-2.3.10.2.jar"
 hash-format = "sha1"
-hash = "f93663cff063f3abedb409ab6f33ce8695a9a57a"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 4027778
-project-id = 294667
+hash = "55c5820d1729a988858fc2c783b7f143e06fb803"
