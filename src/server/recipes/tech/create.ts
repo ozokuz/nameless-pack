@@ -1,4 +1,34 @@
-onEvent("recipes", (event) => {
+export default (event: Internal.RecipeEventJS) => {
+  // Harder Andesite Alloy
+  event.remove({
+    output: "create:andesite_alloy",
+    type: "minecraft:crafting_shaped",
+  });
+  // @ts-expect-error docs
+  event.recipes.tconstruct
+    .casting_basin("create:andesite_alloy", "#forge:molten_iron", 30)
+    .cast("minecraft:andesite")
+    .consumeCast()
+    .coolingTime(40);
+  // @ts-expect-error docs
+  event.recipes.tconstruct
+    .casting_basin("create:andesite_alloy", "#forge:molten_zinc", 10)
+    .cast("minecraft:andesite")
+    .consumeCast()
+    .coolingTime(40);
+  // @ts-expect-error docs
+  event.recipes.tconstruct
+    .casting_basin("create:andesite_alloy", "#forge:molten_iron", 30)
+    .cast("tconstruct:seared_stone")
+    .consumeCast()
+    .coolingTime(40);
+  // @ts-expect-error docs
+  event.recipes.tconstruct
+    .casting_basin("create:andesite_alloy", "#forge:molten_zinc", 10)
+    .cast("tconstruct:seared_stone")
+    .consumeCast()
+    .coolingTime(40);
+
   // Casings
   event.remove({ output: "create:andesite_casing" });
   event.remove({ output: "create:copper_casing" });
@@ -101,4 +131,4 @@ onEvent("recipes", (event) => {
       G: "tconstruct:clear_glass",
     },
   );
-});
+};
