@@ -11,11 +11,8 @@
 
 ### Add
 
-- Paper Automation w/ cellulose
-
 ### Other
 
-- Ars Nouveau Book Tier 1 Can only accept oak bookshelves
 - Bucket - Usable, but will be replaced at some point
   - Bucket Casts (Sand & Gold)
 
