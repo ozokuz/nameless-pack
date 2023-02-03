@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "00502d63263166460d2f21c6197490c5670fabe3a0058780dbcfec9bc99b7d5c"
+hash = "802509e28f2c4117b48db34ce76b91e369fccc63037f56654559544288326d24"
 
 [[files]]
 file = "config/byg/biomepedia.json5"
