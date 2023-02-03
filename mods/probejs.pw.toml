@@ -1,13 +1,13 @@
 name = "ProbeJS"
-filename = "probejs-4.0.0-fix3-forge.jar"
+filename = "probejs-4.0.0-fix4-forge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2dbdf9a71c62aa396a1727212d43f7d7b82a0db0"
+hash = "73d6a511b9cc041b16b87f14651c83ebac54e839"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4145246
+file-id = 4365860
 project-id = 585406
