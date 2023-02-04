@@ -1,4 +1,7 @@
 onEvent("jei.hide.items", (event) => {
+  // Remove everything from Create Crafts & Additions
+  event.hide("@createaddition");
+
   // Remove Seared Heater
   event.hide("tconstruct:seared_heater");
 
@@ -43,6 +46,10 @@ onEvent("jei.hide.items", (event) => {
 });
 
 onEvent("jei.add.items", (event) => {
+  // Re-add some of Create Crafts & Additions' Electricity Things
+  event.add("createaddition:alternator");
+  event.add("createaddition:capacitor");
+
   // Adding Sophisticated Storage Items
   event.add("sophisticatedstorage:upgrade_base");
   event.add("sophisticatedstorage:basic_to_iron_tier_upgrade");
