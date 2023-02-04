@@ -69,82 +69,67 @@
     - Functional Storage Everything
     - Pretty Pipes
 
-## Removes
+## Remove Now
 
 - Advancement Plaques
 - Aileron
-- Allurement
-- Apotheosis
-- Better Combat
-- Blue Skies
 - Create Crafts & Additions
 - Curious Quark Oddities Backpack
 - Enchant With Mob
 - Enhanced Celestials
+- Item Borders
+- QuickStack
+- Re-Chiseled
+- Rubidium Extras (Sodium Extras, Not DeusVult)
+- Shoulder Surfing
+- Better Third Person
+- Create Confectionery
+- Create Factory
+- Creeper Overhaul
+- Too Many Glyphs
+- Ultimate Car Mod
+- Chipped
+- Macaw's Bridges
+- Music Maker Mod
+- Joy Of Painting
+- Concrete Conversion
+
+## Remove In Next Iteration
+
+- Allurement
+- Apotheosis
+- Better Combat
+- Blue Skies
 - Ensorcellation
 - Forbidden & Arcanus
 - The Graveyard
-- Item Borders
 - Mining Master
 - Neko's Enchanted Books
 - PizzaCraft
 - Quark Oddities
-- QuickStack
-- Re-Chiseled
 - Roots Classic
-- Rubidium Extras (Sodium Extras, Not DeusVult)
-- Shoulder Surfing
 - Tax Free Levels
+- Equipment Compare
+- Mowzie's Mobs
+- MythicBotany
+- Pyromancer
+- Twilight Forest
 
 ## Maybe Remove
 
-- Ambient Sounds
-- Aquaculture 2
-- Bedspreads
-- Berry Good
-- Better Lilypads
-- Better Third Person
-- Boatload
-- The Bumblezone
-- Buzzier Bees
 - Caupona
 - Chalk
 - The Conjurer
-- Control Engineering
-- Create Confectionery
-- Create Factory
-- Creeper Overhaul
 - Curious Elytra
 - Customizable Elytra
 - Delightful
 - Diet
-- Do A Barrel Roll
 - Elytra Bounce
-- Equipment Compare
 - Hedgehog
 - Incendium
 - Malum
-- Mowzie's Mobs
-- MythicBotany
 - Nameless Trinkets
 - Nyf's Quiver
-- Oh The Biomes You'll Go
-- Pyromancer
-- Too Many Glyphs
-- Ultimate Car Mod
-- Unearthed
-
-## Some of
-
-- Twilight Forest
-- Quark
-- Create
-- Macaw's Bridges
-- Decorative Blocks
-- Farmer's Delight
-- Architect's Palette
-- Twigs
-- Missing Wilds
 
 ## Other Notes
 
