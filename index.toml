@@ -134,7 +134,7 @@ hash = "e703fb12187562ba93a948516ee80cea9c681592c8caf7f684ccd8317f84fb39"
 
 [[files]]
 file = "kubejs/client_scripts/script.js"
-hash = "429a916977d7f66820e391986a3b442a473662d8106e1c16a307f41b0ac83ced"
+hash = "3dbe2eba30985bfde428535279b1185e5714f0a6d7b095adc77f336422eb97b1"
 
 [[files]]
 file = "kubejs/data/towers_of_the_wild_reworked/advancements/derelict_grass_tower.json"
@@ -685,6 +685,11 @@ metafile = true
 [[files]]
 file = "mods/create.pw.toml"
 hash = "3d22456ed14c5f4abaf5a1b3dfcfaff3626f595f353176eec276f70dffdef6fd"
+metafile = true
+
+[[files]]
+file = "mods/createaddition.pw.toml"
+hash = "4afe5c7ef3552063b131e06f6728d798b3ca19fc20ee0d2f567922a4621748d5"
 metafile = true
 
 [[files]]
