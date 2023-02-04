@@ -1278,11 +1278,6 @@ hash = "5a61f6b9d1c906a03305bcfd9cfac7efe99e99a5bd8fe49984f9a5e8671ebe9f"
 metafile = true
 
 [[files]]
-file = "mods/music-maker-mod.pw.toml"
-hash = "41562e76f1479d78bbb12bd904130aaf42c662915b1ed5fcca317a41eb2a727e"
-metafile = true
-
-[[files]]
 file = "mods/mysterious-mountain-lib.pw.toml"
 hash = "c25f0050135b00b84036d7f69590f57092e4a7b2a5d88cdde4de62cdbd548449"
 metafile = true
