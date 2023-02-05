@@ -1,7 +1,4 @@
 onEvent("jei.hide.items", (event) => {
-  // Remove everything from Create Crafts & Additions
-  event.hide("@createaddition");
-
   // Remove Seared Heater
   event.hide("tconstruct:seared_heater");
 
@@ -53,7 +50,10 @@ onEvent("jei.hide.items", (event) => {
   event.hide("theoneprobe:gold_helmet_probe");
   event.hide("theoneprobe:iron_helmet_probe");
 
-  // Remove Sophisticated Storage Unused Recipes
+  // Remove everything from Create Crafts & Additions
+  event.hide("@createaddition");
+
+  // Remove everything from Sophisticated Storage
   event.hide("@sophisticatedstorage");
 });
 
