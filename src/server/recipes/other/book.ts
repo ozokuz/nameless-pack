@@ -11,9 +11,6 @@ export default (event: Internal.RecipeEventJS) => {
   event.remove({
     output: "minecraft:paper",
   });
-  event.recipes.minecraft.crafting_shaped("minecraft:paper", ["SSS"], {
-    S: "minecraft:sugar_cane",
-  });
   event.recipes.minecraft
     .crafting_shaped(
       // @ts-expect-error multiple

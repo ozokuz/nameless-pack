@@ -4,29 +4,48 @@ export default (event: Internal.RecipeEventJS) => {
     output: "create:andesite_alloy",
     type: "minecraft:crafting_shaped",
   });
-  // @ts-expect-error docs
-  event.recipes.tconstruct
-    .casting_basin("create:andesite_alloy", "#forge:molten_iron", 30)
-    .cast("minecraft:andesite")
-    .consumeCast()
-    .coolingTime(40);
-  // @ts-expect-error docs
-  event.recipes.tconstruct
-    .casting_basin("create:andesite_alloy", "#forge:molten_zinc", 10)
-    .cast("minecraft:andesite")
-    .consumeCast()
-    .coolingTime(40);
+  event.remove({
+    output: "create:andesite_alloy",
+    type: "create:mixing",
+  });
+  event.remove({
+    output: "create:andesite_alloy",
+    type: "tconstruct:casting_basin",
+  });
   // @ts-expect-error docs
   event.recipes.tconstruct
     .casting_basin("create:andesite_alloy", "#forge:molten_iron", 30)
     .cast("tconstruct:seared_stone")
     .consumeCast()
     .coolingTime(40);
+  event.custom({
+    // @ts-expect-error custom
+    type: "tconstruct:alloy",
+    inputs: [
+      {
+        tag: "forge:molten_iron",
+        amount: 10,
+      },
+      {
+        tag: "tconstruct:seared_stone",
+        amount: 250,
+      },
+    ],
+    result: {
+      fluid: "kubejs:seared_alloy",
+      amount: 90,
+    },
+    temperature: 1000,
+  });
   // @ts-expect-error docs
   event.recipes.tconstruct
-    .casting_basin("create:andesite_alloy", "#forge:molten_zinc", 10)
-    .cast("tconstruct:seared_stone")
-    .consumeCast()
+    .casting_table("create:andesite_alloy", "kubejs:seared_alloy", 90)
+    .multiUseCast("ingot")
+    .coolingTime(40);
+  // @ts-expect-error docs
+  event.recipes.tconstruct
+    .casting_table("create:andesite_alloy", "kubejs:seared_alloy", 90)
+    .singleUseCast("ingot")
     .coolingTime(40);
 
   // Casings
@@ -151,12 +170,39 @@ export default (event: Internal.RecipeEventJS) => {
   );
   event.recipes.create.mechanical_crafting(
     "createaddition:alternator",
-    ["  A  ", " IWI ", "IWRWI", " ICI"],
+    ["  A  ", " IWI ", "IWRWI", " ICI "],
     {
       A: "create:andesite_alloy",
       I: "#forge:plates/iron",
       W: "immersiveengineering:wirecoil_copper",
       C: "createaddition:capacitor",
+      R: "#forge:rods/iron",
     },
   );
+
+  // Remove Create Alloyed's Metal Mixing Recipes
+  event.remove({ id: "alloyed:mixing/steel_ingot" });
+  event.remove({ id: "alloyed:mixing/bronze_ingot" });
+  event.remove({ id: "alloyed:mixing/bronze_ingot_x3" });
+
+  // Mixing Metals
+  event.remove({
+    output: "create:brass_ingot",
+    type: "create:mixing",
+    input: "create:zinc_ingot",
+  });
+  event.remove({ id: "tconstruct:smeltery/alloys/molten_rose_gold" });
+  event.remove({ id: "tconstruct:smeltery/alloys/molten_brass" });
+  event.recipes.create
+    .mixing({ fluid: "tconstruct:molten_rose_gold", amount: 360 }, [
+      { fluidTag: "forge:molten_gold", amount: 90 },
+      { fluidTag: "forge:molten_copper", amount: 270 },
+    ])
+    .heated();
+  event.recipes.create
+    .mixing({ fluid: "tconstruct:molten_brass", amount: 180 }, [
+      { fluidTag: "forge:molten_copper", amount: 90 },
+      { fluidTag: "forge:molten_zinc", amount: 90 },
+    ])
+    .heated();
 };

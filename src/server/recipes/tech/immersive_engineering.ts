@@ -25,15 +25,25 @@ export default (event: Internal.RecipeEventJS) => {
     .consumeCast()
     .coolingTime(40);
 
-  // Kiln Brick
+  // Remove Kiln
+  event.remove({ output: "immersiveengineering:slab_alloybrick" });
   event.remove({ output: "immersiveengineering:alloybrick" });
-  event.recipes.minecraft.crafting_shaped(
-    // @ts-expect-error multiple
-    "2x immersiveengineering:alloybrick",
-    ["SB", "BS"],
-    {
-      S: "#forge:sandstone",
-      B: "minecraft:nether_brick",
-    },
-  );
+  event.remove({ type: "immersiveengineering:alloy" });
+
+  // Insulating Glass
+  // @ts-expect-error docs
+  event.recipes.tconstruct
+    .casting_basin(
+      "immersiveengineering:insulating_glass",
+      "tconstruct:molten_iron",
+      10,
+    )
+    .cast("#forge:glass")
+    .consumeCast()
+    .coolingTime(40);
+
+  // Remove IE's Early Game Power Generation
+  event.remove({ output: "immersiveengineering:dynamo" });
+  event.remove({ output: "immersiveengineering:windmill" });
+  event.remove({ output: "immersiveengineering:watermill" });
 };

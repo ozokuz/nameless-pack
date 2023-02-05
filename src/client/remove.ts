@@ -1,9 +1,18 @@
 onEvent("jei.hide.items", (event) => {
-  // Remove everything from Create Crafts & Additions
-  event.hide("@createaddition");
-
   // Remove Seared Heater
   event.hide("tconstruct:seared_heater");
+
+  // Remove Plate, Gear & Wire Casts
+  ["plate", "gear", "wire"].forEach((type) => {
+    ["_sand", "_red_sand", ""].forEach((material) => {
+      event.hide(`tconstruct:${type}${material}_cast`);
+    });
+  });
+
+  // Remove IE's Early Game Power Generation
+  event.hide("immersiveengineering:dynamo");
+  event.hide("immersiveengineering:windmill");
+  event.hide("immersiveengineering:watermill");
 
   // Remove Vanilla Tools
   event.hide("minecraft:shears");
@@ -34,6 +43,10 @@ onEvent("jei.hide.items", (event) => {
   event.hide("immersiveengineering:crate");
   event.hide("immersiveengineering:reinforced_crate");
 
+  // Remove Immersive Engineering Kiln
+  event.hide("immersiveengineering:slab_alloybrick");
+  event.hide("immersiveengineering:alloybrick");
+
   // Remove excess The One Probe items
   event.hide("theoneprobe:creativeprobe");
   event.hide("theoneprobe:probenote");
@@ -41,7 +54,10 @@ onEvent("jei.hide.items", (event) => {
   event.hide("theoneprobe:gold_helmet_probe");
   event.hide("theoneprobe:iron_helmet_probe");
 
-  // Remove Sophisticated Storage Unused Recipes
+  // Remove everything from Create Crafts & Additions
+  event.hide("@createaddition");
+
+  // Remove everything from Sophisticated Storage
   event.hide("@sophisticatedstorage");
 });
 
