@@ -5,6 +5,11 @@ onEvent("jei.hide.items", (event) => {
   // Remove Seared Heater
   event.hide("tconstruct:seared_heater");
 
+  // Remove IE's Early Game Power Generation
+  event.hide("immersiveengineering:dynamo");
+  event.hide("immersiveengineering:windmill");
+  event.hide("immersiveengineering:watermill");
+
   // Remove Vanilla Tools
   event.hide("minecraft:shears");
   ["sword", "pickaxe", "shovel", "axe", "hoe"].forEach((tool) => {

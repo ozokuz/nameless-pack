@@ -36,4 +36,9 @@ export default (event: Internal.RecipeEventJS) => {
       B: "minecraft:nether_brick",
     },
   );
+
+  // Remove IE's Early Game Power Generation
+  event.remove({ output: "immersiveengineering:dynamo" });
+  event.remove({ output: "immersiveengineering:windmill" });
+  event.remove({ output: "immersiveengineering:watermill" });
 };
