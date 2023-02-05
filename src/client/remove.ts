@@ -47,6 +47,7 @@ onEvent("jei.hide.items", (event) => {
 
 onEvent("jei.add.items", (event) => {
   // Re-add some of Create Crafts & Additions' Electricity Things
+  event.add("createaddition:zinc_sheet");
   event.add("createaddition:alternator");
   event.add("createaddition:capacitor");
 
