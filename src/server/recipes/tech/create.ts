@@ -151,12 +151,13 @@ export default (event: Internal.RecipeEventJS) => {
   );
   event.recipes.create.mechanical_crafting(
     "createaddition:alternator",
-    ["  A  ", " IWI ", "IWRWI", " ICI"],
+    ["  A  ", " IWI ", "IWRWI", " ICI "],
     {
       A: "create:andesite_alloy",
       I: "#forge:plates/iron",
       W: "immersiveengineering:wirecoil_copper",
       C: "createaddition:capacitor",
+      R: "#forge:rods/iron",
     },
   );
 };
