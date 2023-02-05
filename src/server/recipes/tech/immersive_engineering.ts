@@ -25,17 +25,8 @@ export default (event: Internal.RecipeEventJS) => {
     .consumeCast()
     .coolingTime(40);
 
-  // Kiln Brick
+  // Remove Kiln
   event.remove({ output: "immersiveengineering:alloybrick" });
-  event.recipes.minecraft.crafting_shaped(
-    // @ts-expect-error multiple
-    "2x immersiveengineering:alloybrick",
-    ["SB", "BS"],
-    {
-      S: "#forge:sandstone",
-      B: "minecraft:nether_brick",
-    },
-  );
 
   // Remove IE's Early Game Power Generation
   event.remove({ output: "immersiveengineering:dynamo" });
