@@ -26,7 +26,21 @@ export default (event: Internal.RecipeEventJS) => {
     .coolingTime(40);
 
   // Remove Kiln
+  event.remove({ output: "immersiveengineering:slab_alloybrick" });
   event.remove({ output: "immersiveengineering:alloybrick" });
+  event.remove({ type: "immersiveengineering:alloy" });
+
+  // Insulating Glass
+  // @ts-expect-error docs
+  event.recipes.tconstruct
+    .casting_basin(
+      "immersiveengineering:insulating_glass",
+      "tconstruct:molten_iron",
+      10,
+    )
+    .cast("#forge:glass")
+    .consumeCast()
+    .coolingTime(40);
 
   // Remove IE's Early Game Power Generation
   event.remove({ output: "immersiveengineering:dynamo" });
