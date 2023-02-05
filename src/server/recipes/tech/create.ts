@@ -4,6 +4,10 @@ export default (event: Internal.RecipeEventJS) => {
     output: "create:andesite_alloy",
     type: "minecraft:crafting_shaped",
   });
+  event.remove({
+    output: "create:andesite_alloy",
+    type: "create:mixing",
+  });
   // @ts-expect-error docs
   event.recipes.tconstruct
     .casting_basin("create:andesite_alloy", "#forge:molten_iron", 30)
