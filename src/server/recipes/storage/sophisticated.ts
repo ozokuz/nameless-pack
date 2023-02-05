@@ -5,7 +5,8 @@ export default (event: Internal.RecipeEventJS) => {
   // Recipe for Upgrade base
   event.recipes.minecraft
     .crafting_shaped(
-      "sophisticatedstorage:upgrade_base",
+      // @ts-expect-error multiple
+      "8x sophisticatedstorage:upgrade_base",
       ["PPP", "PCP", "PPP"],
       {
         P: "tconstruct:pattern",
