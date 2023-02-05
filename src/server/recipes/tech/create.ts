@@ -131,4 +131,32 @@ export default (event: Internal.RecipeEventJS) => {
       G: "tconstruct:clear_glass",
     },
   );
+
+  // Remove most of Create Crafts & Additions
+  event.remove({ mod: "createaddition" });
+
+  // Re-Add Some of Create Crafts & Additions
+  event.recipes.create.pressing(
+    "createaddition:zinc_sheet",
+    "create:zinc_ingot",
+  );
+  event.recipes.minecraft.crafting_shaped(
+    "createaddition:capacitor",
+    ["Z", "C", "R"],
+    {
+      Z: "#forge:plates/zinc",
+      C: "#forge:plates/copper",
+      R: "minecraft:redstone_torch",
+    },
+  );
+  event.recipes.create.mechanical_crafting(
+    "createaddition:alternator",
+    ["  A  ", " IWI ", "IWRWI", " ICI"],
+    {
+      A: "create:andesite_alloy",
+      I: "#forge:plates/iron",
+      W: "immersiveengineering:wirecoil_copper",
+      C: "createaddition:capacitor",
+    },
+  );
 };

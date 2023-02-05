@@ -1,1 +1,1 @@
-"use strict";(function(){onEvent("item.modification",function(t){t.modify("tinkersurvival:mortar_and_pestle",function(t){t.setMaxStackSize(1)})})})();
+"use strict";(function(){onEvent("item.modification",function(e){e.modify("tinkersurvival:mortar_and_pestle",function(e){e.setMaxStackSize(1)})});onEvent("fluid.tags",function(e){e.remove("forge:ethanol","createaddition:bioethanol","createaddition:flowing_bioethanol"),e.remove("forge:plantoil","createaddition:seed_oil","createaddition:flowing_seed_oil")})})();

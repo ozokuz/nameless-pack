@@ -4,15 +4,42 @@
 
 ### Remove
 
+- Steel w/ Mixer
+- Andesite Alloy w/ Mixer
+- Kiln Brick
+- Easy Paper Recipe
+
 ### Replace
+
+- Brass
+  - Mixer
+  - Molten Copper
+  - Molten Zinc
+- Rose Gold
+  - Mixer
+  - Molten Gold
+  - Molten Copper
+- Create Slabs to Sticks
+  - 6 -> 2
+- Iron & Seared -> Andesite Alloy
+  - Melter -> Smeltery
+
+### Fix
 
 - Logic Workbench
 - Engineer's Toolbox
 
 ### Add
 
+- Create Logs to Planks (1->4)
+- Molten Seared Alloy
+  - Smeltery
+  - Molten Iron
+  - Seared Stone
+
 ### Other
 
+- Check that Mixer doesn't have alloying w/ CC&A
 - Bucket - Usable, but will be replaced at some point
   - Bucket Casts (Sand & Gold)
 
