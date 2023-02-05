@@ -5,6 +5,11 @@ onEvent("item.modification", (event) => {
   });
 });
 
+onEvent("item.tags", (event) => {
+  // Plant String is also String
+  event.add("forge:string", "tinkersurvival:plant_string");
+});
+
 onEvent("fluid.tags", (event) => {
   event.remove(
     "forge:ethanol",
