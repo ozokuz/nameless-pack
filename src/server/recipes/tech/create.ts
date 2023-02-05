@@ -160,4 +160,9 @@ export default (event: Internal.RecipeEventJS) => {
       R: "#forge:rods/iron",
     },
   );
+
+  // Remove Create Alloyed's Metal Mixing Recipes
+  event.remove({ id: "alloyed:mixing/steel_ingot" });
+  event.remove({ id: "alloyed:mixing/bronze_ingot" });
+  event.remove({ id: "alloyed:mixing/bronze_ingot_x3" });
 };
