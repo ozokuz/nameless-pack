@@ -20,4 +20,12 @@ export default (event: Internal.RecipeEventJS) => {
     result: "tconstruct:smeltery_controller",
     cooling_time: 100,
   });
+
+  // Remove Casts for Plates, Gears & Wires
+  ["plate", "gear", "wire"].forEach((type) => {
+    ["_sand", "_red_sand", ""].forEach((material) => {
+      // @ts-expect-error dynamic
+      event.remove({ output: `tconstruct:${type}${material}_cast` });
+    });
+  });
 };

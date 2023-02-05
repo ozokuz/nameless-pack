@@ -5,6 +5,13 @@ onEvent("jei.hide.items", (event) => {
   // Remove Seared Heater
   event.hide("tconstruct:seared_heater");
 
+  // Remove Plate, Gear & Wire Casts
+  ["plate", "gear", "wire"].forEach((type) => {
+    ["_sand", "_red_sand", ""].forEach((material) => {
+      event.hide(`tconstruct:${type}${material}_cast`);
+    });
+  });
+
   // Remove IE's Early Game Power Generation
   event.hide("immersiveengineering:dynamo");
   event.hide("immersiveengineering:windmill");
