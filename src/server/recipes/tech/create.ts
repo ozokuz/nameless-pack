@@ -140,11 +140,15 @@ export default (event: Internal.RecipeEventJS) => {
     "createaddition:zinc_sheet",
     "create:zinc_ingot",
   );
-  event.recipes.minecraft.crafting_shaped("createaddition:capacitor", ["ZCR"], {
-    Z: "#forge:plates/zinc",
-    C: "#forge:plates/copper",
-    R: "minecraft:redstone_torch",
-  });
+  event.recipes.minecraft.crafting_shaped(
+    "createaddition:capacitor",
+    ["Z", "C", "R"],
+    {
+      Z: "#forge:plates/zinc",
+      C: "#forge:plates/copper",
+      R: "minecraft:redstone_torch",
+    },
+  );
   event.recipes.create.mechanical_crafting(
     "createaddition:alternator",
     ["  A  ", " IWI ", "IWRWI", " ICI"],
