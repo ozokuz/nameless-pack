@@ -13,6 +13,10 @@ file = "config/chunkloaders-common.toml"
 hash = "ffab1272b67bbf4f71486f5c6c2061273ff463aac6a35e09b82900f7a710999b"
 
 [[files]]
+file = "config/createaddition-common.toml"
+hash = "dd629859ee0ebd2541b6e4938d3eb3ad32c360c080c78eeea69f4c0046d87937"
+
+[[files]]
 file = "config/fml.toml"
 hash = "8af1a845056b3cd4d3b2deb9a820d8a097295f3698f52d8ed27204a6e4c13db6"
 
@@ -134,7 +138,7 @@ hash = "e703fb12187562ba93a948516ee80cea9c681592c8caf7f684ccd8317f84fb39"
 
 [[files]]
 file = "kubejs/client_scripts/script.js"
-hash = "c5529aa6d2013ba285b414ac2ec3c476ebd9ddbac319122c6afb21b6a97a2a2a"
+hash = "a5f4df35b7a1b9b5c5aed1aee4be335fcb31b87014e9dd41d504920f9c3a5056"
 
 [[files]]
 file = "kubejs/data/towers_of_the_wild_reworked/advancements/derelict_grass_tower.json"
@@ -346,11 +350,11 @@ hash = "2675e57415ea79347bfe71c280d48e2a9da5604fe64790153ae836113bf94f86"
 
 [[files]]
 file = "kubejs/server_scripts/script.js"
-hash = "94c77f52260b4ea3a6786907bf59b5f465461a57708d473c0a010bf939c8cc79"
+hash = "e66b863c8c68f1173b5126f9c5775fad3f98efcf94527f3237f28ce5b47e688f"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"
-hash = "072646d0af991cd3a1bb89d6d83ab8113bf32c7accb9190145a6b9acacdee745"
+hash = "e3c0ef6b836780a40be167618c4b88936dd286387b1519fb5bc1d29e0a5639c6"
 
 [[files]]
 file = "mods/abnormals-delight.pw.toml"
@@ -1105,6 +1109,11 @@ metafile = true
 [[files]]
 file = "mods/just-a-raft-mod.pw.toml"
 hash = "a8c4f05c638ea3d508329cdd4c792e66d9ad4c8914a11ade0b211c730b640f32"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-immersive-multiblocks.pw.toml"
+hash = "fda9e9ae2b6f37d61bd144d388c7baf7643aaaad0f13aad774ae57b70b7c9a35"
 metafile = true
 
 [[files]]
