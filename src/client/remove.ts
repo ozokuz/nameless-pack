@@ -59,6 +59,26 @@ onEvent("jei.hide.items", (event) => {
 
   // Remove everything from Sophisticated Storage
   event.hide("@sophisticatedstorage");
+
+  // Remove Functional Storage's Wood Drawers
+  [
+    "oak",
+    "birch",
+    "spruce",
+    "jungle",
+    "dark_oak",
+    "acacia",
+    "crimson",
+    "warped",
+  ].forEach((material) => {
+    [1, 2, 4].forEach((size) => {
+      event.hide(`functionalstorage:${material}_${size}`);
+    });
+  });
+
+  // Remove Functional Storage's Compacting Drawers
+  event.hide("functionalstorage:compacting_drawer");
+  event.hide("functionalstorage:simple_compacting_drawer");
 });
 
 onEvent("jei.add.items", (event) => {
