@@ -138,7 +138,7 @@ hash = "e703fb12187562ba93a948516ee80cea9c681592c8caf7f684ccd8317f84fb39"
 
 [[files]]
 file = "kubejs/client_scripts/script.js"
-hash = "a5f4df35b7a1b9b5c5aed1aee4be335fcb31b87014e9dd41d504920f9c3a5056"
+hash = "8f6ecb4040b8c3867b32906c7f4695c2d9435e9723cf055421c1b118ae91fc84"
 
 [[files]]
 file = "kubejs/data/towers_of_the_wild_reworked/advancements/derelict_grass_tower.json"
@@ -350,7 +350,7 @@ hash = "2675e57415ea79347bfe71c280d48e2a9da5604fe64790153ae836113bf94f86"
 
 [[files]]
 file = "kubejs/server_scripts/script.js"
-hash = "57c5d932ede733242d63710174f1845751a95052ce729b90284bdea2cbcfea40"
+hash = "2144ea1c474ceb444e5b7598cc423f762868b32628f38c97d961e60dd6ac49f1"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"
