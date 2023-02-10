@@ -12,6 +12,7 @@
   - Tough Fabric
 - Cast Iron Mesh 3 -> 4
 - Functional Storage Upgrades
+- Ars Nouveau Spell Books
 
 ### Fix
 
