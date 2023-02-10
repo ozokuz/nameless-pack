@@ -5,7 +5,7 @@ function backpackUpgrade(
   pattern: string[],
   keys: Record<
     string,
-    Internal.IngredientJS_ | { tag: Internal.IngredientJS_ }
+    { item: Internal.IngredientJS_ } | { tag: Internal.IngredientJS_ }
   >,
   event: Internal.RecipeEventJS,
 ) {
@@ -13,7 +13,11 @@ function backpackUpgrade(
     // @ts-expect-error custom
     type: "sophisticatedbackpacks:backpack_upgrade",
     pattern,
-    key: keys,
+    key: Object.fromEntries(
+      Object.entries(keys).map(([k, v]) =>
+        "tag" in v ? [k, { tag: (v.tag as string).slice(1) }] : [k, v],
+      ),
+    ),
     result: {
       item: output,
     },

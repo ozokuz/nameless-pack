@@ -1977,3 +1977,13 @@ hash = "d5cf6a2f26f2631b5e68c5649b751e5a7329d42aa9a62798fa89cd720316130d"
 [[files]]
 file = "patchouli_books/nameless_guide/en_us/entries/test/test_entry.json"
 hash = "dab7cc314fb26c1b519a2450546423c429bf845a4bf2faf343090a96f1d6770b"
+
+[[files]]
+file = "resourcepacks/created-pretty-pipes.pw.toml"
+hash = "27bebf55e31189e8dae1fc9745fed892c35a104ee07815ed41b60aefa2efbabb"
+metafile = true
+
+[[files]]
+file = "resourcepacks/updated-engineering.pw.toml"
+hash = "78e9207574e02eb2910a3d3adaf7100232f40f5d212c4ef955c3cb52df18ed13"
+metafile = true
