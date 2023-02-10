@@ -6,7 +6,6 @@
 
 ### Replace
 
-- Steam Engine
 - Electron Tube
 - White Sail
   - Tough Fabric

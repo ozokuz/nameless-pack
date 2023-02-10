@@ -46,4 +46,10 @@ export default (event: Internal.RecipeEventJS) => {
   event.remove({ output: "immersiveengineering:dynamo" });
   event.remove({ output: "immersiveengineering:windmill" });
   event.remove({ output: "immersiveengineering:watermill" });
+
+  // Steel Rods only in Metal Press
+  event.remove({
+    type: "tconstruct:casting_table",
+    output: "immersiveengineering:stick_steel",
+  });
 };

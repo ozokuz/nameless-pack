@@ -131,12 +131,13 @@ export default (event: Internal.RecipeEventJS) => {
   event.remove({ output: "create:steam_engine" });
   event.recipes.create.mechanical_crafting(
     "create:steam_engine",
-    [" S ", "CAC", "CBC"],
+    [" R ", " S ", "CAC", "CBC"],
     {
       S: "#forge:plates/brass",
       C: "#forge:plates/copper",
       B: "#forge:storage_blocks/copper",
       A: "create:andesite_alloy",
+      R: "#forge:rods/steel",
     },
   );
 
