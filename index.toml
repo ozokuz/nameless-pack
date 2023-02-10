@@ -417,11 +417,6 @@ hash = "f79243f3241bb965b2312fba4278feb6c3817affb5fc4f0574482b8253acdb39"
 metafile = true
 
 [[files]]
-file = "mods/atomicstrykers-infernal-mobs.pw.toml"
-hash = "65890e656beff8a6ff806c528e1de27c0fae2af2e6975a44df1183cfef45ea16"
-metafile = true
-
-[[files]]
 file = "mods/attributefix.pw.toml"
 hash = "902e82fd9cff5ba26db563e0995ab8c4f632cb68f26bc05c2ce6ed6aae30a425"
 metafile = true
@@ -1534,11 +1529,6 @@ metafile = true
 [[files]]
 file = "mods/right-click-get-crops.pw.toml"
 hash = "ffc3f02468bd68f5272b19678a2be1810c1aaa384e68c327bc03f3cb73337a25"
-metafile = true
-
-[[files]]
-file = "mods/roots-classic.pw.toml"
-hash = "d7ad84c264d303be3c02b04d8418668c584b72c265c2b890c118c15c140f2bce"
 metafile = true
 
 [[files]]
