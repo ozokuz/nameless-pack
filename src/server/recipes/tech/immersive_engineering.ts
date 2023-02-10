@@ -52,4 +52,14 @@ export default (event: Internal.RecipeEventJS) => {
     type: "tconstruct:casting_table",
     output: "immersiveengineering:stick_steel",
   });
+
+  // Treated Wood automation with Create
+  event.recipes.create.filling("immersiveengineering:treated_wood_horizontal", [
+    "#minecraft:planks",
+    {
+      fluid: "immersiveengineering:creosote",
+      nbt: {},
+      amount: 125,
+    },
+  ]);
 };
