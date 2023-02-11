@@ -88,22 +88,22 @@ export default (event: Internal.RecipeEventJS) => {
   // TODO: Add recipe for Ender Drawer
   event.recipes.minecraft.crafting_shaped(
     "functionalstorage:storage_controller",
-    ["III", "IDI", "SCS"],
+    ["III", "ICI", "SDS"],
     {
       S: "#forge:plates/steel",
       I: "#forge:plates/iron",
+      C: "immersiveengineering:component_electronic",
       D: "#functionalstorage:drawer",
-      C: "immersiveengineering:component_electronic_adv",
     },
   );
   event.recipes.minecraft.crafting_shaped(
     "functionalstorage:controller_extension",
-    ["III", "IDI", "SCS"],
+    ["III", "IEI", "SDS"],
     {
       S: "#forge:plates/steel",
       I: "#forge:plates/iron",
+      E: "create:electron_tube",
       D: "#functionalstorage:drawer",
-      C: "immersiveengineering:component_electronic",
     },
   );
 
