@@ -25,6 +25,7 @@ onEvent("fluid.tags", (event) => {
     "forge:ethanol",
     "createaddition:bioethanol",
     "createaddition:flowing_bioethanol",
+    "pneumaticcraft:ethanol",
   );
   event.remove(
     "forge:plantoil",

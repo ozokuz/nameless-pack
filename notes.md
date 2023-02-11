@@ -6,12 +6,22 @@
 
 ### Replace
 
+- Electron Tube
+- White Sail
+  - Tough Fabric
+- Cast Iron Mesh 3 -> 4
+- Functional Storage Upgrades
+- Ars Nouveau Spell Books
+
 ### Fix
 
 - Logic Workbench
 - Engineer's Toolbox
 
 ### Add
+
+- Backpack Upgrade
+- Chunk Loader
 
 ### Other
 
@@ -34,6 +44,7 @@
 ### Rename
 
 - Emergency Paddles -> Paddles
+- Andesite Alloy -> Seared Alloy
 
 ### Short Term
 

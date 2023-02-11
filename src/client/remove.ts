@@ -13,6 +13,9 @@ onEvent("jei.hide.items", (event) => {
   event.hide("immersiveengineering:dynamo");
   event.hide("immersiveengineering:windmill");
   event.hide("immersiveengineering:watermill");
+  event.hide("immersiveengineering:windmill_blade");
+  event.hide("immersiveengineering:windmill_sail");
+  event.hide("immersiveengineering:waterwheel_segment");
 
   // Remove Vanilla Tools
   event.hide("minecraft:shears");
@@ -79,6 +82,18 @@ onEvent("jei.hide.items", (event) => {
   // Remove Functional Storage's Compacting Drawers
   event.hide("functionalstorage:compacting_drawer");
   event.hide("functionalstorage:simple_compacting_drawer");
+
+  // Remove Functional Storage's Fluid Drawers
+  event.hide("functionalstorage:fluid_1");
+  event.hide("functionalstorage:fluid_2");
+  event.hide("functionalstorage:fluid_4");
+
+  // Remove PneumaticCraft's Refinery
+  event.hide("pneumaticcraft:refinery");
+  event.hide("pneumaticcraft:refinery_output");
+
+  // Remove PneumaticCraft's Thermopneumatic Processing Plant
+  event.hide("pneumaticcraft:thermopneumatic_processing_plant");
 });
 
 onEvent("jei.add.items", (event) => {
@@ -86,6 +101,7 @@ onEvent("jei.add.items", (event) => {
   event.add("createaddition:zinc_sheet");
   event.add("createaddition:alternator");
   event.add("createaddition:capacitor");
+  event.add("createaddition:brass_rod");
 
   // Adding Sophisticated Storage Items
   event.add("sophisticatedstorage:upgrade_base");

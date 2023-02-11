@@ -21,4 +21,16 @@ export default (event: Internal.RecipeEventJS) => {
     output: "#forge:rods/all_metal",
     type: "minecraft:crafting_shaped",
   });
+
+  // Cast Iron Mesh Fence output 3 -> 4
+  event.remove({ id: "createdeco:cast_iron_mesh_fence" });
+  event.recipes.minecraft.crafting_shaped(
+    // @ts-expect-error multiple
+    "4x createdeco:cast_iron_mesh_fence",
+    ["CSC", "CSC"],
+    {
+      C: "#forge:plates/cast_iron",
+      S: "#forge:string",
+    },
+  );
 };

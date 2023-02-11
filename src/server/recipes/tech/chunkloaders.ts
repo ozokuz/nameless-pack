@@ -12,8 +12,20 @@ export default (event: Internal.RecipeEventJS) => {
     },
   );
 
-  // Temporarily disable other chunkloaders
+  // Basic Chunk Loader
   event.remove({ output: "chunkloaders:basic_chunk_loader" });
+  event.recipes.minecraft.crafting_shaped(
+    "chunkloaders:basic_chunk_loader",
+    ["RCR", "MSM", "RCR"],
+    {
+      M: "botania:rune_mana",
+      S: "chunkloaders:single_chunk_loader",
+      R: "#forge:rods/steel",
+      C: "immersiveengineering:component_steel",
+    },
+  );
+
+  // Temporarily disable other chunkloaders
   event.remove({ output: "chunkloaders:advanced_chunk_loader" });
   event.remove({ output: "chunkloaders:ultimate_chunk_loader" });
 };

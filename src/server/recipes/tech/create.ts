@@ -131,12 +131,13 @@ export default (event: Internal.RecipeEventJS) => {
   event.remove({ output: "create:steam_engine" });
   event.recipes.create.mechanical_crafting(
     "create:steam_engine",
-    [" S ", "CAC", "CBC"],
+    [" R ", " S ", "CAC", "CBC"],
     {
       S: "#forge:plates/brass",
       C: "#forge:plates/copper",
       B: "#forge:storage_blocks/copper",
       A: "create:andesite_alloy",
+      R: "#forge:rods/steel",
     },
   );
 
@@ -170,15 +171,22 @@ export default (event: Internal.RecipeEventJS) => {
   );
   event.recipes.create.mechanical_crafting(
     "createaddition:alternator",
-    ["  A  ", " IWI ", "IWRWI", " ICI "],
+    ["  A  ", " IPI ", "IWRWI", " ICI "],
     {
       A: "create:andesite_alloy",
       I: "#forge:plates/iron",
       W: "immersiveengineering:wirecoil_copper",
       C: "createaddition:capacitor",
       R: "#forge:rods/iron",
+      P: "create:precision_mechanism",
     },
   );
+
+  // Allow Brass Rods to be made only after getting into Immersive Engineering
+  event.remove({
+    type: "tconstruct:casting_table",
+    output: "createaddition:brass_rod",
+  });
 
   // Remove Create Alloyed's Metal Mixing Recipes
   event.remove({ id: "alloyed:mixing/steel_ingot" });
