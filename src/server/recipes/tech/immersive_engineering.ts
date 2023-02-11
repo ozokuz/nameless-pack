@@ -75,4 +75,19 @@ export default (event: Internal.RecipeEventJS) => {
     type: "minecraft:crafting_shaped",
     output: "immersiveengineering:component_steel",
   });
+
+  // Redstone Engineering Block
+  event.remove({ output: "immersiveengineering:rs_engineering" });
+  event.recipes.minecraft.crafting_shaped(
+    // @ts-expect-error multiple
+    "2x immersiveengineering:rs_engineering",
+    ["SES", "CRC", "SPS"],
+    {
+      S: "immersiveengineering:sheetmetal_iron",
+      E: "create:electron_tube",
+      C: "immersiveengineering:wirecoil_redstone",
+      R: "minecraft:redstone_block",
+      P: "create:precision_mechanism",
+    },
+  );
 };
