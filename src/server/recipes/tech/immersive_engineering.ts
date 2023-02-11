@@ -65,4 +65,14 @@ export default (event: Internal.RecipeEventJS) => {
       amount: 125,
     },
   ]);
+
+  // Remove IE's Component Making in Crafting Table
+  event.remove({
+    type: "minecraft:crafting_shaped",
+    output: "immersiveengineering:component_iron",
+  });
+  event.remove({
+    type: "minecraft:crafting_shaped",
+    output: "immersiveengineering:component_steel",
+  });
 };
