@@ -53,7 +53,4 @@ export default (event: Internal.RecipeEventJS) => {
   event.remove({ output: "engineersdecor:labeled_crate" });
   event.remove({ output: "immersiveengineering:crate" });
   event.remove({ output: "immersiveengineering:reinforced_crate" });
-
-  // Temporarily disable some mods
-  event.remove({ mod: "prettypipes" });
 };
