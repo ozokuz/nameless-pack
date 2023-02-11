@@ -1,6 +1,6 @@
 onEvent("jei.hide.items", (event) => {
   // Temporarily disable Higher tier Backpacks
-  ["iron", "gold", "diamond", "netherite"].forEach((material) => {
+  ["diamond", "netherite"].forEach((material) => {
     event.hide(`sophisticatedbackpacks:${material}_backpack`);
   });
 
