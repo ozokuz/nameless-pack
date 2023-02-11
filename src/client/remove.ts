@@ -13,6 +13,9 @@ onEvent("jei.hide.items", (event) => {
   event.hide("immersiveengineering:dynamo");
   event.hide("immersiveengineering:windmill");
   event.hide("immersiveengineering:watermill");
+  event.hide("immersiveengineering:windmill_blade");
+  event.hide("immersiveengineering:windmill_sail");
+  event.hide("immersiveengineering:waterwheel_segment");
 
   // Remove Vanilla Tools
   event.hide("minecraft:shears");
