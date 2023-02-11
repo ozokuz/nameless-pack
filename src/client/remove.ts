@@ -79,6 +79,13 @@ onEvent("jei.hide.items", (event) => {
   // Remove Functional Storage's Compacting Drawers
   event.hide("functionalstorage:compacting_drawer");
   event.hide("functionalstorage:simple_compacting_drawer");
+
+  // Remove PneumaticCraft's Refinery
+  event.hide("pneumaticcraft:refinery");
+  event.hide("pneumaticcraft:refinery_output");
+
+  // Remove PneumaticCraft's Thermopneumatic Processing Plant
+  event.hide("pneumaticcraft:thermopneumatic_processing_plant");
 });
 
 onEvent("jei.add.items", (event) => {
