@@ -1,32 +1,8 @@
 export default (event: Internal.RecipeEventJS) => {
-  // Remove Wood Drawers
-  [
-    "oak",
-    "birch",
-    "spruce",
-    "jungle",
-    "dark_oak",
-    "acacia",
-    "crimson",
-    "warped",
-  ].forEach((material) => {
-    [1, 2, 4].forEach((size) => {
-      // @ts-expect-error dynamic
-      event.remove({ output: `functionalstorage:${material}_${size}` });
-    });
-  });
+  // Remove everything first
+  event.remove({ mod: "functionalstorage" });
 
-  // Remove Compacting Drawers
-  event.remove({ output: "functionalstorage:compacting_drawer" });
-  event.remove({ output: "functionalstorage:simple_compacting_drawer" });
-
-  // Remove Fluid Drawers
-  event.remove({ output: "functionalstorage:fluid_1" });
-  event.remove({ output: "functionalstorage:fluid_2" });
-  event.remove({ output: "functionalstorage:fluid_4" });
-
-  // Better framed 1x1 drawers
-  event.remove({ output: "functionalstorage:framed_1" });
+  // Framed Drawers
   event.recipes.minecraft.crafting_shaped(
     "functionalstorage:framed_1",
     ["R R", " M ", "R R"],
@@ -35,9 +11,6 @@ export default (event: Internal.RecipeEventJS) => {
       M: "createdeco:cast_iron_mesh_fence",
     },
   );
-
-  // Better framed 1x2 drawers
-  event.remove({ output: "functionalstorage:framed_2" });
   event.recipes.minecraft.crafting_shaped(
     "functionalstorage:framed_2",
     ["R R", "CMC", "R R"],
@@ -47,9 +20,6 @@ export default (event: Internal.RecipeEventJS) => {
       C: "minecraft:chain",
     },
   );
-
-  // Better framed 2x2 drawers
-  event.remove({ output: "functionalstorage:framed_4" });
   event.recipes.minecraft.crafting_shaped(
     "functionalstorage:framed_4",
     ["RCR", "CMC", "RCR"],
@@ -59,9 +29,6 @@ export default (event: Internal.RecipeEventJS) => {
       C: "minecraft:chain",
     },
   );
-
-  // Better framed compacting drawers
-  event.remove({ output: "functionalstorage:compacting_framed_drawer" });
   event.recipes.minecraft.crafting_shaped(
     "functionalstorage:compacting_framed_drawer",
     ["RTR", "IPI", "RMR"],
@@ -71,6 +38,96 @@ export default (event: Internal.RecipeEventJS) => {
       I: "minecraft:iron_ingot",
       P: "create:precision_mechanism",
       M: "createdeco:cast_iron_mesh_fence",
+    },
+  );
+
+  // Size Upgrades
+  // TODO: Add recipes for diamond & netherite versions
+  event.recipes.minecraft.crafting_shaped(
+    "functionalstorage:iron_downgrade",
+    ["SSS", "SUS", "SSS"],
+    {
+      S: "#forge:plates/iron",
+      U: "#forge:plates/cast_iron",
+    },
+  );
+  event.recipes.minecraft.crafting_shaped(
+    "functionalstorage:copper_upgrade",
+    ["SBS", "CUC", "SBS"],
+    {
+      S: "#forge:plates/copper",
+      B: "#forge:storage_blocks/copper",
+      C: "#forge:chests/wooden",
+      U: "#forge:plates/cast_iron",
+    },
+  );
+  event.recipes.minecraft.crafting_shaped(
+    "functionalstorage:gold_upgrade",
+    ["SBS", "CUC", "SBS"],
+    {
+      S: "#forge:plates/gold",
+      B: "#forge:storage_blocks/gold",
+      C: "#forge:chests/wooden",
+      U: "functionalstorage:copper_upgrade",
+    },
+  );
+
+  // Other Upgrades
+  // TODO: Add recipe for redstone upgrade
+  event.recipes.minecraft.crafting_shaped(
+    "functionalstorage:void_upgrade",
+    [" V ", "OCO", " O "],
+    {
+      V: "bloodmagic:reagentvoid",
+      O: "minecraft:obsidian",
+      C: "#forge:plates/cast_iron",
+    },
+  );
+
+  // Controllers
+  // TODO: Add recipe for Ender Drawer
+  event.recipes.minecraft.crafting_shaped(
+    "functionalstorage:storage_controller",
+    ["III", "IDI", "SCS"],
+    {
+      S: "#forge:plates/steel",
+      I: "#forge:plates/iron",
+      D: "#functionalstorage:drawer",
+      C: "immersiveengineering:component_electronic_adv",
+    },
+  );
+  event.recipes.minecraft.crafting_shaped(
+    "functionalstorage:controller_extension",
+    ["III", "IDI", "SCS"],
+    {
+      S: "#forge:plates/steel",
+      I: "#forge:plates/iron",
+      D: "#functionalstorage:drawer",
+      C: "immersiveengineering:component_electronic",
+    },
+  );
+
+  // Tools
+  event.recipes.minecraft.crafting_shaped(
+    "functionalstorage:configuration_tool",
+    ["IEI", "GMC", "III"],
+    {
+      E: "create:electron_tube",
+      M: "immersiveengineering:component_iron",
+      C: "#forge:wires/copper",
+      I: "#forge:plates/iron",
+      G: "#forge:dyes/green",
+    },
+  );
+  event.recipes.minecraft.crafting_shaped(
+    "functionalstorage:linking_tool",
+    ["IEI", "GMC", "III"],
+    {
+      E: "immersiveengineering:component_electronic",
+      M: "immersiveengineering:component_steel",
+      C: "#forge:wires/copper",
+      I: "#forge:plates/iron",
+      G: "#forge:dyes/cyan",
     },
   );
 };
