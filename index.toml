@@ -350,7 +350,7 @@ hash = "2675e57415ea79347bfe71c280d48e2a9da5604fe64790153ae836113bf94f86"
 
 [[files]]
 file = "kubejs/server_scripts/script.js"
-hash = "2144ea1c474ceb444e5b7598cc423f762868b32628f38c97d961e60dd6ac49f1"
+hash = "1566eaabb1f38963e1a82c5c2da152ac54a5d250b698db6c1aa24174c506dfc7"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"
@@ -1962,8 +1962,18 @@ hash = "df59dd0208b65661b036bfc08b14125b10498d93c6da5d2acc6626d6b3ad5402"
 metafile = true
 
 [[files]]
+file = "openloader/resources/created-pretty-pipes.pw.toml"
+hash = "27bebf55e31189e8dae1fc9745fed892c35a104ee07815ed41b60aefa2efbabb"
+metafile = true
+
+[[files]]
 file = "openloader/resources/tool-belt-retextured.pw.toml"
 hash = "25a7332ccd294854b2f6ac229e389b09f118f78cfd400e83070f383c9452a77a"
+metafile = true
+
+[[files]]
+file = "openloader/resources/updated-engineering.pw.toml"
+hash = "78e9207574e02eb2910a3d3adaf7100232f40f5d212c4ef955c3cb52df18ed13"
 metafile = true
 
 [[files]]
@@ -1977,13 +1987,3 @@ hash = "d5cf6a2f26f2631b5e68c5649b751e5a7329d42aa9a62798fa89cd720316130d"
 [[files]]
 file = "patchouli_books/nameless_guide/en_us/entries/test/test_entry.json"
 hash = "dab7cc314fb26c1b519a2450546423c429bf845a4bf2faf343090a96f1d6770b"
-
-[[files]]
-file = "resourcepacks/created-pretty-pipes.pw.toml"
-hash = "27bebf55e31189e8dae1fc9745fed892c35a104ee07815ed41b60aefa2efbabb"
-metafile = true
-
-[[files]]
-file = "resourcepacks/updated-engineering.pw.toml"
-hash = "78e9207574e02eb2910a3d3adaf7100232f40f5d212c4ef955c3cb52df18ed13"
-metafile = true

@@ -13,11 +13,7 @@ function backpackUpgrade(
     // @ts-expect-error custom
     type: "sophisticatedbackpacks:backpack_upgrade",
     pattern,
-    key: Object.fromEntries(
-      Object.entries(keys).map(([k, v]) =>
-        "tag" in v ? [k, { tag: (v.tag as string).slice(1) }] : [k, v],
-      ),
-    ),
+    key: keys,
     result: {
       item: output,
     },
@@ -65,7 +61,8 @@ export default (event: Internal.RecipeEventJS) => {
         item: "immersiveengineering:hemp_fabric",
       },
       P: {
-        tag: "#forge:plates/steel",
+        // @ts-expect-error tag
+        tag: "forge:plates/steel",
       },
       L: {
         item: "sewingkit:leather_sheet",
@@ -87,7 +84,8 @@ export default (event: Internal.RecipeEventJS) => {
         item: "immersiveengineering:hemp_fabric",
       },
       P: {
-        tag: "#forge:plates/brass",
+        // @ts-expect-error tag
+        tag: "forge:plates/brass",
       },
       L: {
         item: "sewingkit:leather_sheet",
