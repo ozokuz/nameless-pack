@@ -101,6 +101,7 @@ onEvent("jei.add.items", (event) => {
   event.add("createaddition:zinc_sheet");
   event.add("createaddition:alternator");
   event.add("createaddition:capacitor");
+  event.add("createaddition:brass_rod");
 
   // Adding Sophisticated Storage Items
   event.add("sophisticatedstorage:upgrade_base");

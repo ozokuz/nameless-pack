@@ -1,4 +1,8 @@
 onEvent("jei.hide.items", (event) => {
+  // Temporarily disable some mods
+  event.hide("@pneumaticcraft");
+  event.hide("@compressedcreativity");
+
   // Temporarily disable Higher tier Backpacks
   ["diamond", "netherite"].forEach((material) => {
     event.hide(`sophisticatedbackpacks:${material}_backpack`);

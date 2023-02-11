@@ -67,4 +67,7 @@ export default (event: Internal.RecipeEventJS) => {
   event.remove({ output: "prettypipes:low_crafting_module" });
   event.remove({ output: "prettypipes:medium_crafting_module" });
   event.remove({ output: "prettypipes:high_crafting_module" });
+
+  // Disable Pipe Pressurizer for now
+  event.remove({ output: "prettypipes:pressurizer" });
 };
