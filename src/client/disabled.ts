@@ -14,7 +14,6 @@ onEvent("jei.hide.items", (event) => {
   event.hide("torchmaster:feral_flare_lantern");
 
   // Temporarily disable excess items from chunkloaders
-  event.hide("chunkloaders:basic_chunk_loader");
   event.hide("chunkloaders:advanced_chunk_loader");
   event.hide("chunkloaders:ultimate_chunk_loader");
 });
