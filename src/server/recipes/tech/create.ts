@@ -182,6 +182,12 @@ export default (event: Internal.RecipeEventJS) => {
     },
   );
 
+  // Allow Brass Rods to be made only after getting into Immersive Engineering
+  event.remove({
+    type: "tconstruct:casting_table",
+    output: "createaddition:brass_rod",
+  });
+
   // Remove Create Alloyed's Metal Mixing Recipes
   event.remove({ id: "alloyed:mixing/steel_ingot" });
   event.remove({ id: "alloyed:mixing/bronze_ingot" });
