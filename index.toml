@@ -217,8 +217,44 @@ file = "defaultconfigs/tinkersurvival-server.toml"
 hash = "e703fb12187562ba93a948516ee80cea9c681592c8caf7f684ccd8317f84fb39"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/fan.png"
+hash = "6c826dee8b5a4cda5e4b502e5a1da3e6ddfd66610bed5622c87910382eac5d8c"
+
+[[files]]
+file = "kubejs/assets/prettypipes/models/block/crafting_terminal.json"
+hash = "e926dba2958bf1d6a3622a76b7b6f23d31b78abecbd3f77702f1cfc8b75ca8b3"
+
+[[files]]
+file = "kubejs/assets/prettypipes/models/block/item_terminal.json"
+hash = "55ef4ce64d255b0b0feaa10a74625a0ae44aa6825f5d2e89ffe58db09c147595"
+
+[[files]]
+file = "kubejs/assets/prettypipes/models/block/pipe_center.json"
+hash = "4a2094a8e295e1b3479e2c4dd52d7b12590aa284c1b67f8e7dad9cb490dc210b"
+
+[[files]]
+file = "kubejs/assets/prettypipes/models/block/pipe_end.json"
+hash = "90f3408d8a05474624593a1362345246f372fe9438ac240f73c5eda716021d11"
+
+[[files]]
+file = "kubejs/assets/prettypipes/models/block/pipe_legs.json"
+hash = "5fde673c2286e36e0be4925f87296c55ec4368328db3155b8d99d05d2a2d032a"
+
+[[files]]
+file = "kubejs/assets/prettypipes/models/block/pressurizer.json"
+hash = "1b63e62252e9a4a7725bd7bd8285c28085daf275da3fc6e3947af35a3debf052"
+
+[[files]]
+file = "kubejs/assets/prettypipes/models/item/wrench.json"
+hash = "d59dd0507b6ac7897a97600d69004781aebc118fe83f16eba03e4bbced08ace9"
+
+[[files]]
+file = "kubejs/assets/prettypipes/textures/block/pipe.png"
+hash = "7dae625b42f83857a65caa95c41b3cb560a7ec1c6572c34b4390373f086b68bc"
+
+[[files]]
 file = "kubejs/client_scripts/script.js"
-hash = "8f6ecb4040b8c3867b32906c7f4695c2d9435e9723cf055421c1b118ae91fc84"
+hash = "ad1a4420e45e6723d8a235121a8e1d6457da2e9b71cf37e9806923bb158b1a3e"
 
 [[files]]
 file = "kubejs/data/towers_of_the_wild_reworked/advancements/derelict_grass_tower.json"
@@ -430,11 +466,11 @@ hash = "2675e57415ea79347bfe71c280d48e2a9da5604fe64790153ae836113bf94f86"
 
 [[files]]
 file = "kubejs/server_scripts/script.js"
-hash = "1566eaabb1f38963e1a82c5c2da152ac54a5d250b698db6c1aa24174c506dfc7"
+hash = "77bc4f2598e317b5a0f065439d34bc6106e3d1820873cef3cb6c17b756551f0d"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"
-hash = "e3c0ef6b836780a40be167618c4b88936dd286387b1519fb5bc1d29e0a5639c6"
+hash = "811930aca4845b68c0e398c73b8ce300fab2b6a95d2254b2f98e44fd102caa15"
 
 [[files]]
 file = "mods/abnormals-delight.pw.toml"
