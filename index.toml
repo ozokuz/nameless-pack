@@ -123,11 +123,6 @@ hash = "df59dd0208b65661b036bfc08b14125b10498d93c6da5d2acc6626d6b3ad5402"
 metafile = true
 
 [[files]]
-file = "config/openloader/resources/created-pretty-pipes.pw.toml"
-hash = "27bebf55e31189e8dae1fc9745fed892c35a104ee07815ed41b60aefa2efbabb"
-metafile = true
-
-[[files]]
 file = "config/openloader/resources/tool-belt-retextured.pw.toml"
 hash = "25a7332ccd294854b2f6ac229e389b09f118f78cfd400e83070f383c9452a77a"
 metafile = true
