@@ -1,5 +1,5 @@
 export default (event: Internal.RecipeEventJS) => {
-  // Remove Functional Storage's Wood Drawers
+  // Remove Wood Drawers
   [
     "oak",
     "birch",
@@ -16,9 +16,14 @@ export default (event: Internal.RecipeEventJS) => {
     });
   });
 
-  // Remove Functional Storage's Compacting Drawers
+  // Remove Compacting Drawers
   event.remove({ output: "functionalstorage:compacting_drawer" });
   event.remove({ output: "functionalstorage:simple_compacting_drawer" });
+
+  // Remove Fluid Drawers
+  event.remove({ output: "functionalstorage:fluid_1" });
+  event.remove({ output: "functionalstorage:fluid_2" });
+  event.remove({ output: "functionalstorage:fluid_4" });
 
   // Better framed 1x1 drawers
   event.remove({ output: "functionalstorage:framed_1" });

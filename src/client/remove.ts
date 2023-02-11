@@ -80,6 +80,11 @@ onEvent("jei.hide.items", (event) => {
   event.hide("functionalstorage:compacting_drawer");
   event.hide("functionalstorage:simple_compacting_drawer");
 
+  // Remove Functional Storage's Fluid Drawers
+  event.hide("functionalstorage:fluid_1");
+  event.hide("functionalstorage:fluid_2");
+  event.hide("functionalstorage:fluid_4");
+
   // Remove PneumaticCraft's Refinery
   event.hide("pneumaticcraft:refinery");
   event.hide("pneumaticcraft:refinery_output");
