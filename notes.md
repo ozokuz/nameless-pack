@@ -6,10 +6,8 @@
 
 ### Replace
 
-- Electron Tube
 - White Sail
   - Tough Fabric
-- Cast Iron Mesh 3 -> 4
 - Functional Storage Upgrades
 - Ars Nouveau Spell Books
 
@@ -52,7 +50,13 @@
 
 ### Long Term
 
-- List modifiers with kubejs
+- Test pack without
+  - Twilight Forest
+  - Blue Skies
+  - Snow Real Magic
+  - Double Slabs
+  - Every Compat
+  - Excavated Variants
 
 ### Patchouli Guide & JEI Info
 
@@ -85,28 +89,7 @@
 
 ## Remove Now
 
-- Advancement Plaques
-- Aileron
-- Create Crafts & Additions
-- Curious Quark Oddities Backpack
-- Enchant With Mob
-- Enhanced Celestials
-- Item Borders
-- QuickStack
-- Re-Chiseled
-- Rubidium Extras (Sodium Extras, Not DeusVult)
-- Shoulder Surfing
-- Better Third Person
-- Create Confectionery
-- Create Factory
-- Creeper Overhaul
-- Too Many Glyphs
-- Ultimate Car Mod
-- Chipped
-- Macaw's Bridges
-- Music Maker Mod
-- Joy Of Painting
-- Concrete Conversion
+- 
 
 ## Remove In Next Iteration
 
