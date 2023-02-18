@@ -18,6 +18,9 @@
 
 ### Add
 
+- PneumaticCraft
+- Compressed Creativity
+- Storage Upgrade
 - Backpack Upgrade
 - Chunk Loader
 
@@ -26,16 +29,6 @@
 - Consider CC&A Accumulator
 - Bucket - Usable, but will be replaced at some point
   - Bucket Casts (Sand & Gold)
-
-## Mods
-
-### Temporarily Disabled
-
-- Pretty Pipes
-  - Re-Texture
-  - Recipes
-  - Addon
-    - Pretty Pipes: Remote
 
 ## Other Stuff
 
@@ -89,33 +82,31 @@
 
 ## Remove Now
 
-- 
-
 ## Remove In Next Iteration
 
-- Allurement
-- Apotheosis
-- Better Combat
+- Aquaculture 2
 - Blue Skies
-- Ensorcellation
-- Forbidden & Arcanus
+- Caupona
+- Connected Glass
+- ConnectedTexturesMod
+- Curios Quark Oddities Backpack
 - The Graveyard
 - Mining Master
-- Neko's Enchanted Books
-- PizzaCraft
-- Quark Oddities
-- Roots Classic
-- Tax Free Levels
-- Equipment Compare
 - Mowzie's Mobs
 - MythicBotany
+- PizzaCraft
 - Pyromancer
+- Quark Oddities
+- Roots Classic
 - Twilight Forest
 
 ## Maybe Remove
 
-- Caupona
+- AmbientSounds 5
+- Forbidden & Arcanus
+
 - Chalk
+- Control Engineering
 - The Conjurer
 - Curious Elytra
 - Customizable Elytra
@@ -130,9 +121,6 @@
 
 ## Other Notes
 
-- Paper Usage
-- Easy Paper Recipe Gone
-- Create Saw Plank Making Gone
 - Gamestage for unlocking chest looting
 - Restrict Waystones until something (XP / GameStage)
 - Reduce early food preferability
