@@ -573,11 +573,6 @@ hash = "43ba9e344d296d84c8cd634b622af4aaef85ccd3ebafa98a14b8967d5d991ac5"
 metafile = true
 
 [[files]]
-file = "mods/better-combat-by-daedelus.pw.toml"
-hash = "f420fb989d5e4c28982e328b791caab707b2772bcdb8f503519a3acf6591b71a"
-metafile = true
-
-[[files]]
 file = "mods/better-compatibility-checker.pw.toml"
 hash = "2122a8e7c979649586f69ad7d67bc9e7765c4495147f8f93f4d86237c095eed8"
 metafile = true
@@ -710,11 +705,6 @@ metafile = true
 [[files]]
 file = "mods/cofh-core.pw.toml"
 hash = "e0baf0f41c7b976cb2f8df8ee3381768f916a59ddb053eb014cd39fdb14ab989"
-metafile = true
-
-[[files]]
-file = "mods/combat-roll.pw.toml"
-hash = "2f334ae07a08054df6f766f5ba130556d6aee510b386d5ae992baff7daea322b"
 metafile = true
 
 [[files]]
@@ -930,11 +920,6 @@ metafile = true
 [[files]]
 file = "mods/entity-collision-fps-fix.pw.toml"
 hash = "ab799aeda7413bcb31c2119de91f50833168badc173df42a8476aa7f11fc5dd3"
-metafile = true
-
-[[files]]
-file = "mods/entityculling.pw.toml"
-hash = "ce7764f4555f7524f0c9b6f4f1c53c94f520aad620fc2e4a237520083f43aa46"
 metafile = true
 
 [[files]]
@@ -1530,11 +1515,6 @@ metafile = true
 [[files]]
 file = "mods/placebo.pw.toml"
 hash = "3708d138fcfc8f482eb70c2109af2d2e544a20d9b9aeadd36955e43fd5055d87"
-metafile = true
-
-[[files]]
-file = "mods/playeranimator.pw.toml"
-hash = "279074fecb7ed930b3bbfd0f1c4c8ed0fd95e8e268935303ff123ba982caada8"
 metafile = true
 
 [[files]]
