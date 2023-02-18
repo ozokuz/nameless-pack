@@ -56,6 +56,18 @@ export default (event: Internal.RecipeEventJS) => {
     output: "immersiveengineering:stick_steel",
   });
 
+  // Early way of making Steel Scaffolding
+  // @ts-expect-error docs
+  event.recipes.tconstruct
+    .casting_basin(
+      "immersiveengineering:steel_scaffolding_standard",
+      "#forge:molten_steel",
+      540,
+    )
+    .cast("immersiveengineering:treated_scaffold")
+    .consumeCast()
+    .coolingTime(40);
+
   // Treated Wood automation with Create
   event.recipes.create.filling("immersiveengineering:treated_wood_horizontal", [
     "#minecraft:planks",

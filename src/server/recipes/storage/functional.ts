@@ -1,6 +1,9 @@
 export default (event: Internal.RecipeEventJS) => {
   // Remove everything first
-  event.remove({ mod: "functionalstorage" });
+  event.remove({
+    mod: "functionalstorage",
+    not: { type: "functionalstorage:framed_recipe" },
+  });
 
   // Framed Drawers
   event.recipes.minecraft.crafting_shaped(
