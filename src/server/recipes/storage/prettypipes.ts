@@ -18,7 +18,8 @@ export default (event: Internal.RecipeEventJS) => {
     type: "minecraft:crafting_shaped",
   });
   event.recipes.minecraft.crafting_shaped(
-    "prettypipes:pipe",
+    // @ts-expect-error multiple
+    "8x prettypipes:pipe",
     ["B B", " G ", "B B"],
     {
       B: "#forge:rods/brass",

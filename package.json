@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "run-p dev:*",
     "dev:build": "tsup --entry src/server.ts --entry src/startup.ts --entry src/client.ts --format iife --target es5 --minify --watch --ignore-watch kubejs --ignore-watch instance",
-    "dev:copy": "sane 'pnpm copy:dev' dist --wait=3 --changes-only",
+    "dev:copy": "sleep 4 && pnpm copy && sane 'pnpm copy:dev' dist --only-changes",
     "dev:start": "sleep 5 && prismlauncher --launch 'Nameless Dev'",
     "dev:refresh": "packwiz serve",
     "check": "pnpm lint && pnpm typecheck && pnpm format:check",
