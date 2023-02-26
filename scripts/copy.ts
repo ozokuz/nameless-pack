@@ -27,6 +27,8 @@ const main = async () => {
   await copyFile(join(dist, "server.global.js"), join(server, "script.js"));
   await copyFile(join(dist, "startup.global.js"), join(startup, "script.js"));
   await copyFile(join(dist, "client.global.js"), join(client, "script.js"));
+
+  console.log("copied scripts from dist");
 };
 
 main();
