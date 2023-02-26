@@ -1,13 +1,13 @@
 name = "TOP Addons"
-filename = "topaddons-1.18.2-2.3.0-beta.jar"
+filename = "topaddons-1.18.2-2.3.1-beta.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ba06947e6c348edf86c9f510f13751ba7a671a86"
+hash = "39777e2a7879a1274c844e0204b4a84e2fbf5530"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3951534
+file-id = 4410106
 project-id = 247111
