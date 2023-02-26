@@ -217,6 +217,10 @@ file = "defaultconfigs/tinkersurvival-server.toml"
 hash = "e703fb12187562ba93a948516ee80cea9c681592c8caf7f684ccd8317f84fb39"
 
 [[files]]
+file = "kubejs/assets/create/lang/en_us.json"
+hash = "e4dce6386f0624a0fda8d12c5c284ed245833bb92392416ec5829d518fd27a1d"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/fan.png"
 hash = "6c826dee8b5a4cda5e4b502e5a1da3e6ddfd66610bed5622c87910382eac5d8c"
 
@@ -466,7 +470,7 @@ hash = "2675e57415ea79347bfe71c280d48e2a9da5604fe64790153ae836113bf94f86"
 
 [[files]]
 file = "kubejs/server_scripts/script.js"
-hash = "a988a54ed0409be8815700246fba85d94b4e5283aeb263b54a9b1e20f49ec68a"
+hash = "f0a5edb4d6b4a8d82e9a5f4fae97e2680d56927aa40dba86fabe6cfa4ff7c654"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"
