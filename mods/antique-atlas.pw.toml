@@ -1,13 +1,13 @@
 name = "Antique Atlas"
-filename = "antiqueatlas-7.0.3-forge-mc1.18.2.jar"
+filename = "antiqueatlas-7.1.0-forge-mc1.18.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "0b8c355136f4baa23cddbc8e35a131573f1dfebc"
+hash = "4067cad852fee9b1380ec92436676007ef9f754e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3995239
+file-id = 4439484
 project-id = 227795
