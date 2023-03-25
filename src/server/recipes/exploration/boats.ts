@@ -3,8 +3,6 @@ export default (event: Internal.RecipeEventJS) => {
     (material) => {
       // @ts-expect-error dynamic
       event.remove({ output: `minecraft:${material}_boat` });
-      // @ts-expect-error dynamic
-      event.remove({ output: `boatload:large_${material}_boat` });
 
       event.recipes.minecraft.crafting_shaped(
         // @ts-expect-error dynamic
@@ -13,16 +11,6 @@ export default (event: Internal.RecipeEventJS) => {
         {
           M: `minecraft:${material}_planks`,
           P: "immersivepetroleum:upgrade_paddles",
-          T: "#forge:treated_wood",
-        },
-      );
-      event.recipes.minecraft.crafting_shaped(
-        // @ts-expect-error dynamic
-        `boatload:large_${material}_boat`,
-        ["MBM", "TTT"],
-        {
-          M: `minecraft:${material}_planks`,
-          B: `minecraft:${material}_boat`,
           T: "#forge:treated_wood",
         },
       );
