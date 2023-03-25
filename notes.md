@@ -1,8 +1,17 @@
 # Nameless Pack - Notes
 
+GPS + Satellite
+- Uneffectual
+- Textures
+- Register Item & Block
+- Register Curio
+- Behaviour
+
 ## Recipes
 
 ### Remove
+
+- Red Sand Casts
 
 ### Replace
 
