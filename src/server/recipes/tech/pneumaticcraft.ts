@@ -7,8 +7,4 @@ export default (event: Internal.RecipeEventJS) => {
   // Remove PneumaticCraft's Thermopneumatic Processing Plant
   event.remove({ type: "pneumaticcraft:thermo_plant" });
   event.remove({ id: "pneumaticcraft:thermopneumatic_processing_plant" });
-
-  // Disable PneumaticCraft for now
-  event.remove({ mod: "pneumaticcraft" });
-  event.remove({ mod: "compressedcreativity" });
 };
