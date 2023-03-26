@@ -53,4 +53,27 @@ export default (event: Internal.RecipeEventJS) => {
   event.remove({ output: "engineersdecor:labeled_crate" });
   event.remove({ output: "immersiveengineering:crate" });
   event.remove({ output: "immersiveengineering:reinforced_crate" });
+
+  // Gate LaserIO later in the game
+  event.remove({ output: "laserio:logic_chip" });
+  event.remove({ output: "laserio:logic_chip_raw" });
+  recipes.ae2.inscriber(
+    "laserio:logic_chip",
+    {
+      middle: "laserio:logic_chip_raw",
+    },
+    "press",
+    event,
+  );
+  event.recipes.minecraft.crafting_shaped(
+    "laserio:logic_chip_raw",
+    ["RCR", "QDQ", "GGG"],
+    {
+      R: "minecraft:redstone",
+      C: "immersiveengineering:component_electronic",
+      Q: "#forge:storage_blocks/quartz",
+      D: "immersiveengineering:plate_duroplast",
+      G: "#forge:nuggets/gold",
+    },
+  );
 };

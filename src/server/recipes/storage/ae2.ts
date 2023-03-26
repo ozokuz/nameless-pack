@@ -29,19 +29,6 @@ export default (event: Internal.RecipeEventJS) => {
   // Remove cheaty Infinity Booster Card
   event.remove({ output: "ae2wtlib:infinity_booster_card" });
 
-  // A bit later Inscriber to fit progression better
-  event.remove({ output: "ae2:inscriber" });
-  event.recipes.minecraft.crafting_shaped(
-    "ae2:inscriber",
-    ["IPI", "CLI", "III"],
-    {
-      I: "#forge:plates/iron",
-      P: "minecraft:sticky_piston",
-      C: "#forge:ingots/copper",
-      L: "createdeco:blue_cast_iron_lamp",
-    },
-  );
-
   // Harder AE2 Processors
   event.remove({ type: "ae2:inscriber", input: "minecraft:redstone" });
   const silicon = "ae2:printed_silicon";
@@ -85,5 +72,19 @@ export default (event: Internal.RecipeEventJS) => {
     },
     "press",
     event,
+  );
+
+  // Harder inscriber recipe
+  event.remove({ output: "ae2:inscriber" });
+  event.recipes.minecraft.crafting_shaped(
+    "ae2:inscriber",
+    ["IPI", "CLI", "IFI"],
+    {
+      I: "#forge:plates/iron",
+      P: "minecraft:sticky_piston",
+      C: "#forge:ingots/copper",
+      L: "createdeco:blue_cast_iron_lamp",
+      F: "pneumaticcraft:printed_circuit_board",
+    },
   );
 };
