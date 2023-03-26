@@ -6,10 +6,11 @@ export default (event: Internal.RecipeEventJS) => {
       type: "create:cutting",
     },
     (recipe) => {
-      const plank = recipe.originalRecipeResult.withCount(4);
+      const plank = recipe.originalRecipeResult.getId() as any;
       const log = recipe.originalRecipeIngredients[0]!;
 
-      event.recipes.create.cutting(plank, log);
+      // @ts-expect-error multiple dynamic
+      event.recipes.create.cutting(`4x ${plank}`, log);
       event.remove({
         output: recipe.originalRecipeResult,
         type: "create:cutting",
@@ -25,9 +26,10 @@ export default (event: Internal.RecipeEventJS) => {
     },
     (recipe) => {
       const plank = recipe.originalRecipeIngredients[0]!;
-      const slab = recipe.originalRecipeResult.withCount(2);
+      const slab = recipe.originalRecipeResult.getId() as any;
 
-      event.recipes.create.cutting(slab, plank);
+      // @ts-expect-error multiple dynamic
+      event.recipes.create.cutting(`2x ${slab}`, plank);
     },
   );
 

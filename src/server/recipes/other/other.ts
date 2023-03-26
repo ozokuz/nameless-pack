@@ -16,7 +16,6 @@ export default (event: Internal.RecipeEventJS) => {
   });
 
   // Remove stupid iron stick recipes
-  event.remove({ output: "car:iron_stick" });
   event.remove({
     output: "#forge:rods/all_metal",
     type: "minecraft:crafting_shaped",
