@@ -1,5 +1,6 @@
-import { existsSync } from "node:fs";
-import { mkdir, copyFile, rm } from "node:fs/promises";
+// import { existsSync } from "node:fs";
+// import { mkdir, copyFile, rm } from "node:fs/promises";
+import { copyFile } from "node:fs/promises";
 import { join } from "node:path";
 import { cwd } from "node:process";
 
@@ -10,7 +11,7 @@ const client = join(kube, "client_scripts");
 const dist = join(cwd(), "dist");
 
 const main = async () => {
-  if (existsSync(server)) {
+  /* if (existsSync(server)) {
     await rm(server, { recursive: true });
   }
   if (existsSync(startup)) {
@@ -22,7 +23,7 @@ const main = async () => {
 
   await mkdir(server);
   await mkdir(startup);
-  await mkdir(client);
+  await mkdir(client); */
 
   await copyFile(join(dist, "server.global.js"), join(server, "script.js"));
   await copyFile(join(dist, "startup.global.js"), join(startup, "script.js"));
