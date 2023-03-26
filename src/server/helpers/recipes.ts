@@ -92,8 +92,74 @@ function inscriber(
   });
 }
 
+interface CastingRecipe {
+  cast(cast: Internal.IngredientJS_): CastingRecipe;
+  consumeCast(): CastingRecipe;
+  coolingTime(time: number): CastingRecipe;
+}
+
+function casting_basin(
+  output: Internal.ItemStackJS_,
+  fluid: Internal.FluidStackJS_ | FluidTagJS_,
+  amount: number,
+  event: Internal.RecipeEventJS,
+): CastingRecipe {
+  // @ts-expect-error tconstruct
+  return event.recipes.tconstruct.casting_basin(
+    output,
+    fluid,
+    amount,
+  ) as CastingRecipe;
+}
+
+interface CastingTableRecipe extends CastingRecipe {
+  multiUseCast(type: string): CastingTableRecipe;
+  singleUseCast(type: string): CastingTableRecipe;
+}
+
+type FluidTagJS_ = `#${Special.FluidTag}`;
+
+function casting_table(
+  output: Internal.ItemStackJS_,
+  fluid: Internal.FluidStackJS_ | FluidTagJS_,
+  amount: number,
+  event: Internal.RecipeEventJS,
+): CastingTableRecipe {
+  // @ts-expect-error tconstruct
+  return event.recipes.tconstruct.casting_table(
+    output,
+    fluid,
+    amount,
+  ) as CastingTableRecipe;
+}
+
+interface AlloyInput {
+  tag: Special.FluidTag;
+  amount: number;
+}
+
+function alloy(
+  result: Internal.FluidStackJS_,
+  amount: number,
+  inputs: AlloyInput[],
+  temperature: number,
+  event: Internal.RecipeEventJS,
+) {
+  event.custom({
+    // @ts-expect-error tconstruct
+    type: "tconstruct:alloy",
+    inputs,
+    result: {
+      fluid: result,
+      amount,
+    },
+    temperature,
+  });
+}
+
 export default {
   // ceramics: { kiln },
   sewingkit: { sewing },
   ae2: { inscriber },
+  tconstruct: { casting_basin, casting_table, alloy },
 } as const;

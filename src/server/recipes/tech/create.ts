@@ -1,3 +1,5 @@
+import recipes from "../../helpers/recipes";
+
 export default (event: Internal.RecipeEventJS) => {
   // Harder Andesite Alloy
   event.remove({
@@ -12,16 +14,15 @@ export default (event: Internal.RecipeEventJS) => {
     output: "create:andesite_alloy",
     type: "tconstruct:casting_basin",
   });
-  // @ts-expect-error docs
-  event.recipes.tconstruct
-    .casting_basin("create:andesite_alloy", "#forge:molten_iron", 30)
+  recipes.tconstruct
+    .casting_basin("create:andesite_alloy", "#forge:molten_iron", 30, event)
     .cast("tconstruct:seared_stone")
     .consumeCast()
     .coolingTime(40);
-  event.custom({
-    // @ts-expect-error custom
-    type: "tconstruct:alloy",
-    inputs: [
+  recipes.tconstruct.alloy(
+    "kubejs:seared_alloy",
+    90,
+    [
       {
         tag: "forge:molten_iron",
         amount: 10,
@@ -31,20 +32,15 @@ export default (event: Internal.RecipeEventJS) => {
         amount: 250,
       },
     ],
-    result: {
-      fluid: "kubejs:seared_alloy",
-      amount: 90,
-    },
-    temperature: 1000,
-  });
-  // @ts-expect-error docs
-  event.recipes.tconstruct
-    .casting_table("create:andesite_alloy", "kubejs:seared_alloy", 90)
+    1000,
+    event,
+  );
+  recipes.tconstruct
+    .casting_table("create:andesite_alloy", "kubejs:seared_alloy", 90, event)
     .multiUseCast("ingot")
     .coolingTime(40);
-  // @ts-expect-error docs
-  event.recipes.tconstruct
-    .casting_table("create:andesite_alloy", "kubejs:seared_alloy", 90)
+  recipes.tconstruct
+    .casting_table("create:andesite_alloy", "kubejs:seared_alloy", 90, event)
     .singleUseCast("ingot")
     .coolingTime(40);
 
