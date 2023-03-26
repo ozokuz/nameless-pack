@@ -51,7 +51,49 @@ function sewing(
   });
 }
 
+interface InscriberInput {
+  middle: Internal.IngredientJS_;
+  top?: Internal.IngredientJS_;
+  bottom?: Internal.IngredientJS_;
+}
+
+function inscriber(
+  output: Internal.ItemStackJS_,
+  input: InscriberInput,
+  mode: "press" | "inscribe",
+  event: Internal.RecipeEventJS,
+) {
+  const ingredients: any = {
+    middle: {
+      item: input.middle,
+    },
+  };
+
+  if ("top" in input) {
+    ingredients.top = {
+      item: input.top,
+    };
+  }
+
+  if ("bottom" in input) {
+    ingredients.bottom = {
+      item: input.bottom,
+    };
+  }
+
+  event.custom({
+    type: "ae2:inscriber",
+    // @ts-expect-error custom
+    mode,
+    result: {
+      item: output,
+    },
+    ingredients,
+  });
+}
+
 export default {
   // ceramics: { kiln },
   sewingkit: { sewing },
+  ae2: { inscriber },
 } as const;
