@@ -280,12 +280,24 @@ file = "defaultconfigs/tinkersurvival-server.toml"
 hash = "e703fb12187562ba93a948516ee80cea9c681592c8caf7f684ccd8317f84fb39"
 
 [[files]]
+file = "kubejs/assets/beyond_earth/lang/en_us.json"
+hash = "7a66a9785c7a3a6a22445276e9bf7440e49efbc4977fa70bb77097f2d84b7678"
+
+[[files]]
+file = "kubejs/assets/compressedcreativity/lang/en_us.json"
+hash = "1cd1e76ec122f70f753c3c592be03d58908b646c63e29bc6251d99f01e5bff0d"
+
+[[files]]
 file = "kubejs/assets/create/lang/en_us.json"
 hash = "e4dce6386f0624a0fda8d12c5c284ed245833bb92392416ec5829d518fd27a1d"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/fan.png"
 hash = "6c826dee8b5a4cda5e4b502e5a1da3e6ddfd66610bed5622c87910382eac5d8c"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/lang/en_us.json"
+hash = "7f2b25720f77dcdc38aeb941ad6f9e9cc9626528652284e96ed6224fd529364c"
 
 [[files]]
 file = "kubejs/assets/prettypipes/models/block/crafting_terminal.json"
@@ -1987,6 +1999,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
 hash = "e1c059e28d866b1e8aba5c02ceef7c3970f3c361df35b065fabd3d8ad0c74693"
+metafile = true
+
+[[files]]
+file = "mods/space-bosstools-giselle-addon.pw.toml"
+hash = "513c35373d6a1704ebff7a357893b0cee5bb8f4f29733020001a900e092fc28f"
 metafile = true
 
 [[files]]
