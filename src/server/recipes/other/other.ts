@@ -44,4 +44,19 @@ export default (event: Internal.RecipeEventJS) => {
       G: "pneumaticcraft:compressed_iron_gear",
     },
   );
+
+  // Time in a bottle
+  event.remove({ output: "tiab:time_in_a_bottle" });
+  event.recipes.minecraft.crafting_shaped(
+    "tiab:time_in_a_bottle",
+    ["MAM", "RCR", "DBD"],
+    {
+      M: "ars_nouveau:manipulation_essence",
+      A: "hexcasting:charged_amethyst",
+      R: "botania:rune_mana",
+      C: "minecraft:clock",
+      D: "beyond_earth:compressed_desh",
+      B: "minecraft:glass_bottle",
+    },
+  );
 };
