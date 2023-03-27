@@ -1,3 +1,4 @@
+import beyond_earth from "./tech/beyond_earth";
 import chunkloaders from "./tech/chunkloaders";
 import create from "./tech/create";
 import immersiveEngineering from "./tech/immersive_engineering";
@@ -7,6 +8,7 @@ import tinkers from "./tech/tinkers";
 import vanilla from "./tech/vanilla";
 
 export default (event: Internal.RecipeEventJS) => {
+  beyond_earth(event);
   chunkloaders(event);
   create(event);
   immersiveEngineering(event);
