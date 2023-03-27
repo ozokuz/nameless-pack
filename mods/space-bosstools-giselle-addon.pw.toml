@@ -1,0 +1,13 @@
+name = "Beyond Earth: Giselle Addon"
+filename = "Beyond-Earth-Giselle-Addon-1.18.2-2.20.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c373a9be0d67ff625716063b6e047104bbb75dd9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4251889
+project-id = 546554
