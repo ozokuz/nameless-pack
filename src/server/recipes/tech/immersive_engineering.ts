@@ -102,4 +102,14 @@ export default (event: Internal.RecipeEventJS) => {
       P: "create:precision_mechanism",
     },
   );
+
+  // No HOP Graphite in alloyers
+  event.remove({
+    output: "immersiveengineering:ingot_hop_graphite",
+    type: "immersiveengineering:arc_furnace",
+  });
+  event.remove({
+    output: "immersiveengineering:ingot_hop_graphite",
+    type: "thermal:smelter",
+  });
 };
