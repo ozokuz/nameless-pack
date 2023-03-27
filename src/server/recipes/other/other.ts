@@ -32,4 +32,16 @@ export default (event: Internal.RecipeEventJS) => {
       S: "#forge:string",
     },
   );
+
+  // Arcane Casing
+  event.remove({ output: "compressedcreativity:compressed_iron_casing" });
+  event.recipes.minecraft.crafting_shaped(
+    "compressedcreativity:compressed_iron_casing",
+    ["SPS", "PGP", "SPS"],
+    {
+      S: "beyond_earth:compressed_steel",
+      P: "malum:soulwood_planks",
+      G: "pneumaticcraft:compressed_iron_gear",
+    },
+  );
 };
