@@ -20,4 +20,22 @@ export default (event: Internal.RecipeEventJS) => {
       C: "immersiveengineering:steel_scaffolding_standard",
     },
   );
+
+  // No Explosion Crafting
+  event.remove({ type: "pneumaticcraft:explosion_crafting" });
+
+  // Dark Steel
+  event.remove({
+    output: "pneumaticcraft:ingot_iron_compressed",
+    type: "pneumaticcraft:pressure_chamber",
+  });
+  event.recipes.immersiveengineering.arc_furnace(
+    ["pneumaticcraft:ingot_iron_compressed"],
+    "#forge:ingots/steel",
+    ["immersiveengineering:dust_hop_graphite"],
+  );
+  event.recipes.thermal.smelter("pneumaticcraft:ingot_iron_compressed", [
+    "#forge:ingots/steel",
+    "immersiveengineering:dust_hop_graphite",
+  ]);
 };
