@@ -6,6 +6,7 @@ import oreprocessing from "./other/oreprocessing";
 import other from "./other/other";
 import plates from "./other/plates";
 import tools from "./other/tools";
+import transport from "./other/transport";
 import woodstuff from "./other/woodstuff";
 import workstations from "./other/workstations";
 
@@ -18,6 +19,7 @@ export default (event: Internal.RecipeEventJS) => {
   other(event);
   plates(event);
   tools(event);
+  transport(event);
   woodstuff(event);
   workstations(event);
 };
