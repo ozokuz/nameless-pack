@@ -25,10 +25,8 @@ export default (event: Internal.RecipeEventJS) => {
   event.remove({ type: "pneumaticcraft:explosion_crafting" });
 
   // Dark Steel
-  event.remove({
-    output: "pneumaticcraft:ingot_iron_compressed",
-    type: "pneumaticcraft:pressure_chamber",
-  });
+  event.remove({ id: "pneumaticcraft:pressure_chamber/compressed_iron_ingot" });
+  event.remove({ id: "pneumaticcraft:pressure_chamber/compressed_iron_block" });
   event.recipes.immersiveengineering.arc_furnace(
     ["pneumaticcraft:ingot_iron_compressed"],
     "#forge:ingots/steel",
