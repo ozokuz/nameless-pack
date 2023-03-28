@@ -1,3 +1,5 @@
+import recipes from "../../helpers/recipes";
+
 export default (event: Internal.RecipeEventJS) => {
   // Remove Hammer
   event.remove({ output: "beyond_earth:hammer" });
@@ -22,22 +24,38 @@ export default (event: Internal.RecipeEventJS) => {
   });
 
   // Compress in Pressure Chamber
-  event.forEachRecipe({ type: "beyond_earth:compressor" }, (recipe) => {
-    event.remove({ output: recipe.originalRecipeResult });
-    event.custom({
-      type: "pneumaticcraft:pressure_chamber",
-      // @ts-expect-error custom
-      inputs: [
-        {
-          item: recipe.originalRecipeIngredients[0]!.first.id,
-        },
-      ],
-      pressure: 3.0,
-      results: [
-        {
-          item: recipe.originalRecipeResult,
-        },
-      ],
-    });
+  event.remove({ type: "beyond_earth:compressor" });
+  event.remove({
+    // @ts-expect-error type update
+    input: "beyond_earth_giselle_addon:press_compressing_die",
+    type: "thermal:press",
   });
+  event.remove({
+    // @ts-expect-error type update
+    mod: "beyond_earth_giselle_addon",
+    type: "immersiveengineering:metal_press",
+  });
+  event.remove({
+    mod: "jaopca",
+    type: "immersiveengineering:metal_press",
+  });
+  recipes.pneumaticcraft.pressure_chamber(
+    // @ts-expect-error type update
+    ["jaopca:beyond_earth_compresseds.iron"],
+    ["forge:ingots/iron"],
+    3.0,
+    event,
+  );
+  recipes.pneumaticcraft.pressure_chamber(
+    ["beyond_earth:compressed_steel"],
+    ["forge:ingots/steel"],
+    3.0,
+    event,
+  );
+  recipes.pneumaticcraft.pressure_chamber(
+    ["beyond_earth:compressed_desh"],
+    ["forge:ingots/desh"],
+    3.0,
+    event,
+  );
 };

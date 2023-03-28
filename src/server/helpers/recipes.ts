@@ -157,9 +157,25 @@ function alloy(
   });
 }
 
+function pressure_chamber(
+  results: Internal.ItemStackJS_[],
+  inputs: Special.ItemTag[],
+  pressure: number,
+  event: Internal.RecipeEventJS,
+) {
+  event.custom({
+    type: "pneumaticcraft:pressure_chamber",
+    // @ts-expect-error custom
+    results: results.map((r) => ({ item: r })),
+    pressure,
+    inputs: inputs.map((i) => ({ tag: i })),
+  });
+}
+
 export default {
   // ceramics: { kiln },
   sewingkit: { sewing },
   ae2: { inscriber },
   tconstruct: { casting_basin, casting_table, alloy },
+  pneumaticcraft: { pressure_chamber },
 } as const;
