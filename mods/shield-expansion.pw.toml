@@ -1,13 +1,13 @@
 name = "Shield Expansion"
-filename = "ShieldExpansion-1.18.2-1.1.5.jar"
+filename = "ShieldExpansion-1.18.2-1.1.6.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "766c690de4c820555bdc36e4598809384a35c2d6"
+hash = "80d2170120de355103519501aff493af7913dbfd"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4333627
+file-id = 4461131
 project-id = 583318
